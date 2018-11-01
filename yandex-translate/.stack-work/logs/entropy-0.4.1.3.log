@@ -1,0 +1,12 @@
+[1 of 2] Compiling Main             ( /tmp/stack-7909c944a0e8e0bf/entropy-0.4.1.3/Setup.hs, /tmp/stack-7909c944a0e8e0bf/entropy-0.4.1.3/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /home/kaptch/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack-7909c944a0e8e0bf/entropy-0.4.1.3/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/setup/StackSetupShim.o )
+Linking /tmp/stack-7909c944a0e8e0bf/entropy-0.4.1.3/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/setup/setup ...
+Configuring entropy-0.4.1.3...
+Result of RDRAND Test: True
+Preprocessing library for entropy-0.4.1.3..
+Building library for entropy-0.4.1.3..
+[1 of 2] Compiling System.EntropyNix ( System/EntropyNix.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/EntropyNix.o )
+[2 of 2] Compiling System.Entropy   ( System/Entropy.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/System/Entropy.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/kaptch/.stack/snapshots/x86_64-linux-tinfo6/lts-12.14/8.4.3/lib/x86_64-linux-ghc-8.4.3/entropy-0.4.1.3-DgdrwWh8SPxKScPoc17aKl
+Registering library for entropy-0.4.1.3..

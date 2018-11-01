@@ -1,0 +1,7 @@
+Configuring network-uri-2.6.1.0...
+Preprocessing library for network-uri-2.6.1.0..
+Building library for network-uri-2.6.1.0..
+[1 of 1] Compiling Network.URI      ( Network/URI.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/URI.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/kaptch/.stack/snapshots/x86_64-linux-tinfo6/lts-12.14/8.4.3/lib/x86_64-linux-ghc-8.4.3/network-uri-2.6.1.0-6PYAK4knDPlDZcoWxUtEe0
+Registering library for network-uri-2.6.1.0..

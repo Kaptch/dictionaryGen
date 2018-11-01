@@ -1,0 +1,2060 @@
+
+==================== FINAL INTERFACE ====================
+2018-11-01 07:18:20.31785975 UTC
+
+interface yandex-translate-0.1.0.0-6lrCVQUm6CgAV2dy2OQtON:Network.Yandex.Dictionary.Types 8043
+  interface hash: 320717e6037d58111682c1facb90165f
+  ABI hash: 49cf4d335a4f1f617c1a1b8f2930cdf8
+  export-list hash: 2feabeb037a99732e9cc8fe6f64db729
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 9704c4554c4b1cfcc7880e4c849d1c1c
+  opt_hash: c95767539a8e5da6eb2bdc265ec6497a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Network.Yandex.Dictionary.Types.examples
+  Network.Yandex.Dictionary.Types.flags
+  Network.Yandex.Dictionary.Types.flagsInt
+  Network.Yandex.Dictionary.Types.flagsText
+  Network.Yandex.Dictionary.Types.generation
+  Network.Yandex.Dictionary.Types.mean
+  Network.Yandex.Dictionary.Types.number
+  Network.Yandex.Dictionary.Types.partOfSpeach
+  Network.Yandex.Dictionary.Types.synonyms
+  Network.Yandex.Dictionary.Types.text
+  Network.Yandex.Dictionary.Types.transcription
+  Network.Yandex.Dictionary.Types.translates
+  Network.Yandex.Dictionary.Types.uiLang
+  Network.Yandex.Dictionary.Types.DictAttrs{Network.Yandex.Dictionary.Types.DictAttrs _examples _generation _mean _number _partOfSpeach _synonyms _text _transcription _translates}
+  Network.Yandex.Dictionary.Types.DictFlags{Network.Yandex.Dictionary.Types.Family Network.Yandex.Dictionary.Types.Morpho Network.Yandex.Dictionary.Types.PosFilter Network.Yandex.Dictionary.Types.ShortPos}
+  Network.Yandex.Dictionary.Types.DictResult
+  Network.Yandex.Dictionary.Types.DictionaryParams{Network.Yandex.Dictionary.Types.DictionaryParams _flags _uiLang}
+module dependencies: Network.Yandex.Translate.Types
+package dependencies: RSA-2.3.0 SHA-1.6.4.4 StateVar-1.1.1.1
+                      adjunctions-4.4 aeson-1.3.1.1 array-0.5.2.0 asn1-encoding-0.9.5
+                      asn1-parse-0.9.4 asn1-types-0.3.2 async-2.2.1 attoparsec-0.13.2.2
+                      authenticate-oauth-1.6 base-4.11.1.0 base-compat-0.10.5
+                      base-orphans-0.7 base16-bytestring-0.1.1.6
+                      base64-bytestring-1.0.0.1 basement-0.0.8 bifunctors-5.5.3
+                      binary-0.8.5.1 blaze-builder-0.4.1.0 bytestring-0.10.8.2
+                      call-stack-0.1.0 case-insensitive-1.2.0.11 cereal-0.5.7.0
+                      comonad-5.0.4 connection-0.2.8 containers-0.5.11.0
+                      contravariant-1.4.1 cookie-0.4.4 crypto-api-0.13.3
+                      crypto-pubkey-types-0.4.3 cryptonite-0.25 data-default-0.7.1.1
+                      data-default-class-0.1.2.0 data-default-instances-containers-0.0.1
+                      data-default-instances-dlist-0.0.1
+                      data-default-instances-old-locale-0.0.1 deepseq-1.4.3.0
+                      directory-1.3.1.5 distributive-0.5.3 dlist-0.8.0.5 entropy-0.4.1.3
+                      exceptions-0.10.0 filepath-1.4.2 free-5.0.2 ghc-boot-th-8.4.3
+                      ghc-prim-0.5.2.0 hashable-1.2.7.0 hourglass-0.2.12
+                      http-client-0.5.13.1 http-client-tls-0.3.5.3 http-types-0.12.2
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      lens-4.16.1 memory-0.14.18 mime-types-0.1.0.8 mtl-2.2.2
+                      network-2.6.3.6 network-uri-2.6.1.0 old-locale-1.0.0.7
+                      parsec-3.1.13.0 pem-0.2.4 pretty-1.1.3.6 primitive-0.6.3.0
+                      profunctors-5.2.2 random-1.1 reflection-2.1.4 scientific-0.3.6.2
+                      semigroupoids-5.2.2 socks-0.5.6 stm-2.4.5.1
+                      streaming-commons-0.2.1.0 tagged-0.8.5 template-haskell-2.13.0.0
+                      text-1.2.3.1 th-abstraction-0.2.8.0 time-1.8.0.2
+                      time-locale-compat-0.1.1.5 tls-1.4.1 transformers-0.5.5.0
+                      transformers-base-0.4.5.2 transformers-compat-0.6.2 unix-2.7.2.2
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.1
+                      wreq-0.5.2.1 x509-1.7.4 x509-store-1.6.6 x509-system-1.6.6
+                      x509-validation-1.6.10 zlib-0.6.2
+orphans: data-default-instances-containers-0.0.1:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1:Data.Default.Instances.OldLocale
+         RSA-2.3.0:Codec.Crypto.RSA.Pure wreq-0.5.2.1:Network.Wreq.Types
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.1:Data.Vector.Unboxed
+         vector-0.12.0.1:Data.Vector.Fusion.Bundle
+         reflection-2.1.4:Data.Reflection
+         http-client-0.5.13.1:Network.HTTP.Client.Request
+         basement-0.0.8:Basement.UArray.Base basement-0.0.8:Basement.Block
+         transformers-0.5.5.0:Control.Monad.Trans.Error
+         network-2.6.3.6:Network.Socket stm-2.4.5.1:Control.Monad.STM
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.5.1:Data.Binary.Generic
+         text-1.2.3.1:Data.Text.Show
+         bytestring-0.10.8.2:Data.ByteString.Builder base-4.11.1.0:GHC.Float
+         base-4.11.1.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.3.1.1:Data.Aeson.Types.Internal
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.11.1.0:Control.Applicative base-4.11.1.0:Data.Complex
+                         base-4.11.1.0:Data.Functor.Compose base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity
+                         base-4.11.1.0:Data.Functor.Product base-4.11.1.0:Data.Functor.Sum
+                         base-4.11.1.0:Data.Monoid base-4.11.1.0:Data.Semigroup
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:Data.Version
+                         base-4.11.1.0:Data.Void base-4.11.1.0:GHC.Exts
+                         base-4.11.1.0:GHC.Generics base-4.11.1.0:GHC.IO.Exception
+                         basement-0.0.8:Basement.Block.Base basement-0.0.8:Basement.Monad
+                         basement-0.0.8:Basement.MutableBuilder basement-0.0.8:Basement.Nat
+                         basement-0.0.8:Basement.NonEmpty
+                         basement-0.0.8:Basement.Numerical.Subtractive
+                         basement-0.0.8:Basement.PrimType basement-0.0.8:Basement.String
+                         basement-0.0.8:Basement.String.Encoding.ASCII7
+                         basement-0.0.8:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.8:Basement.String.Encoding.UTF16
+                         basement-0.0.8:Basement.String.Encoding.UTF32
+                         basement-0.0.8:Basement.Types.OffsetSize
+                         basement-0.0.8:Basement.UArray.Base
+                         basement-0.0.8:Basement.UTF8.Base
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped
+                         containers-0.5.11.0:Data.IntMap.Internal
+                         containers-0.5.11.0:Data.IntSet.Internal
+                         containers-0.5.11.0:Data.Map.Internal
+                         containers-0.5.11.0:Data.Sequence.Internal
+                         containers-0.5.11.0:Data.Set.Internal containers-0.5.11.0:Data.Tree
+                         cryptonite-0.25:Crypto.ECC cryptonite-0.25:Crypto.Error.Types
+                         cryptonite-0.25:Crypto.Hash.Blake2
+                         cryptonite-0.25:Crypto.Hash.Blake2b
+                         cryptonite-0.25:Crypto.Hash.Blake2bp
+                         cryptonite-0.25:Crypto.Hash.Blake2s
+                         cryptonite-0.25:Crypto.Hash.Blake2sp
+                         cryptonite-0.25:Crypto.Hash.Keccak cryptonite-0.25:Crypto.Hash.MD2
+                         cryptonite-0.25:Crypto.Hash.MD4 cryptonite-0.25:Crypto.Hash.MD5
+                         cryptonite-0.25:Crypto.Hash.RIPEMD160
+                         cryptonite-0.25:Crypto.Hash.SHA1 cryptonite-0.25:Crypto.Hash.SHA224
+                         cryptonite-0.25:Crypto.Hash.SHA256 cryptonite-0.25:Crypto.Hash.SHA3
+                         cryptonite-0.25:Crypto.Hash.SHA384
+                         cryptonite-0.25:Crypto.Hash.SHA512
+                         cryptonite-0.25:Crypto.Hash.SHA512t
+                         cryptonite-0.25:Crypto.Hash.SHAKE
+                         cryptonite-0.25:Crypto.Hash.Skein256
+                         cryptonite-0.25:Crypto.Hash.Skein512
+                         cryptonite-0.25:Crypto.Hash.Tiger
+                         cryptonite-0.25:Crypto.Hash.Whirlpool dlist-0.8.0.5:Data.DList
+                         free-5.0.2:Control.Comonad.Cofree
+                         free-5.0.2:Control.Comonad.Trans.Cofree
+                         free-5.0.2:Control.Monad.Free free-5.0.2:Control.Monad.Trans.Free
+                         ghc-boot-th-8.4.3:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.4.3:GHC.LanguageExtensions.Type
+                         http-client-0.5.13.1:Network.HTTP.Client
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.16.1:Control.Lens.At
+                         lens-4.16.1:Control.Lens.Internal.Indexed
+                         lens-4.16.1:Control.Lens.Reified lens-4.16.1:Control.Lens.Tuple
+                         lens-4.16.1:Control.Lens.Wrapped lens-4.16.1:Control.Lens.Zoom
+                         network-uri-2.6.1.0:Network.URI
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.3.0:Control.Monad.Primitive
+                         primitive-0.6.3.0:Data.Primitive.Array
+                         primitive-0.6.3.0:Data.Primitive.ByteArray
+                         profunctors-5.2.2:Data.Profunctor.Composition
+                         profunctors-5.2.2:Data.Profunctor.Rep tagged-0.8.5:Data.Tagged
+                         template-haskell-2.13.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.8.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1:Data.Vector vector-0.12.0.1:Data.Vector.Primitive
+                         vector-0.12.0.1:Data.Vector.Storable
+                         vector-0.12.0.1:Data.Vector.Unboxed
+                         vector-0.12.0.1:Data.Vector.Unboxed.Base
+                         zlib-0.6.2:Codec.Compression.Zlib.Stream
+import  -/  aeson-1.3.1.1:Data.Aeson 2a22cf41c78b153beaf70b3799161487
+import  -/  aeson-1.3.1.1:Data.Aeson.Types.FromJSON cc6651c800672e93a57c4dca4940df01
+import  -/  aeson-1.3.1.1:Data.Aeson.Types.Internal 18171d9dccd1b72b20190d293cf1c9ce
+import  -/  aeson-1.3.1.1:Data.Aeson.Types.ToJSON 0efd706da281983877529f7cd71dc31a
+import  -/  base-4.11.1.0:Data.Bits bbb4ac3d5246b98befe8bd31900b1c2f
+import  -/  base-4.11.1.0:Data.Foldable 8ed35c38958063956af33c935ea03444
+import  -/  base-4.11.1.0:Data.Maybe 409c3da2b142470b68be39ce1d97a9f7
+import  -/  base-4.11.1.0:GHC.Base 604111500e81281298777e721c75643b
+import  -/  base-4.11.1.0:GHC.Enum 8824828888f5a89ecc9e7c73f05f3151
+import  -/  base-4.11.1.0:GHC.Err 5e26aa744981f14e0f1e4d29c44ac52e
+import  -/  base-4.11.1.0:GHC.Num 8e54b26dce4495382dc4b50cf36ab754
+import  -/  base-4.11.1.0:GHC.Read b9e6d20d40da8c8a12b566d22e1160e0
+import  -/  base-4.11.1.0:GHC.Show 73be67392447c974f19c3befd83c46c0
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  base-4.11.1.0:Text.ParserCombinators.ReadPrec d0ebf984ed486435a97481288b73febb
+import  -/  base-4.11.1.0:Text.Read.Lex f8ad6f9ae74ae325ba69a4fa5c82aaca
+import  -/  data-default-class-0.1.2.0:Data.Default.Class 5e2f2168a5b294746d8718b324a02cb2
+import  -/  ghc-prim-0.5.2.0:GHC.Classes 122abfcd7450c6c11602933c9ca5f80d
+import  -/  ghc-prim-0.5.2.0:GHC.Types d9b3023de7feae4a5308d643da5543f7
+import  -/  lens-4.16.1:Control.Lens f74d142afa4d2d05854b75014034b97b
+import  -/  lens-4.16.1:Control.Lens.Empty 7ed2eac7268c7ae5c553548b2315a6d5
+import  -/  lens-4.16.1:Control.Lens.Getter 7c191dace1895621dd718f1720af8561
+import  -/  lens-4.16.1:Control.Lens.Prism 1a092ce1a9cd7cdfc2fdf0f153d83409
+import  -/  lens-4.16.1:Control.Lens.TH 54fa36c89ebd745f843ee41226b31167
+import  -/  lens-4.16.1:Control.Lens.Type 6946fd6aa0712c2b4413d1498575ef5d
+import  -/  text-1.2.3.1:Data.Text ff889e8cc5c9f0eb305aaf77f25047e5
+import  -/  text-1.2.3.1:Data.Text.Internal 65b2a62b0918b56ea0591106f5d77acc
+import  -/  Network.Yandex.Translate.Types ffd5257547f6bb183d55a7270031af9b
+  exports: 57b3ef58577ef4920d1ea6171765320b
+  Language 6f5b62beed1b67ac142718128bb624ad
+7515609d899b152335275c6bb9094aaf
+  $fBoundedDictFlags ::
+    GHC.Enum.Bounded Network.Yandex.Dictionary.Types.DictFlags
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictFlags
+                  Network.Yandex.Dictionary.Types.Family
+                  Network.Yandex.Dictionary.Types.PosFilter -}
+daf227332cee1720f83b6400e51849b8
+  $fDefaultDictionaryParams ::
+    Data.Default.Class.Default
+      Network.Yandex.Dictionary.Types.DictionaryParams
+  DFunId
+  {- Strictness: m, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Network.Yandex.Dictionary.Types.$fDefaultDictionaryParams_$cdef
+                  `cast`
+                (Sym (Data.Default.Class.N:Default[0]
+                          <Network.Yandex.Dictionary.Types.DictionaryParams>_N)) -}
+daf227332cee1720f83b6400e51849b8
+  $fDefaultDictionaryParams_$cdef ::
+    Network.Yandex.Dictionary.Types.DictionaryParams
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Network.Yandex.Dictionary.Types.DictionaryParams
+                   (GHC.Base.Nothing @ Network.Yandex.Translate.Types.Language)
+                   (GHC.Types.[] @ Network.Yandex.Dictionary.Types.DictFlags)) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags ::
+    GHC.Enum.Enum Network.Yandex.Dictionary.Types.DictFlags
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictFlags
+                  Network.Yandex.Dictionary.Types.$fEnumDictFlags_$csucc
+                  Network.Yandex.Dictionary.Types.$fEnumDictFlags_$cpred
+                  Network.Yandex.Dictionary.Types.$fEnumDictFlags_$ctoEnum
+                  Network.Yandex.Dictionary.Types.$fEnumDictFlags_$cfromEnum
+                  Network.Yandex.Dictionary.Types.$fEnumDictFlags_$cenumFrom
+                  Network.Yandex.Dictionary.Types.$fEnumDictFlags_$cenumFromThen
+                  Network.Yandex.Dictionary.Types.$fEnumDictFlags_$cenumFromTo
+                  Network.Yandex.Dictionary.Types.$fEnumDictFlags_$cenumFromThenTo -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags1 :: [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Unfolding: (Network.Yandex.Dictionary.Types.$fEnumDictFlags_go4
+                   3#) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags2 :: [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Unfolding: (Network.Yandex.Dictionary.Types.$fEnumDictFlags_go4
+                   2#) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags3 :: [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Unfolding: (Network.Yandex.Dictionary.Types.$fEnumDictFlags_go4
+                   1#) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags4 :: [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Unfolding: (Network.Yandex.Dictionary.Types.$fEnumDictFlags_go4
+                   0#) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags5 :: Network.Yandex.Dictionary.Types.DictFlags
+  {- Strictness: x -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags6 :: Network.Yandex.Dictionary.Types.DictFlags
+  {- Strictness: x -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_$cenumFrom ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (a :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case a of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> Network.Yandex.Dictionary.Types.$fEnumDictFlags4
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> Network.Yandex.Dictionary.Types.$fEnumDictFlags3
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> Network.Yandex.Dictionary.Types.$fEnumDictFlags2
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> Network.Yandex.Dictionary.Types.$fEnumDictFlags1 }) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_$cenumFromThen ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags
+    -> [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_$cenumFromThenTo ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags
+    -> [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Arity: 3, Strictness: <S,1*U><S,1*U><S,1*U> -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_$cenumFromTo ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags
+    -> [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Arity: 2, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (x :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (y :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 let {
+                   $j :: GHC.Prim.Int# -> [Network.Yandex.Dictionary.Types.DictFlags]
+                     <join 1> {- Arity: 1, Strictness: <S,U> -}
+                   = \ (x1 :: GHC.Prim.Int#)[OneShot] ->
+                     case y of wild {
+                       Network.Yandex.Dictionary.Types.Family
+                       -> case GHC.Prim.># x1 0# of lwild {
+                            DEFAULT -> Network.Yandex.Dictionary.Types.$fEnumDictFlags_go3 x1
+                            1# -> GHC.Types.[] @ Network.Yandex.Dictionary.Types.DictFlags }
+                       Network.Yandex.Dictionary.Types.ShortPos
+                       -> case GHC.Prim.># x1 1# of lwild {
+                            DEFAULT -> Network.Yandex.Dictionary.Types.$fEnumDictFlags_go2 x1
+                            1# -> GHC.Types.[] @ Network.Yandex.Dictionary.Types.DictFlags }
+                       Network.Yandex.Dictionary.Types.Morpho
+                       -> case GHC.Prim.># x1 2# of lwild {
+                            DEFAULT -> Network.Yandex.Dictionary.Types.$fEnumDictFlags_go1 x1
+                            1# -> GHC.Types.[] @ Network.Yandex.Dictionary.Types.DictFlags }
+                       Network.Yandex.Dictionary.Types.PosFilter
+                       -> case GHC.Prim.># x1 3# of lwild {
+                            DEFAULT -> Network.Yandex.Dictionary.Types.$fEnumDictFlags_go x1
+                            1# -> GHC.Types.[] @ Network.Yandex.Dictionary.Types.DictFlags } }
+                 } in
+                 case x of wild {
+                   Network.Yandex.Dictionary.Types.Family -> $j 0#
+                   Network.Yandex.Dictionary.Types.ShortPos -> $j 1#
+                   Network.Yandex.Dictionary.Types.Morpho -> $j 2#
+                   Network.Yandex.Dictionary.Types.PosFilter -> $j 3# }) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_$cfromEnum ::
+    Network.Yandex.Dictionary.Types.DictFlags -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case a of wild {
+                   Network.Yandex.Dictionary.Types.Family -> GHC.Types.I# 0#
+                   Network.Yandex.Dictionary.Types.ShortPos -> GHC.Types.I# 1#
+                   Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.I# 2#
+                   Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.I# 3# }) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_$cpred ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case a of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> Network.Yandex.Dictionary.Types.$fEnumDictFlags5
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> Network.Yandex.Dictionary.Types.Family
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> Network.Yandex.Dictionary.Types.ShortPos
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> Network.Yandex.Dictionary.Types.Morpho }) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_$csucc ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case a of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> Network.Yandex.Dictionary.Types.ShortPos
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> Network.Yandex.Dictionary.Types.Morpho
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> Network.Yandex.Dictionary.Types.PosFilter
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> Network.Yandex.Dictionary.Types.$fEnumDictFlags6 }) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_$ctoEnum ::
+    GHC.Types.Int -> Network.Yandex.Dictionary.Types.DictFlags
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Network.Yandex.Dictionary.Types.$w$ctoEnum ww1 }) -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_go ::
+    GHC.Prim.Int# -> [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_go1 ::
+    GHC.Prim.Int# -> [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_go2 ::
+    GHC.Prim.Int# -> [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_go3 ::
+    GHC.Prim.Int# -> [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+7515609d899b152335275c6bb9094aaf
+  $fEnumDictFlags_go4 ::
+    GHC.Prim.Int# -> [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fEqDictAttrs ::
+    GHC.Classes.Eq Network.Yandex.Dictionary.Types.DictAttrs
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictAttrs
+                  Network.Yandex.Dictionary.Types.$fEqDictAttrs_$c==
+                  Network.Yandex.Dictionary.Types.$fEqDictAttrs_$c/= -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fEqDictAttrs_$c/= ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> Network.Yandex.Dictionary.Types.DictAttrs -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)LLLLLLLL),1*U(1*U(U,U,U),1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)><S(S(LLS)LLLLLLLL),1*U(1*U(U,U,U),1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: Network.Yandex.Dictionary.Types.DictAttrs)
+                   (y :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case Network.Yandex.Dictionary.Types.$fEqDictAttrs_$c==
+                        x
+                        y of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fEqDictAttrs_$c== ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> Network.Yandex.Dictionary.Types.DictAttrs -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)LLLLLLLL),1*U(1*U(U,U,U),1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)><S(S(LLS)LLLLLLLL),1*U(1*U(U,U,U),1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)> -}
+7515609d899b152335275c6bb9094aaf
+  $fEqDictFlags ::
+    GHC.Classes.Eq Network.Yandex.Dictionary.Types.DictFlags
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictFlags
+                  Network.Yandex.Dictionary.Types.$fEqDictFlags_$c==
+                  Network.Yandex.Dictionary.Types.$fEqDictFlags_$c/= -}
+7515609d899b152335275c6bb9094aaf
+  $fEqDictFlags_$c/= ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (y :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case x of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.Family -> GHC.Types.False }
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.ShortPos -> GHC.Types.False }
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.False }
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> case y of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.PosFilter
+                        -> GHC.Types.False } }) -}
+7515609d899b152335275c6bb9094aaf
+  $fEqDictFlags_$c== ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (ds3 :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (ds4 :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case ds3 of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> case ds4 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.Family -> GHC.Types.True }
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> case ds4 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.ShortPos -> GHC.Types.True }
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> case ds4 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.True }
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> case ds4 of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.True } }) -}
+daf227332cee1720f83b6400e51849b8
+  $fEqDictionaryParams ::
+    GHC.Classes.Eq Network.Yandex.Dictionary.Types.DictionaryParams
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictionaryParams
+                  Network.Yandex.Dictionary.Types.$fEqDictionaryParams_$c==
+                  Network.Yandex.Dictionary.Types.$fEqDictionaryParams_$c/= -}
+daf227332cee1720f83b6400e51849b8
+  $fEqDictionaryParams_$c/= ::
+    Network.Yandex.Dictionary.Types.DictionaryParams
+    -> Network.Yandex.Dictionary.Types.DictionaryParams
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SL),1*U(1*U,1*U)><S(SL),1*U(1*U,1*U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: Network.Yandex.Dictionary.Types.DictionaryParams)
+                   (y :: Network.Yandex.Dictionary.Types.DictionaryParams) ->
+                 case Network.Yandex.Dictionary.Types.$fEqDictionaryParams_$c==
+                        x
+                        y of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+daf227332cee1720f83b6400e51849b8
+  $fEqDictionaryParams_$c== ::
+    Network.Yandex.Dictionary.Types.DictionaryParams
+    -> Network.Yandex.Dictionary.Types.DictionaryParams
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SL),1*U(1*U,1*U)><S(SL),1*U(1*U,1*U)>, Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Network.Yandex.Dictionary.Types.DictionaryParams)
+                   (w1 :: Network.Yandex.Dictionary.Types.DictionaryParams) ->
+                 case w of ww { Network.Yandex.Dictionary.Types.DictionaryParams ww1 ww2 ->
+                 case w1 of ww3 { Network.Yandex.Dictionary.Types.DictionaryParams ww4 ww5 ->
+                 Network.Yandex.Dictionary.Types.$w$c== ww1 ww2 ww4 ww5 } }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fFromJSONDictAttrs ::
+    Data.Aeson.Types.FromJSON.FromJSON
+      Network.Yandex.Dictionary.Types.DictAttrs
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictAttrs
+                  Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs_$cparseJSON
+                  Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs_$cparseJSONList -}
+9ab99d8cc93710722fbe9ff7db623426
+  $fFromJSONDictAttrs1 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: (", encountered "#) -}
+28575a982cedb39b34157a3381aa4f76
+  $fFromJSONDictAttrs2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("[a]"#) -}
+43ebdc024c2bf5f2383345c280b69539
+  $fFromJSONDictAttrs3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("expected "#) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fFromJSONDictAttrs4 ::
+    Data.Aeson.Types.Internal.Object
+    -> Data.Aeson.Types.Internal.Parser
+         Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, Strictness: <L,U> -}
+ffe43ac97eb640c78c87f0d08f5ac8d9
+  $fFromJSONDictAttrs5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs6) -}
+27eeb6544da283e183620486e44d60f3
+  $fFromJSONDictAttrs6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("DictAttrs"#) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fFromJSONDictAttrs_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1,
+     Unfolding: (Data.Aeson.Types.FromJSON.withObject
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs5
+                   Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs4) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fFromJSONDictAttrs_$cparseJSONList ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         [Network.Yandex.Dictionary.Types.DictAttrs]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (ds3 :: Data.Aeson.Types.Internal.Value) ->
+                 case ds3 of wild {
+                   DEFAULT
+                   -> let {
+                        msg1 :: GHC.Base.String
+                        = GHC.CString.unpackAppendCString#
+                            Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs3
+                            (GHC.CString.unpackAppendCString#
+                               Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs2
+                               (GHC.CString.unpackAppendCString#
+                                  Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs1
+                                  (case wild of wild1 {
+                                     Data.Aeson.Types.Internal.Object ds4
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList10
+                                     Data.Aeson.Types.Internal.String ds4
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList8
+                                     Data.Aeson.Types.Internal.Number ds4
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList6
+                                     Data.Aeson.Types.Internal.Bool ds4
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList4
+                                     Data.Aeson.Types.Internal.Null
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList1 })))
+                      } in
+                      (\ @ f4 :: * -> *
+                         @ r
+                         (path :: Data.Aeson.Types.Internal.JSONPath)
+                         (kf :: Data.Aeson.Types.Internal.Failure f4 r)
+                         (_ks :: Data.Aeson.Types.Internal.Success
+                                   [Network.Yandex.Dictionary.Types.DictAttrs] f4 r) ->
+                       kf
+                         (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                         msg1)
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                <[Network.Yandex.Dictionary.Types.DictAttrs]>_R))
+                   Data.Aeson.Types.Internal.Array a2
+                   -> case a2 of wild1 { Data.Vector.Vector dt dt1 dt2 ->
+                      letrec {
+                        $wgo2 :: GHC.Prim.Int# -> [Data.Aeson.Types.Internal.Value]
+                          {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                        = \ (ww :: GHC.Prim.Int#) ->
+                          case GHC.Prim.>=# ww dt1 of lwild {
+                            DEFAULT
+                            -> case GHC.Prim.indexArray#
+                                      @ Data.Aeson.Types.Internal.Value
+                                      dt2
+                                      (GHC.Prim.+# dt ww) of ds4 { Unit# ipv ->
+                               GHC.Types.:
+                                 @ Data.Aeson.Types.Internal.Value
+                                 ipv
+                                 ($wgo2 (GHC.Prim.+# ww 1#)) }
+                            1# -> GHC.Types.[] @ Data.Aeson.Types.Internal.Value }
+                      } in
+                      Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs_go
+                        0#
+                        ($wgo2 0#) } }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fFromJSONDictAttrs_go ::
+    GHC.Prim.Int#
+    -> [Data.Aeson.Types.Internal.Value]
+    -> Data.Aeson.Types.Internal.Parser
+         [Network.Yandex.Dictionary.Types.DictAttrs]
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+7515609d899b152335275c6bb9094aaf
+  $fOrdDictFlags ::
+    GHC.Classes.Ord Network.Yandex.Dictionary.Types.DictFlags
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictFlags
+                  Network.Yandex.Dictionary.Types.$fEqDictFlags
+                  Network.Yandex.Dictionary.Types.$fOrdDictFlags_$ccompare
+                  Network.Yandex.Dictionary.Types.$fOrdDictFlags_$c<
+                  Network.Yandex.Dictionary.Types.$fOrdDictFlags_$c<=
+                  Network.Yandex.Dictionary.Types.$fOrdDictFlags_$c>
+                  Network.Yandex.Dictionary.Types.$fOrdDictFlags_$c>=
+                  Network.Yandex.Dictionary.Types.$fOrdDictFlags_$cmax
+                  Network.Yandex.Dictionary.Types.$fOrdDictFlags_$cmin -}
+7515609d899b152335275c6bb9094aaf
+  $fOrdDictFlags_$c< ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (a :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (b :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case a of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> case b of wild1 {
+                        Network.Yandex.Dictionary.Types.Family -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.ShortPos -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.True }
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.True }
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.True }
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> case b of wild1 { DEFAULT -> GHC.Types.False } }) -}
+7515609d899b152335275c6bb9094aaf
+  $fOrdDictFlags_$c<= ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (a :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (b :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case b of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> case a of wild1 {
+                        Network.Yandex.Dictionary.Types.Family -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.ShortPos -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.False }
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> case a of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.False }
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> case a of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.False }
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> case a of wild1 { DEFAULT -> GHC.Types.True } }) -}
+7515609d899b152335275c6bb9094aaf
+  $fOrdDictFlags_$c> ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, True)
+                (\ (a :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (b :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 Network.Yandex.Dictionary.Types.$fOrdDictFlags_$c< b a) -}
+7515609d899b152335275c6bb9094aaf
+  $fOrdDictFlags_$c>= ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (a :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (b :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case a of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> case b of wild1 {
+                        Network.Yandex.Dictionary.Types.Family -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.ShortPos -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.False }
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.False
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.False }
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.True
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.False }
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> case b of wild1 { DEFAULT -> GHC.Types.True } }) -}
+7515609d899b152335275c6bb9094aaf
+  $fOrdDictFlags_$ccompare ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (a :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (b :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case a of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> case b of wild1 {
+                        Network.Yandex.Dictionary.Types.Family -> GHC.Types.EQ
+                        Network.Yandex.Dictionary.Types.ShortPos -> GHC.Types.LT
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.LT
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.LT }
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> case b of wild1 {
+                        Network.Yandex.Dictionary.Types.Family -> GHC.Types.GT
+                        Network.Yandex.Dictionary.Types.ShortPos -> GHC.Types.EQ
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.LT
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.LT }
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.GT
+                        Network.Yandex.Dictionary.Types.Morpho -> GHC.Types.EQ
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.LT }
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> case b of wild1 {
+                        DEFAULT -> GHC.Types.GT
+                        Network.Yandex.Dictionary.Types.PosFilter -> GHC.Types.EQ } }) -}
+7515609d899b152335275c6bb9094aaf
+  $fOrdDictFlags_$cmax ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (x :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (y :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case y of wild {
+                   Network.Yandex.Dictionary.Types.Family -> x
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> case x of wild1 {
+                        DEFAULT -> Network.Yandex.Dictionary.Types.ShortPos
+                        Network.Yandex.Dictionary.Types.Morpho
+                        -> Network.Yandex.Dictionary.Types.Morpho
+                        Network.Yandex.Dictionary.Types.PosFilter
+                        -> Network.Yandex.Dictionary.Types.PosFilter }
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> case x of wild1 {
+                        DEFAULT -> Network.Yandex.Dictionary.Types.Morpho
+                        Network.Yandex.Dictionary.Types.PosFilter
+                        -> Network.Yandex.Dictionary.Types.PosFilter }
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> case x of wild1 { DEFAULT ->
+                      Network.Yandex.Dictionary.Types.PosFilter } }) -}
+7515609d899b152335275c6bb9094aaf
+  $fOrdDictFlags_$cmin ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags
+    -> Network.Yandex.Dictionary.Types.DictFlags
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (x :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (y :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case y of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> case x of wild1 { DEFAULT ->
+                      Network.Yandex.Dictionary.Types.Family }
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> case x of wild1 {
+                        DEFAULT -> wild1
+                        Network.Yandex.Dictionary.Types.Morpho
+                        -> Network.Yandex.Dictionary.Types.ShortPos
+                        Network.Yandex.Dictionary.Types.PosFilter
+                        -> Network.Yandex.Dictionary.Types.ShortPos }
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> case x of wild1 {
+                        DEFAULT -> wild1
+                        Network.Yandex.Dictionary.Types.PosFilter
+                        -> Network.Yandex.Dictionary.Types.Morpho }
+                   Network.Yandex.Dictionary.Types.PosFilter -> x }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fReadDictAttrs ::
+    GHC.Read.Read Network.Yandex.Dictionary.Types.DictAttrs
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictAttrs
+                  Network.Yandex.Dictionary.Types.$fReadDictAttrs_$creadsPrec
+                  Network.Yandex.Dictionary.Types.$fReadDictAttrs_$creadList
+                  Network.Yandex.Dictionary.Types.$fReadDictAttrs1
+                    `cast`
+                  ((<Text.ParserCombinators.ReadPrec.Prec>_R
+                    ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                  <Network.Yandex.Dictionary.Types.DictAttrs>_R)) ; Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                                                                             <Network.Yandex.Dictionary.Types.DictAttrs>_R))
+                  Network.Yandex.Dictionary.Types.$fReadDictAttrs_$creadListPrec -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fReadDictAttrs1 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       (Network.Yandex.Dictionary.Types.DictAttrs
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2,
+     Unfolding: (GHC.Read.$fRead()6
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   Network.Yandex.Dictionary.Types.$fReadDictAttrs2
+                     `cast`
+                   ((<Text.ParserCombinators.ReadPrec.Prec>_R
+                     ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                   <Network.Yandex.Dictionary.Types.DictAttrs>_R)) ; Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                                                                              <Network.Yandex.Dictionary.Types.DictAttrs>_R))) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fReadDictAttrs2 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       (Network.Yandex.Dictionary.Types.DictAttrs
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <S(S),1*U(U)><L,C(U)>, Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Text.ParserCombinators.ReadPrec.Prec)
+                   @ b
+                   (w1 :: Network.Yandex.Dictionary.Types.DictAttrs
+                          -> Text.ParserCombinators.ReadP.P b) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Network.Yandex.Dictionary.Types.$w$creadPrec ww1 @ b w1 }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fReadDictAttrs3 ::
+    Text.ParserCombinators.ReadP.P
+      [Network.Yandex.Dictionary.Types.DictAttrs]
+  {- Unfolding: ((Network.Yandex.Dictionary.Types.$fReadDictAttrs_$creadListPrec
+                    `cast`
+                  (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                       <[Network.Yandex.Dictionary.Types.DictAttrs]>_R)
+                    GHC.Read.$fRead()8)
+                   `cast`
+                 (Text.ParserCombinators.ReadP.N:ReadP[0]
+                      <[Network.Yandex.Dictionary.Types.DictAttrs]>_R)
+                   @ [Network.Yandex.Dictionary.Types.DictAttrs]
+                   (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
+                      @ [Network.Yandex.Dictionary.Types.DictAttrs])) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fReadDictAttrs_$creadList ::
+    Text.ParserCombinators.ReadP.ReadS
+      [Network.Yandex.Dictionary.Types.DictAttrs]
+  {- Arity: 1,
+     Unfolding: (Text.ParserCombinators.ReadP.run
+                   @ [Network.Yandex.Dictionary.Types.DictAttrs]
+                   Network.Yandex.Dictionary.Types.$fReadDictAttrs3) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fReadDictAttrs_$creadListPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec
+      [Network.Yandex.Dictionary.Types.DictAttrs]
+  {- Unfolding: (GHC.Read.list
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   Network.Yandex.Dictionary.Types.$fReadDictAttrs1
+                     `cast`
+                   ((<Text.ParserCombinators.ReadPrec.Prec>_R
+                     ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                   <Network.Yandex.Dictionary.Types.DictAttrs>_R)) ; Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                                                                              <Network.Yandex.Dictionary.Types.DictAttrs>_R))) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fReadDictAttrs_$creadsPrec ::
+    GHC.Types.Int
+    -> Text.ParserCombinators.ReadP.ReadS
+         Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (n1 :: GHC.Types.Int) ->
+                 Text.ParserCombinators.ReadP.run
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   (GHC.Read.$fRead()6
+                      @ Network.Yandex.Dictionary.Types.DictAttrs
+                      Network.Yandex.Dictionary.Types.$fReadDictAttrs2
+                        `cast`
+                      ((<Text.ParserCombinators.ReadPrec.Prec>_R
+                        ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                      <Network.Yandex.Dictionary.Types.DictAttrs>_R)) ; Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                                                                                 <Network.Yandex.Dictionary.Types.DictAttrs>_R))
+                      n1
+                      @ Network.Yandex.Dictionary.Types.DictAttrs
+                      (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
+                         @ Network.Yandex.Dictionary.Types.DictAttrs))) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fShowDictAttrs ::
+    GHC.Show.Show Network.Yandex.Dictionary.Types.DictAttrs
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictAttrs
+                  Network.Yandex.Dictionary.Types.$fShowDictAttrs_$cshowsPrec
+                  Network.Yandex.Dictionary.Types.$fShowDictAttrs_$cshow
+                  Network.Yandex.Dictionary.Types.$fShowDictAttrs_$cshowList -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fShowDictAttrs1 ::
+    Network.Yandex.Dictionary.Types.DictAttrs -> GHC.Show.ShowS
+  {- Arity: 1, Strictness: <S,1*U(U(U,U,U),1*U,1*U,1*U,1*U,U,U,U,U)>,
+     Unfolding: (\ (w :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case w of ww { Network.Yandex.Dictionary.Types.DictAttrs ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ->
+                 Network.Yandex.Dictionary.Types.$w$cshowsPrec
+                   0#
+                   ww1
+                   ww2
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9 }) -}
+1c6b053ffff6fbdca6851cae7f0c526e
+  $fShowDictAttrs2 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fShowDictAttrs_$cshow ::
+    Network.Yandex.Dictionary.Types.DictAttrs -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(U(U,U,U),1*U,1*U,1*U,1*U,U,U,U,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 Network.Yandex.Dictionary.Types.$fShowDictAttrs_$cshowsPrec
+                   Network.Yandex.Dictionary.Types.$fShowDictAttrs2
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fShowDictAttrs_$cshowList ::
+    [Network.Yandex.Dictionary.Types.DictAttrs] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Network.Yandex.Dictionary.Types.DictAttrs])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   Network.Yandex.Dictionary.Types.$fShowDictAttrs1
+                   ls
+                   s) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fShowDictAttrs_$cshowsPrec ::
+    GHC.Types.Int
+    -> Network.Yandex.Dictionary.Types.DictAttrs -> GHC.Show.ShowS
+  {- Arity: 2,
+     Strictness: <S(S),1*U(U)><S,1*U(U(U,U,U),1*U,1*U,1*U,1*U,U,U,U,U)>,
+     Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Network.Yandex.Dictionary.Types.DictAttrs ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ->
+                 Network.Yandex.Dictionary.Types.$w$cshowsPrec
+                   ww1
+                   ww3
+                   ww4
+                   ww5
+                   ww6
+                   ww7
+                   ww8
+                   ww9
+                   ww10
+                   ww11 } }) -}
+7515609d899b152335275c6bb9094aaf
+  $fShowDictFlags ::
+    GHC.Show.Show Network.Yandex.Dictionary.Types.DictFlags
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictFlags
+                  Network.Yandex.Dictionary.Types.$fShowDictFlags_$cshowsPrec
+                  Network.Yandex.Dictionary.Types.$fShowDictFlags_$cshow
+                  Network.Yandex.Dictionary.Types.$fShowDictFlags_$cshowList -}
+7b7fc356780c83b84b67d4b2a2f4f784
+  $fShowDictFlags1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Dictionary.Types.$fShowDictFlags2) -}
+8d991addbd3aa86a3b71e3d0956f0bfa
+  $fShowDictFlags2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("PosFilter"#) -}
+4a427ef94d8cdcd41534253eccb48025
+  $fShowDictFlags3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Dictionary.Types.$fShowDictFlags4) -}
+441066554de41cf7ab660e7f3177f94b
+  $fShowDictFlags4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Morpho"#) -}
+06a29de7be4d5cb9f2a9f91f074dcdc8
+  $fShowDictFlags5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Dictionary.Types.$fShowDictFlags6) -}
+838d8a410508971f1b6ad89b3517ac30
+  $fShowDictFlags6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("ShortPos"#) -}
+930a9cf41e8bc4f827e1f1ec96c2b3b9
+  $fShowDictFlags7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Dictionary.Types.$fShowDictFlags8) -}
+efccff5bc8a1f78b01542a7a44d28b61
+  $fShowDictFlags8 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Family"#) -}
+7515609d899b152335275c6bb9094aaf
+  $fShowDictFlags_$cshow ::
+    Network.Yandex.Dictionary.Types.DictFlags -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Network.Yandex.Dictionary.Types.DictFlags) ->
+                 case x of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> Network.Yandex.Dictionary.Types.$fShowDictFlags7
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> Network.Yandex.Dictionary.Types.$fShowDictFlags5
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> Network.Yandex.Dictionary.Types.$fShowDictFlags3
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> Network.Yandex.Dictionary.Types.$fShowDictFlags1 }) -}
+7515609d899b152335275c6bb9094aaf
+  $fShowDictFlags_$cshowList ::
+    [Network.Yandex.Dictionary.Types.DictFlags] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Network.Yandex.Dictionary.Types.DictFlags])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ Network.Yandex.Dictionary.Types.DictFlags
+                   Network.Yandex.Dictionary.Types.$w$cshowsPrec1
+                   ls
+                   s) -}
+7515609d899b152335275c6bb9094aaf
+  $fShowDictFlags_$cshowsPrec ::
+    GHC.Types.Int
+    -> Network.Yandex.Dictionary.Types.DictFlags -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: [0],
+     Unfolding: InlineRule (3, True, True)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (w2 :: GHC.Base.String) ->
+                 Network.Yandex.Dictionary.Types.$w$cshowsPrec1 w1 w2) -}
+daf227332cee1720f83b6400e51849b8
+  $fShowDictionaryParams ::
+    GHC.Show.Show Network.Yandex.Dictionary.Types.DictionaryParams
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictionaryParams
+                  Network.Yandex.Dictionary.Types.$fShowDictionaryParams_$cshowsPrec
+                  Network.Yandex.Dictionary.Types.$fShowDictionaryParams_$cshow
+                  Network.Yandex.Dictionary.Types.$fShowDictionaryParams_$cshowList -}
+daf227332cee1720f83b6400e51849b8
+  $fShowDictionaryParams1 ::
+    Network.Yandex.Dictionary.Types.DictionaryParams -> GHC.Show.ShowS
+  {- Arity: 1, Strictness: <S,1*U(1*U,U)>,
+     Unfolding: (\ (w :: Network.Yandex.Dictionary.Types.DictionaryParams) ->
+                 case w of ww { Network.Yandex.Dictionary.Types.DictionaryParams ww1 ww2 ->
+                 Network.Yandex.Dictionary.Types.$w$cshowsPrec2 0# ww1 ww2 }) -}
+daf227332cee1720f83b6400e51849b8
+  $fShowDictionaryParams_$cshow ::
+    Network.Yandex.Dictionary.Types.DictionaryParams -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Network.Yandex.Dictionary.Types.DictionaryParams) ->
+                 Network.Yandex.Dictionary.Types.$fShowDictionaryParams_$cshowsPrec
+                   Network.Yandex.Dictionary.Types.$fShowDictAttrs2
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+daf227332cee1720f83b6400e51849b8
+  $fShowDictionaryParams_$cshowList ::
+    [Network.Yandex.Dictionary.Types.DictionaryParams]
+    -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Network.Yandex.Dictionary.Types.DictionaryParams])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ Network.Yandex.Dictionary.Types.DictionaryParams
+                   Network.Yandex.Dictionary.Types.$fShowDictionaryParams1
+                   ls
+                   s) -}
+daf227332cee1720f83b6400e51849b8
+  $fShowDictionaryParams_$cshowsPrec ::
+    GHC.Types.Int
+    -> Network.Yandex.Dictionary.Types.DictionaryParams
+    -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U(1*U,U)>, Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Network.Yandex.Dictionary.Types.DictionaryParams) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Network.Yandex.Dictionary.Types.DictionaryParams ww3 ww4 ->
+                 Network.Yandex.Dictionary.Types.$w$cshowsPrec2 ww1 ww3 ww4 } }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fToJSONDictAttrs ::
+    Data.Aeson.Types.ToJSON.ToJSON
+      Network.Yandex.Dictionary.Types.DictAttrs
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Dictionary.Types.DictAttrs
+                  Network.Yandex.Dictionary.Types.$fToJSONDictAttrs_$ctoJSON
+                  Network.Yandex.Dictionary.Types.$fToJSONDictAttrs_$ctoEncoding
+                  Network.Yandex.Dictionary.Types.$fToJSONDictAttrs_$ctoJSONList
+                  Network.Yandex.Dictionary.Types.$fToJSONDictAttrs_$ctoEncodingList -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fToJSONDictAttrs_$ctoEncoding ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1,
+     Strictness: <S(SSSSSSLLL),1*U(1*U(U,U,U),1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)>,
+     Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (x :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 Data.Aeson.Encoding.Builder.encodeToBuilder
+                   (Network.Yandex.Dictionary.Types.$fToJSONDictAttrs_$ctoJSON x))
+                  `cast`
+                (<Network.Yandex.Dictionary.Types.DictAttrs>_R
+                 ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                               <Data.Aeson.Types.Internal.Value>_P)) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fToJSONDictAttrs_$ctoEncodingList ::
+    [Network.Yandex.Dictionary.Types.DictAttrs]
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (Data.Aeson.Encoding.Internal.list
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   Network.Yandex.Dictionary.Types.$fToJSONDictAttrs_$ctoEncoding) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fToJSONDictAttrs_$ctoJSON ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1,
+     Strictness: <S(SSSSSSLLL),1*U(1*U(U,U,U),1*U,1*U,1*U,1*U,1*U,1*U,1*U,1*U)>m1 -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $fToJSONDictAttrs_$ctoJSONList ::
+    [Network.Yandex.Dictionary.Types.DictAttrs]
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (x :: [Network.Yandex.Dictionary.Types.DictAttrs]) ->
+                 Data.Aeson.Types.Internal.$WArray
+                   (Data.Vector.Generic.new
+                      @ Data.Vector.Vector
+                      @ Data.Aeson.Types.Internal.Value
+                      (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                      (Data.Vector.Generic.New.unstream
+                         @ Data.Vector.Vector
+                         @ Data.Aeson.Types.Internal.Value
+                         (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                         (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                            @ Data.Vector.Fusion.Util.Id
+                            @ Data.Aeson.Types.Internal.Value
+                            @ Data.Vector.Vector
+                            Data.Vector.Fusion.Util.$fMonadId
+                            Data.Vector.Fusion.Bundle.Size.Unknown
+                            (GHC.Base.build
+                               @ Data.Aeson.Types.Internal.Value
+                               (\ @ b1
+                                  (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                  (n1 :: b1)[OneShot] ->
+                                GHC.Base.foldr
+                                  @ Network.Yandex.Dictionary.Types.DictAttrs
+                                  @ b1
+                                  (GHC.Base.mapFB
+                                     @ Data.Aeson.Types.Internal.Value
+                                     @ b1
+                                     @ Network.Yandex.Dictionary.Types.DictAttrs
+                                     c
+                                     Network.Yandex.Dictionary.Types.$fToJSONDictAttrs_$ctoJSON)
+                                  n1
+                                  x)))))) -}
+a4d9d17606593e77c381bdab624d858f
+  $tc'DictAttrs :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12657416895333040699##
+                   4056877661177498679##
+                   Network.Yandex.Dictionary.Types.$trModule
+                   Network.Yandex.Dictionary.Types.$tc'DictAttrs2
+                   0#
+                   Network.Yandex.Dictionary.Types.$tc'DictAttrs1) -}
+c6f72f1582b6da1eb456e077a65e62a0
+  $tc'DictAttrs1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+c110f37623f703a692344d632957f0b0
+  $tc'DictAttrs2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$tc'DictAttrs3) -}
+9f96e7cc373878fecfdc86eb58c56133
+  $tc'DictAttrs3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'DictAttrs"#) -}
+f4e1d16d453ea90d6005d88c96cd6d02
+  $tc'DictionaryParams :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7048423715303821210##
+                   13571164140343031620##
+                   Network.Yandex.Dictionary.Types.$trModule
+                   Network.Yandex.Dictionary.Types.$tc'DictionaryParams2
+                   0#
+                   Network.Yandex.Dictionary.Types.$tc'DictionaryParams1) -}
+12432d6a35d8554aa8a7ab2053d1596c
+  $tc'DictionaryParams1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+8b83ba1dd510a2015d8b8f41f6148ad0
+  $tc'DictionaryParams2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$tc'DictionaryParams3) -}
+f035f7e5b140488a8b908e0e9155b66a
+  $tc'DictionaryParams3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'DictionaryParams"#) -}
+3350b4bf7652f60d167edc5ddfdad0c2
+  $tc'Family :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   11296388652260993643##
+                   4504559749039921881##
+                   Network.Yandex.Dictionary.Types.$trModule
+                   Network.Yandex.Dictionary.Types.$tc'Family2
+                   0#
+                   Network.Yandex.Dictionary.Types.$tc'Family1) -}
+587ab93d9b4bd1cb37e6f7247c0ce8b0
+  $tc'Family1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+435808577f63922d550c6c51c7854c4f
+  $tc'Family2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$tc'Family3) -}
+c86cfa1dd0ebdae5fefaf317a867f94c
+  $tc'Family3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Family"#) -}
+956883568dd6dc5a8209e55fb1d65815
+  $tc'Morpho :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7973974686134143239##
+                   10873919279926777610##
+                   Network.Yandex.Dictionary.Types.$trModule
+                   Network.Yandex.Dictionary.Types.$tc'Morpho1
+                   0#
+                   Network.Yandex.Dictionary.Types.$tc'Family1) -}
+44b3d9b53d745e5f1c0253e343b6b38b
+  $tc'Morpho1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$tc'Morpho2) -}
+5026bec4b03ec3124ffbd6c5354cce55
+  $tc'Morpho2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Morpho"#) -}
+a3d12ed377948baa5367f8d6f58b8df4
+  $tc'PosFilter :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7486885938960166017##
+                   12403526897772342360##
+                   Network.Yandex.Dictionary.Types.$trModule
+                   Network.Yandex.Dictionary.Types.$tc'PosFilter1
+                   0#
+                   Network.Yandex.Dictionary.Types.$tc'Family1) -}
+35b20444ef92b250f825f29277567ab3
+  $tc'PosFilter1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$tc'PosFilter2) -}
+4de86175c05bc39dde1eea4fcd411f59
+  $tc'PosFilter2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'PosFilter"#) -}
+83945b6c2088af923d79b6f94537efb4
+  $tc'ShortPos :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12803118685421752817##
+                   8411988584942887181##
+                   Network.Yandex.Dictionary.Types.$trModule
+                   Network.Yandex.Dictionary.Types.$tc'ShortPos1
+                   0#
+                   Network.Yandex.Dictionary.Types.$tc'Family1) -}
+5b53b84e290992c96bbfe4c100b536b0
+  $tc'ShortPos1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$tc'ShortPos2) -}
+37bacba39fc816551204942597cbde43
+  $tc'ShortPos2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'ShortPos"#) -}
+033da5b2b657629ddbccf2042a9cb4e7
+  $tcDictAttrs :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15675801468476095022##
+                   12786000651405645574##
+                   Network.Yandex.Dictionary.Types.$trModule
+                   Network.Yandex.Dictionary.Types.$tcDictAttrs1
+                   0#
+                   GHC.Types.krep$*) -}
+26c08f6a69a97187313b66a92273ae4c
+  $tcDictAttrs1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs6) -}
+0e3013dfd695bf70b69a51624ac11351
+  $tcDictFlags :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10954312516663067898##
+                   4723398742699985974##
+                   Network.Yandex.Dictionary.Types.$trModule
+                   Network.Yandex.Dictionary.Types.$tcDictFlags1
+                   0#
+                   GHC.Types.krep$*) -}
+feef9a47806fb48b59ddcc5ea08ecf9a
+  $tcDictFlags1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$tcDictFlags2) -}
+4da1f87f0549deb0e060105416851c9c
+  $tcDictFlags2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("DictFlags"#) -}
+5fea9a359b6353092a337f36b34ca2cd
+  $tcDictionaryParams :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10557477685377855397##
+                   7677679051585554025##
+                   Network.Yandex.Dictionary.Types.$trModule
+                   Network.Yandex.Dictionary.Types.$tcDictionaryParams1
+                   0#
+                   GHC.Types.krep$*) -}
+849e60582fbdc3935e350298aa06a0db
+  $tcDictionaryParams1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$tcDictionaryParams2) -}
+b1c8fb8d1553a051216e9fa568129dbd
+  $tcDictionaryParams2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("DictionaryParams"#) -}
+e18d5046daca1b4bdf46d7f575483ba6
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Network.Yandex.Dictionary.Types.$trModule3
+                   Network.Yandex.Dictionary.Types.$trModule1) -}
+f7baa932c88d37d5be09d854b563e385
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$trModule2) -}
+d2339ea2ec2d07c9ea1da420e863ef24
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Network.Yandex.Dictionary.Types"#) -}
+a8ae941a5738a9159fcf43dcf3bf00e0
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Dictionary.Types.$trModule4) -}
+cae8a92c3a4b2cb6d667ed532bfd465b
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("yandex-translate-0.1.0.0-6lrCVQUm6CgAV2dy2OQtON"#) -}
+ba77ae73287266f90e70e9543a9942c0
+  $w$c== ::
+    GHC.Base.Maybe Network.Yandex.Translate.Types.Language
+    -> [Network.Yandex.Dictionary.Types.DictFlags]
+    -> GHC.Base.Maybe Network.Yandex.Translate.Types.Language
+    -> [Network.Yandex.Dictionary.Types.DictFlags]
+    -> GHC.Types.Bool
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S,1*U><L,1*U><S,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Base.Maybe
+                            Network.Yandex.Translate.Types.Language)
+                   (ww1 :: [Network.Yandex.Dictionary.Types.DictFlags])
+                   (ww2 :: GHC.Base.Maybe Network.Yandex.Translate.Types.Language)
+                   (ww3 :: [Network.Yandex.Dictionary.Types.DictFlags]) ->
+                 case ww of wild {
+                   GHC.Base.Nothing
+                   -> case ww2 of wild1 {
+                        GHC.Base.Nothing
+                        -> GHC.Classes.$fEq[]_$c==
+                             @ Network.Yandex.Dictionary.Types.DictFlags
+                             Network.Yandex.Dictionary.Types.$fEqDictFlags
+                             ww1
+                             ww3
+                        GHC.Base.Just ipv -> GHC.Types.False }
+                   GHC.Base.Just a1
+                   -> case ww2 of wild1 {
+                        GHC.Base.Nothing -> GHC.Types.False
+                        GHC.Base.Just b1
+                        -> case a1 of wild2 { Data.Text.Internal.Text dt dt1 dt2 ->
+                           case b1 of wild3 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                           case GHC.Prim.==# dt2 dt5 of lwild {
+                             DEFAULT -> GHC.Types.False
+                             1#
+                             -> case {__pkg_ccall text-1.2.3.1 GHC.Prim.ByteArray#
+                                                               -> GHC.Prim.Word#
+                                                               -> GHC.Prim.ByteArray#
+                                                               -> GHC.Prim.Word#
+                                                               -> GHC.Prim.Word#
+                                                               -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                               -> (# GHC.Prim.State#
+                                                                       GHC.Prim.RealWorld,
+                                                                     GHC.Prim.Int# #)}
+                                       dt
+                                       (GHC.Prim.int2Word# dt1)
+                                       dt3
+                                       (GHC.Prim.int2Word# dt4)
+                                       (GHC.Prim.int2Word# dt2)
+                                       GHC.Prim.realWorld# of wild5 { (#,#) ds3 ds4 ->
+                                case GHC.Prim.narrow32Int# ds4 of wild4 {
+                                  DEFAULT -> GHC.Types.False
+                                  0#
+                                  -> GHC.Classes.$fEq[]_$c==
+                                       @ Network.Yandex.Dictionary.Types.DictFlags
+                                       Network.Yandex.Dictionary.Types.$fEqDictFlags
+                                       ww1
+                                       ww3 } } } } } } }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $w$creadPrec ::
+    GHC.Prim.Int#
+    -> forall b.
+       (Network.Yandex.Dictionary.Types.DictAttrs
+        -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <S,U><L,C(U)>, Inline: [0] -}
+5ceae3cf8fada32689f7b38cf07153ac
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> [Network.Yandex.Dictionary.Types.DictAttrs]
+    -> [Network.Yandex.Dictionary.Types.DictAttrs]
+    -> [Network.Yandex.Dictionary.Types.DictAttrs]
+    -> [Network.Yandex.Dictionary.Types.DictAttrs]
+    -> GHC.Show.ShowS
+  {- Arity: 10,
+     Strictness: <S,U><L,U(U,U,U)><L,1*U><L,1*U><L,1*U><L,1*U><L,U><L,U><L,U><L,U>,
+     Inline: [0] -}
+7515609d899b152335275c6bb9094aaf
+  $w$cshowsPrec1 ::
+    Network.Yandex.Dictionary.Types.DictFlags
+    -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ (w :: Network.Yandex.Dictionary.Types.DictFlags)
+                   (w1 :: GHC.Base.String) ->
+                 case w of wild {
+                   Network.Yandex.Dictionary.Types.Family
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Network.Yandex.Dictionary.Types.$fShowDictFlags7
+                        w1
+                   Network.Yandex.Dictionary.Types.ShortPos
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Network.Yandex.Dictionary.Types.$fShowDictFlags5
+                        w1
+                   Network.Yandex.Dictionary.Types.Morpho
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Network.Yandex.Dictionary.Types.$fShowDictFlags3
+                        w1
+                   Network.Yandex.Dictionary.Types.PosFilter
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Network.Yandex.Dictionary.Types.$fShowDictFlags1
+                        w1 }) -}
+02aa32e0dddcdd6bafb3697b97863010
+  $w$cshowsPrec2 ::
+    GHC.Prim.Int#
+    -> GHC.Base.Maybe Network.Yandex.Translate.Types.Language
+    -> [Network.Yandex.Dictionary.Types.DictFlags]
+    -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S,U><L,1*U><L,U>, Inline: [0] -}
+7515609d899b152335275c6bb9094aaf
+  $w$ctoEnum ::
+    GHC.Prim.Int# -> Network.Yandex.Dictionary.Types.DictFlags
+  {- Arity: 1, Strictness: <S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> Network.Yandex.Dictionary.Types.$wlvl ww
+                   1#
+                   -> case GHC.Prim.<=# ww 3# of lwild1 {
+                        DEFAULT -> Network.Yandex.Dictionary.Types.$wlvl ww
+                        1#
+                        -> GHC.Prim.tagToEnum#
+                             @ Network.Yandex.Dictionary.Types.DictFlags
+                             ww } }) -}
+098472b541b6710e303809045dc7af77
+  $wgo ::
+    [Network.Yandex.Dictionary.Types.DictFlags]
+    -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,U>, Inline: [0] -}
+261284a0017bc20bdc23fa6737451546
+  $wgo1 ::
+    [Network.Yandex.Dictionary.Types.DictFlags]
+    -> GHC.Prim.Int# -> Data.Text.Internal.Text
+  {- Arity: 2, Strictness: <S,1*U><S,U>, Inline: [0] -}
+7515609d899b152335275c6bb9094aaf
+  $wlvl :: GHC.Prim.Int# -> Network.Yandex.Dictionary.Types.DictFlags
+  {- Arity: 1, Strictness: <B,U>x, Inline: [0] -}
+5ceae3cf8fada32689f7b38cf07153ac
+  data DictAttrs
+    = DictAttrs {_text :: Data.Text.Internal.Text,
+                 _number :: GHC.Base.Maybe Data.Text.Internal.Text,
+                 _partOfSpeach :: GHC.Base.Maybe Data.Text.Internal.Text,
+                 _generation :: GHC.Base.Maybe Data.Text.Internal.Text,
+                 _transcription :: GHC.Base.Maybe Data.Text.Internal.Text,
+                 _translates :: [Network.Yandex.Dictionary.Types.DictAttrs],
+                 _synonyms :: [Network.Yandex.Dictionary.Types.DictAttrs],
+                 _mean :: [Network.Yandex.Dictionary.Types.DictAttrs],
+                 _examples :: [Network.Yandex.Dictionary.Types.DictAttrs]}
+7515609d899b152335275c6bb9094aaf
+  data DictFlags = Family | ShortPos | Morpho | PosFilter
+47fd45b1b82da96477dced2bb6a89a55
+  type DictResult = [Network.Yandex.Dictionary.Types.DictAttrs]
+daf227332cee1720f83b6400e51849b8
+  data DictionaryParams
+    = DictionaryParams {_uiLang :: GHC.Base.Maybe
+                                     Network.Yandex.Translate.Types.Language,
+                        _flags :: [Network.Yandex.Dictionary.Types.DictFlags]}
+5ceae3cf8fada32689f7b38cf07153ac
+  _examples ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> [Network.Yandex.Dictionary.Types.DictAttrs]
+  RecSel Left Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLLS),1*U(A,A,A,A,A,A,A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds12 }) -}
+daf227332cee1720f83b6400e51849b8
+  _flags ::
+    Network.Yandex.Dictionary.Types.DictionaryParams
+    -> [Network.Yandex.Dictionary.Types.DictFlags]
+  RecSel Left Network.Yandex.Dictionary.Types.DictionaryParams
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictionaryParams) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictionaryParams ds4 ds5 ->
+                 ds5 }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  _generation ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+  RecSel Left Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLSLLLLL),1*U(A,A,A,1*U,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds7 }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  _mean ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> [Network.Yandex.Dictionary.Types.DictAttrs]
+  RecSel Left Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLSL),1*U(A,A,A,A,A,A,A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds11 }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  _number ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+  RecSel Left Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLLLLLLL),1*U(A,1*U,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds5 }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  _partOfSpeach ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+  RecSel Left Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSLLLLLL),1*U(A,A,1*U,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds6 }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  _synonyms ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> [Network.Yandex.Dictionary.Types.DictAttrs]
+  RecSel Left Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLSLL),1*U(A,A,A,A,A,A,1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds10 }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  _text ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> Data.Text.Internal.Text
+  RecSel Left Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLLLLLLL),1*U(1*U(U,U,U),A,A,A,A,A,A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds4 }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  _transcription ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+  RecSel Left Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLSLLLL),1*U(A,A,A,A,1*U,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds8 }) -}
+5ceae3cf8fada32689f7b38cf07153ac
+  _translates ::
+    Network.Yandex.Dictionary.Types.DictAttrs
+    -> [Network.Yandex.Dictionary.Types.DictAttrs]
+  RecSel Left Network.Yandex.Dictionary.Types.DictAttrs
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLSLLL),1*U(A,A,A,A,A,1*U,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs ds4 ds5 ds6 ds7 ds8 ds9 ds10 ds11 ds12 ->
+                 ds9 }) -}
+daf227332cee1720f83b6400e51849b8
+  _uiLang ::
+    Network.Yandex.Dictionary.Types.DictionaryParams
+    -> GHC.Base.Maybe Network.Yandex.Translate.Types.Language
+  RecSel Left Network.Yandex.Dictionary.Types.DictionaryParams
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds3 :: Network.Yandex.Dictionary.Types.DictionaryParams) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictionaryParams ds4 ds5 ->
+                 ds4 }) -}
+1f08da8201349c05edfa1b914deb382b
+  examples ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictAttrs
+      [Network.Yandex.Dictionary.Types.DictAttrs]
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: [Network.Yandex.Dictionary.Types.DictAttrs]
+                          -> f2 [Network.Yandex.Dictionary.Types.DictAttrs])
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs x1 x2 x3 x4 x5 x6 x7 x8 x9 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ [Network.Yandex.Dictionary.Types.DictAttrs]
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   (\ (y1 :: [Network.Yandex.Dictionary.Types.DictAttrs]) ->
+                    Network.Yandex.Dictionary.Types.DictAttrs
+                      x1
+                      x2
+                      x3
+                      x4
+                      x5
+                      x6
+                      x7
+                      x8
+                      y1)
+                   (f3 x9) }) -}
+1396ee511431b66f065a0f0db4dccf9e
+  flags ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictionaryParams
+      [Network.Yandex.Dictionary.Types.DictFlags]
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: [Network.Yandex.Dictionary.Types.DictFlags]
+                          -> f2 [Network.Yandex.Dictionary.Types.DictFlags])
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictionaryParams) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictionaryParams x1 x2 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ [Network.Yandex.Dictionary.Types.DictFlags]
+                   @ Network.Yandex.Dictionary.Types.DictionaryParams
+                   (\ (y1 :: [Network.Yandex.Dictionary.Types.DictFlags]) ->
+                    Network.Yandex.Dictionary.Types.DictionaryParams x1 y1)
+                   (f3 x2) }) -}
+e9eb9c93891e9e405c701259515eb338
+  flagsInt ::
+    [Network.Yandex.Dictionary.Types.DictFlags] -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: [Network.Yandex.Dictionary.Types.DictFlags]) ->
+                 case Network.Yandex.Dictionary.Types.$wgo w 0# of ww { DEFAULT ->
+                 GHC.Types.I# ww }) -}
+f2ee9bd854a236e4fac16ab2a682de42
+  flagsText ::
+    [Network.Yandex.Dictionary.Types.DictFlags]
+    -> Data.Text.Internal.Text
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (x :: [Network.Yandex.Dictionary.Types.DictFlags]) ->
+                 Network.Yandex.Dictionary.Types.$wgo1 x 0#) -}
+99be438f9deaf1784778c232cb977f2f
+  generation ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictAttrs
+      (GHC.Base.Maybe Data.Text.Internal.Text)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: GHC.Base.Maybe Data.Text.Internal.Text
+                          -> f2 (GHC.Base.Maybe Data.Text.Internal.Text))
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs x1 x2 x3 x4 x5 x6 x7 x8 x9 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ (GHC.Base.Maybe Data.Text.Internal.Text)
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   (\ (y1 :: GHC.Base.Maybe Data.Text.Internal.Text) ->
+                    Network.Yandex.Dictionary.Types.DictAttrs
+                      x1
+                      x2
+                      x3
+                      y1
+                      x5
+                      x6
+                      x7
+                      x8
+                      x9)
+                   (f3 x4) }) -}
+2952a9082fbee5423b88625b8a5f0f17
+  mean ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictAttrs
+      [Network.Yandex.Dictionary.Types.DictAttrs]
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: [Network.Yandex.Dictionary.Types.DictAttrs]
+                          -> f2 [Network.Yandex.Dictionary.Types.DictAttrs])
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs x1 x2 x3 x4 x5 x6 x7 x8 x9 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ [Network.Yandex.Dictionary.Types.DictAttrs]
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   (\ (y1 :: [Network.Yandex.Dictionary.Types.DictAttrs]) ->
+                    Network.Yandex.Dictionary.Types.DictAttrs
+                      x1
+                      x2
+                      x3
+                      x4
+                      x5
+                      x6
+                      x7
+                      y1
+                      x9)
+                   (f3 x8) }) -}
+3b57e45b9ad27b1b6ff7692613419e2e
+  number ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictAttrs
+      (GHC.Base.Maybe Data.Text.Internal.Text)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: GHC.Base.Maybe Data.Text.Internal.Text
+                          -> f2 (GHC.Base.Maybe Data.Text.Internal.Text))
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs x1 x2 x3 x4 x5 x6 x7 x8 x9 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ (GHC.Base.Maybe Data.Text.Internal.Text)
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   (\ (y1 :: GHC.Base.Maybe Data.Text.Internal.Text) ->
+                    Network.Yandex.Dictionary.Types.DictAttrs
+                      x1
+                      y1
+                      x3
+                      x4
+                      x5
+                      x6
+                      x7
+                      x8
+                      x9)
+                   (f3 x2) }) -}
+f10ca80fca6b7e31c7619627d6b4b6bf
+  partOfSpeach ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictAttrs
+      (GHC.Base.Maybe Data.Text.Internal.Text)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: GHC.Base.Maybe Data.Text.Internal.Text
+                          -> f2 (GHC.Base.Maybe Data.Text.Internal.Text))
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs x1 x2 x3 x4 x5 x6 x7 x8 x9 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ (GHC.Base.Maybe Data.Text.Internal.Text)
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   (\ (y1 :: GHC.Base.Maybe Data.Text.Internal.Text) ->
+                    Network.Yandex.Dictionary.Types.DictAttrs
+                      x1
+                      x2
+                      y1
+                      x4
+                      x5
+                      x6
+                      x7
+                      x8
+                      x9)
+                   (f3 x3) }) -}
+fdab93442ac2a0383387fab0ba1431ee
+  synonyms ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictAttrs
+      [Network.Yandex.Dictionary.Types.DictAttrs]
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: [Network.Yandex.Dictionary.Types.DictAttrs]
+                          -> f2 [Network.Yandex.Dictionary.Types.DictAttrs])
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs x1 x2 x3 x4 x5 x6 x7 x8 x9 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ [Network.Yandex.Dictionary.Types.DictAttrs]
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   (\ (y1 :: [Network.Yandex.Dictionary.Types.DictAttrs]) ->
+                    Network.Yandex.Dictionary.Types.DictAttrs
+                      x1
+                      x2
+                      x3
+                      x4
+                      x5
+                      x6
+                      y1
+                      x8
+                      x9)
+                   (f3 x7) }) -}
+5374d204400d87efd7557af56a4ad774
+  text ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictAttrs Data.Text.Internal.Text
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: Data.Text.Internal.Text -> f2 Data.Text.Internal.Text)
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs x1 x2 x3 x4 x5 x6 x7 x8 x9 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ Data.Text.Internal.Text
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   (\ (y1 :: Data.Text.Internal.Text) ->
+                    Network.Yandex.Dictionary.Types.DictAttrs
+                      y1
+                      x2
+                      x3
+                      x4
+                      x5
+                      x6
+                      x7
+                      x8
+                      x9)
+                   (f3 x1) }) -}
+84cfab57cd64c6cf79b02fd9609d46ce
+  transcription ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictAttrs
+      (GHC.Base.Maybe Data.Text.Internal.Text)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: GHC.Base.Maybe Data.Text.Internal.Text
+                          -> f2 (GHC.Base.Maybe Data.Text.Internal.Text))
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs x1 x2 x3 x4 x5 x6 x7 x8 x9 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ (GHC.Base.Maybe Data.Text.Internal.Text)
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   (\ (y1 :: GHC.Base.Maybe Data.Text.Internal.Text) ->
+                    Network.Yandex.Dictionary.Types.DictAttrs
+                      x1
+                      x2
+                      x3
+                      x4
+                      y1
+                      x6
+                      x7
+                      x8
+                      x9)
+                   (f3 x5) }) -}
+f57b69186fb73bfd425fc4f58288c29e
+  translates ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictAttrs
+      [Network.Yandex.Dictionary.Types.DictAttrs]
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U,U,U,U,U,U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: [Network.Yandex.Dictionary.Types.DictAttrs]
+                          -> f2 [Network.Yandex.Dictionary.Types.DictAttrs])
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictAttrs) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictAttrs x1 x2 x3 x4 x5 x6 x7 x8 x9 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ [Network.Yandex.Dictionary.Types.DictAttrs]
+                   @ Network.Yandex.Dictionary.Types.DictAttrs
+                   (\ (y1 :: [Network.Yandex.Dictionary.Types.DictAttrs]) ->
+                    Network.Yandex.Dictionary.Types.DictAttrs
+                      x1
+                      x2
+                      x3
+                      x4
+                      x5
+                      y1
+                      x7
+                      x8
+                      x9)
+                   (f3 x6) }) -}
+4543053f15fc417d0bb13860ea92becb
+  uiLang ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Dictionary.Types.DictionaryParams
+      (GHC.Base.Maybe Network.Yandex.Translate.Types.Language)
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f2 :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f2)
+                   (f3 :: GHC.Base.Maybe Network.Yandex.Translate.Types.Language
+                          -> f2 (GHC.Base.Maybe Network.Yandex.Translate.Types.Language))
+                   (ds3 :: Network.Yandex.Dictionary.Types.DictionaryParams) ->
+                 case ds3 of wild { Network.Yandex.Dictionary.Types.DictionaryParams x1 x2 ->
+                 GHC.Base.fmap
+                   @ f2
+                   $dFunctor
+                   @ (GHC.Base.Maybe Network.Yandex.Translate.Types.Language)
+                   @ Network.Yandex.Dictionary.Types.DictionaryParams
+                   (\ (y1 :: GHC.Base.Maybe
+                               Network.Yandex.Translate.Types.Language) ->
+                    Network.Yandex.Dictionary.Types.DictionaryParams y1 x2)
+                   (f3 x1) }) -}
+instance GHC.Enum.Bounded [Network.Yandex.Dictionary.Types.DictFlags]
+  = Network.Yandex.Dictionary.Types.$fBoundedDictFlags
+instance Data.Default.Class.Default [Network.Yandex.Dictionary.Types.DictionaryParams]
+  = Network.Yandex.Dictionary.Types.$fDefaultDictionaryParams
+instance GHC.Enum.Enum [Network.Yandex.Dictionary.Types.DictFlags]
+  = Network.Yandex.Dictionary.Types.$fEnumDictFlags
+instance GHC.Classes.Eq [Network.Yandex.Dictionary.Types.DictAttrs]
+  = Network.Yandex.Dictionary.Types.$fEqDictAttrs
+instance GHC.Classes.Eq [Network.Yandex.Dictionary.Types.DictFlags]
+  = Network.Yandex.Dictionary.Types.$fEqDictFlags
+instance GHC.Classes.Eq [Network.Yandex.Dictionary.Types.DictionaryParams]
+  = Network.Yandex.Dictionary.Types.$fEqDictionaryParams
+instance Data.Aeson.Types.FromJSON.FromJSON [Network.Yandex.Dictionary.Types.DictAttrs]
+  = Network.Yandex.Dictionary.Types.$fFromJSONDictAttrs
+instance GHC.Classes.Ord [Network.Yandex.Dictionary.Types.DictFlags]
+  = Network.Yandex.Dictionary.Types.$fOrdDictFlags
+instance GHC.Read.Read [Network.Yandex.Dictionary.Types.DictAttrs]
+  = Network.Yandex.Dictionary.Types.$fReadDictAttrs
+instance GHC.Show.Show [Network.Yandex.Dictionary.Types.DictAttrs]
+  = Network.Yandex.Dictionary.Types.$fShowDictAttrs
+instance GHC.Show.Show [Network.Yandex.Dictionary.Types.DictFlags]
+  = Network.Yandex.Dictionary.Types.$fShowDictFlags
+instance GHC.Show.Show [Network.Yandex.Dictionary.Types.DictionaryParams]
+  = Network.Yandex.Dictionary.Types.$fShowDictionaryParams
+instance Data.Aeson.Types.ToJSON.ToJSON [Network.Yandex.Dictionary.Types.DictAttrs]
+  = Network.Yandex.Dictionary.Types.$fToJSONDictAttrs
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

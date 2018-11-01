@@ -1,0 +1,2829 @@
+
+==================== FINAL INTERFACE ====================
+2018-11-01 07:18:13.693296117 UTC
+
+interface yandex-translate-0.1.0.0-6lrCVQUm6CgAV2dy2OQtON:Network.Yandex.Translate.Types 8043
+  interface hash: b04b09ef0042d449d5234f738d72030c
+  ABI hash: ffd5257547f6bb183d55a7270031af9b
+  export-list hash: 57b3ef58577ef4920d1ea6171765320b
+  orphan hash: 0dfe094f6ab82f8d6eb43a844b0b5db6
+  flag hash: 32c3833f76160cef13d683b13d374656
+  opt_hash: c95767539a8e5da6eb2bdc265ec6497a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Network.Yandex.Translate.Types._config
+  Network.Yandex.Translate.Types._session
+  Network.Yandex.Translate.Types.apikey
+  Network.Yandex.Translate.Types.configureApi
+  Network.Yandex.Translate.Types.directionAsText
+  Network.Yandex.Translate.Types.format
+  Network.Yandex.Translate.Types.formatDirection
+  Network.Yandex.Translate.Types.httpOptions
+  Network.Yandex.Translate.Types.options
+  Network.Yandex.Translate.Types.runYandexApi
+  Network.Yandex.Translate.Types.runYandexApiSession
+  Network.Yandex.Translate.Types.runYandexApiT
+  Network.Yandex.Translate.Types.APIKey
+  Network.Yandex.Translate.Types.ApiInfo
+  Network.Yandex.Translate.Types.Direction{Network.Yandex.Translate.Types.Direction}
+  Network.Yandex.Translate.Types.Language
+  Network.Yandex.Translate.Types.LanguagesDescr
+  Network.Yandex.Translate.Types.TranslateParams{Network.Yandex.Translate.Types.TranslateParams _format _options}
+  Network.Yandex.Translate.Types.YandexApiConfig{Network.Yandex.Translate.Types.YandexApiConfig _apikey _httpOptions}
+  Network.Yandex.Translate.Types.YandexApiT
+module dependencies:
+package dependencies: RSA-2.3.0 SHA-1.6.4.4 StateVar-1.1.1.1
+                      adjunctions-4.4 aeson-1.3.1.1 array-0.5.2.0 asn1-encoding-0.9.5
+                      asn1-parse-0.9.4 asn1-types-0.3.2 async-2.2.1 attoparsec-0.13.2.2
+                      authenticate-oauth-1.6 base-4.11.1.0 base-compat-0.10.5
+                      base-orphans-0.7 base16-bytestring-0.1.1.6
+                      base64-bytestring-1.0.0.1 basement-0.0.8 bifunctors-5.5.3
+                      binary-0.8.5.1 blaze-builder-0.4.1.0 bytestring-0.10.8.2
+                      call-stack-0.1.0 case-insensitive-1.2.0.11 cereal-0.5.7.0
+                      comonad-5.0.4 connection-0.2.8 containers-0.5.11.0
+                      contravariant-1.4.1 cookie-0.4.4 crypto-api-0.13.3
+                      crypto-pubkey-types-0.4.3 cryptonite-0.25 data-default-0.7.1.1
+                      data-default-class-0.1.2.0 data-default-instances-containers-0.0.1
+                      data-default-instances-dlist-0.0.1
+                      data-default-instances-old-locale-0.0.1 deepseq-1.4.3.0
+                      directory-1.3.1.5 distributive-0.5.3 dlist-0.8.0.5 entropy-0.4.1.3
+                      exceptions-0.10.0 filepath-1.4.2 free-5.0.2 ghc-boot-th-8.4.3
+                      ghc-prim-0.5.2.0 hashable-1.2.7.0 hourglass-0.2.12
+                      http-client-0.5.13.1 http-client-tls-0.3.5.3 http-types-0.12.2
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      lens-4.16.1 memory-0.14.18 mime-types-0.1.0.8 mtl-2.2.2
+                      network-2.6.3.6 network-uri-2.6.1.0 old-locale-1.0.0.7
+                      parsec-3.1.13.0 pem-0.2.4 pretty-1.1.3.6 primitive-0.6.3.0
+                      profunctors-5.2.2 random-1.1 reflection-2.1.4 scientific-0.3.6.2
+                      semigroupoids-5.2.2 socks-0.5.6 stm-2.4.5.1
+                      streaming-commons-0.2.1.0 tagged-0.8.5 template-haskell-2.13.0.0
+                      text-1.2.3.1 th-abstraction-0.2.8.0 time-1.8.0.2
+                      time-locale-compat-0.1.1.5 tls-1.4.1 transformers-0.5.5.0
+                      transformers-base-0.4.5.2 transformers-compat-0.6.2 unix-2.7.2.2
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.1
+                      wreq-0.5.2.1 x509-1.7.4 x509-store-1.6.6 x509-system-1.6.6
+                      x509-validation-1.6.10 zlib-0.6.2
+orphans: data-default-instances-containers-0.0.1:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1:Data.Default.Instances.OldLocale
+         RSA-2.3.0:Codec.Crypto.RSA.Pure wreq-0.5.2.1:Network.Wreq.Types
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.1:Data.Vector.Unboxed
+         vector-0.12.0.1:Data.Vector.Fusion.Bundle
+         reflection-2.1.4:Data.Reflection
+         http-client-0.5.13.1:Network.HTTP.Client.Request
+         basement-0.0.8:Basement.UArray.Base basement-0.0.8:Basement.Block
+         transformers-0.5.5.0:Control.Monad.Trans.Error
+         network-2.6.3.6:Network.Socket stm-2.4.5.1:Control.Monad.STM
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.5.1:Data.Binary.Generic
+         text-1.2.3.1:Data.Text.Show
+         bytestring-0.10.8.2:Data.ByteString.Builder base-4.11.1.0:GHC.Float
+         base-4.11.1.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.3.1.1:Data.Aeson.Types.Internal
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.11.1.0:Control.Applicative base-4.11.1.0:Data.Complex
+                         base-4.11.1.0:Data.Functor.Compose base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity
+                         base-4.11.1.0:Data.Functor.Product base-4.11.1.0:Data.Functor.Sum
+                         base-4.11.1.0:Data.Monoid base-4.11.1.0:Data.Semigroup
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:Data.Version
+                         base-4.11.1.0:Data.Void base-4.11.1.0:GHC.Exts
+                         base-4.11.1.0:GHC.Generics base-4.11.1.0:GHC.IO.Exception
+                         basement-0.0.8:Basement.Block.Base basement-0.0.8:Basement.Monad
+                         basement-0.0.8:Basement.MutableBuilder basement-0.0.8:Basement.Nat
+                         basement-0.0.8:Basement.NonEmpty
+                         basement-0.0.8:Basement.Numerical.Subtractive
+                         basement-0.0.8:Basement.PrimType basement-0.0.8:Basement.String
+                         basement-0.0.8:Basement.String.Encoding.ASCII7
+                         basement-0.0.8:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.8:Basement.String.Encoding.UTF16
+                         basement-0.0.8:Basement.String.Encoding.UTF32
+                         basement-0.0.8:Basement.Types.OffsetSize
+                         basement-0.0.8:Basement.UArray.Base
+                         basement-0.0.8:Basement.UTF8.Base
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped
+                         containers-0.5.11.0:Data.IntMap.Internal
+                         containers-0.5.11.0:Data.IntSet.Internal
+                         containers-0.5.11.0:Data.Map.Internal
+                         containers-0.5.11.0:Data.Sequence.Internal
+                         containers-0.5.11.0:Data.Set.Internal containers-0.5.11.0:Data.Tree
+                         cryptonite-0.25:Crypto.ECC cryptonite-0.25:Crypto.Error.Types
+                         cryptonite-0.25:Crypto.Hash.Blake2
+                         cryptonite-0.25:Crypto.Hash.Blake2b
+                         cryptonite-0.25:Crypto.Hash.Blake2bp
+                         cryptonite-0.25:Crypto.Hash.Blake2s
+                         cryptonite-0.25:Crypto.Hash.Blake2sp
+                         cryptonite-0.25:Crypto.Hash.Keccak cryptonite-0.25:Crypto.Hash.MD2
+                         cryptonite-0.25:Crypto.Hash.MD4 cryptonite-0.25:Crypto.Hash.MD5
+                         cryptonite-0.25:Crypto.Hash.RIPEMD160
+                         cryptonite-0.25:Crypto.Hash.SHA1 cryptonite-0.25:Crypto.Hash.SHA224
+                         cryptonite-0.25:Crypto.Hash.SHA256 cryptonite-0.25:Crypto.Hash.SHA3
+                         cryptonite-0.25:Crypto.Hash.SHA384
+                         cryptonite-0.25:Crypto.Hash.SHA512
+                         cryptonite-0.25:Crypto.Hash.SHA512t
+                         cryptonite-0.25:Crypto.Hash.SHAKE
+                         cryptonite-0.25:Crypto.Hash.Skein256
+                         cryptonite-0.25:Crypto.Hash.Skein512
+                         cryptonite-0.25:Crypto.Hash.Tiger
+                         cryptonite-0.25:Crypto.Hash.Whirlpool dlist-0.8.0.5:Data.DList
+                         free-5.0.2:Control.Comonad.Cofree
+                         free-5.0.2:Control.Comonad.Trans.Cofree
+                         free-5.0.2:Control.Monad.Free free-5.0.2:Control.Monad.Trans.Free
+                         ghc-boot-th-8.4.3:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.4.3:GHC.LanguageExtensions.Type
+                         http-client-0.5.13.1:Network.HTTP.Client
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.16.1:Control.Lens.At
+                         lens-4.16.1:Control.Lens.Internal.Indexed
+                         lens-4.16.1:Control.Lens.Reified lens-4.16.1:Control.Lens.Tuple
+                         lens-4.16.1:Control.Lens.Wrapped lens-4.16.1:Control.Lens.Zoom
+                         network-uri-2.6.1.0:Network.URI
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.3.0:Control.Monad.Primitive
+                         primitive-0.6.3.0:Data.Primitive.Array
+                         primitive-0.6.3.0:Data.Primitive.ByteArray
+                         profunctors-5.2.2:Data.Profunctor.Composition
+                         profunctors-5.2.2:Data.Profunctor.Rep tagged-0.8.5:Data.Tagged
+                         template-haskell-2.13.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.8.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1:Data.Vector vector-0.12.0.1:Data.Vector.Primitive
+                         vector-0.12.0.1:Data.Vector.Storable
+                         vector-0.12.0.1:Data.Vector.Unboxed
+                         vector-0.12.0.1:Data.Vector.Unboxed.Base
+                         zlib-0.6.2:Codec.Compression.Zlib.Stream
+import  -/  aeson-1.3.1.1:Data.Aeson 2a22cf41c78b153beaf70b3799161487
+import  -/  aeson-1.3.1.1:Data.Aeson.Types.FromJSON cc6651c800672e93a57c4dca4940df01
+import  -/  aeson-1.3.1.1:Data.Aeson.Types.ToJSON 0efd706da281983877529f7cd71dc31a
+import  -/  base-4.11.1.0:Control.Monad.IO.Class 96109c36cb3c919872278540487fa39e
+import  -/  base-4.11.1.0:Data.Function 6e6aae9442025aeeb92a909c1bbc3fca
+import  -/  base-4.11.1.0:Data.Monoid c40cd435d79b84293ce5503253ee6d44
+import  -/  base-4.11.1.0:GHC.Base 604111500e81281298777e721c75643b
+import  -/  base-4.11.1.0:GHC.Enum 8824828888f5a89ecc9e7c73f05f3151
+import  -/  base-4.11.1.0:GHC.Err 5e26aa744981f14e0f1e4d29c44ac52e
+import  -/  base-4.11.1.0:GHC.Num 8e54b26dce4495382dc4b50cf36ab754
+import  -/  base-4.11.1.0:GHC.Show 73be67392447c974f19c3befd83c46c0
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  data-default-class-0.1.2.0:Data.Default.Class 5e2f2168a5b294746d8718b324a02cb2
+import  -/  ghc-prim-0.5.2.0:GHC.Classes 122abfcd7450c6c11602933c9ca5f80d
+import  -/  ghc-prim-0.5.2.0:GHC.Types d9b3023de7feae4a5308d643da5543f7
+import  -/  lens-4.16.1:Control.Lens f74d142afa4d2d05854b75014034b97b
+import  -/  lens-4.16.1:Control.Lens.Setter 716a91be808c9db5c8ab883051994b83
+import  -/  lens-4.16.1:Control.Lens.TH 54fa36c89ebd745f843ee41226b31167
+import  -/  lens-4.16.1:Control.Lens.Tuple 20db3f18935fbeb7d373077f0a7a5da9
+import  -/  lens-4.16.1:Control.Lens.Type 6946fd6aa0712c2b4413d1498575ef5d
+import  -/  text-1.2.3.1:Data.Text ff889e8cc5c9f0eb305aaf77f25047e5
+import  -/  text-1.2.3.1:Data.Text.Internal 65b2a62b0918b56ea0591106f5d77acc
+import  -/  text-1.2.3.1:Data.Text.Show 6160c4f890e5da05d66a5bf5e472bc99
+import  -/  transformers-0.5.5.0:Control.Monad.Trans.Reader 42962052353a5a0f766912058b765b5d
+import  -/  unordered-containers-0.2.9.0:Data.HashMap.Base 206b06e7a1c7ed1c7d98796952ea8e2b
+import  -/  unordered-containers-0.2.9.0:Data.HashMap.Strict 25813f56e82ed9bd616cab1009bbe28d
+import  -/  wreq-0.5.2.1:Network.Wreq 485b667a298703f1b68159bc5377bbfd
+import  -/  wreq-0.5.2.1:Network.Wreq.Internal d8001b5449d77f713494072e061f3ce0
+import  -/  wreq-0.5.2.1:Network.Wreq.Internal.Types fa5359d16ba8ea8702d165cd52a99924
+import  -/  wreq-0.5.2.1:Network.Wreq.Lens 3815c954e832a8a003e9f874f44c39a5
+import  -/  wreq-0.5.2.1:Network.Wreq.Session 7f3dedb0e5aab60d35721e26e379ca65
+74704bdd91d947152a58dc0390dd3765
+  $fBoundedFormat ::
+    GHC.Enum.Bounded Network.Yandex.Translate.Types.Format
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.Format
+                  Network.Yandex.Translate.Types.Plain
+                  Network.Yandex.Translate.Types.HTML -}
+c010b9f4894951677e3d551580e4a96c
+  $fBoundedTranslateOptions ::
+    GHC.Enum.Bounded Network.Yandex.Translate.Types.TranslateOptions
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.TranslateOptions
+                  Network.Yandex.Translate.Types.DetectLanguage
+                  Network.Yandex.Translate.Types.DetectLanguage -}
+29adcd990a8d3bf8f2a0933f638fc51c
+  $fDefaultTranslateParams ::
+    Data.Default.Class.Default
+      Network.Yandex.Translate.Types.TranslateParams
+  DFunId
+  {- Strictness: m, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Network.Yandex.Translate.Types.$fDefaultTranslateParams_$cdef
+                  `cast`
+                (Sym (Data.Default.Class.N:Default[0]
+                          <Network.Yandex.Translate.Types.TranslateParams>_N)) -}
+29adcd990a8d3bf8f2a0933f638fc51c
+  $fDefaultTranslateParams_$cdef ::
+    Network.Yandex.Translate.Types.TranslateParams
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (Network.Yandex.Translate.Types.TranslateParams
+                   Network.Yandex.Translate.Types.Plain
+                   (GHC.Types.[]
+                      @ Network.Yandex.Translate.Types.TranslateOptions)) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat :: GHC.Enum.Enum Network.Yandex.Translate.Types.Format
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.Format
+                  Network.Yandex.Translate.Types.$fEnumFormat_$csucc
+                  Network.Yandex.Translate.Types.$fEnumFormat_$cpred
+                  Network.Yandex.Translate.Types.$fEnumFormat_$ctoEnum
+                  Network.Yandex.Translate.Types.$fEnumFormat_$cfromEnum
+                  Network.Yandex.Translate.Types.$fEnumFormat_$cenumFrom
+                  Network.Yandex.Translate.Types.$fEnumFormat_$cenumFromThen
+                  Network.Yandex.Translate.Types.$fEnumFormat_$cenumFromTo
+                  Network.Yandex.Translate.Types.$fEnumFormat_$cenumFromThenTo -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat1 :: [Network.Yandex.Translate.Types.Format]
+  {- Unfolding: (Network.Yandex.Translate.Types.$fEnumFormat_go2
+                   1#) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat2 :: [Network.Yandex.Translate.Types.Format]
+  {- Unfolding: (Network.Yandex.Translate.Types.$fEnumFormat_go2
+                   0#) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat3 :: Network.Yandex.Translate.Types.Format
+  {- Strictness: x -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat4 :: Network.Yandex.Translate.Types.Format
+  {- Strictness: x -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_$cenumFrom ::
+    Network.Yandex.Translate.Types.Format
+    -> [Network.Yandex.Translate.Types.Format]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (a :: Network.Yandex.Translate.Types.Format) ->
+                 case a of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> Network.Yandex.Translate.Types.$fEnumFormat2
+                   Network.Yandex.Translate.Types.HTML
+                   -> Network.Yandex.Translate.Types.$fEnumFormat1 }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_$cenumFromThen ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format
+    -> [Network.Yandex.Translate.Types.Format]
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_$cenumFromThenTo ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format
+    -> [Network.Yandex.Translate.Types.Format]
+  {- Arity: 3, Strictness: <S,1*U><S,1*U><S,1*U> -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_$cenumFromTo ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format
+    -> [Network.Yandex.Translate.Types.Format]
+  {- Arity: 2, Strictness: <S,1*U><S,1*U>,
+     Unfolding: (\ (x :: Network.Yandex.Translate.Types.Format)
+                   (y :: Network.Yandex.Translate.Types.Format) ->
+                 let {
+                   $j :: GHC.Prim.Int# -> [Network.Yandex.Translate.Types.Format]
+                     <join 1> {- Arity: 1, Strictness: <S,U> -}
+                   = \ (x1 :: GHC.Prim.Int#)[OneShot] ->
+                     case y of wild {
+                       Network.Yandex.Translate.Types.Plain
+                       -> case GHC.Prim.># x1 0# of lwild {
+                            DEFAULT -> Network.Yandex.Translate.Types.$fEnumFormat_go1 x1
+                            1# -> GHC.Types.[] @ Network.Yandex.Translate.Types.Format }
+                       Network.Yandex.Translate.Types.HTML
+                       -> case GHC.Prim.># x1 1# of lwild {
+                            DEFAULT -> Network.Yandex.Translate.Types.$fEnumFormat_go x1
+                            1# -> GHC.Types.[] @ Network.Yandex.Translate.Types.Format } }
+                 } in
+                 case x of wild {
+                   Network.Yandex.Translate.Types.Plain -> $j 0#
+                   Network.Yandex.Translate.Types.HTML -> $j 1# }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_$cfromEnum ::
+    Network.Yandex.Translate.Types.Format -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.Format) ->
+                 case a of wild {
+                   Network.Yandex.Translate.Types.Plain -> GHC.Types.I# 0#
+                   Network.Yandex.Translate.Types.HTML -> GHC.Types.I# 1# }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_$cpred ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.Format) ->
+                 case a of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> Network.Yandex.Translate.Types.$fEnumFormat3
+                   Network.Yandex.Translate.Types.HTML
+                   -> Network.Yandex.Translate.Types.Plain }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_$csucc ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.Format) ->
+                 case a of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> Network.Yandex.Translate.Types.HTML
+                   Network.Yandex.Translate.Types.HTML
+                   -> Network.Yandex.Translate.Types.$fEnumFormat4 }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_$ctoEnum ::
+    GHC.Types.Int -> Network.Yandex.Translate.Types.Format
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Network.Yandex.Translate.Types.$w$ctoEnum ww1 }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_go ::
+    GHC.Prim.Int# -> [Network.Yandex.Translate.Types.Format]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_go1 ::
+    GHC.Prim.Int# -> [Network.Yandex.Translate.Types.Format]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+74704bdd91d947152a58dc0390dd3765
+  $fEnumFormat_go2 ::
+    GHC.Prim.Int# -> [Network.Yandex.Translate.Types.Format]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions ::
+    GHC.Enum.Enum Network.Yandex.Translate.Types.TranslateOptions
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.TranslateOptions
+                  Network.Yandex.Translate.Types.$fEnumTranslateOptions_$csucc
+                  Network.Yandex.Translate.Types.$fEnumTranslateOptions_$cpred
+                  Network.Yandex.Translate.Types.$fEnumTranslateOptions_$ctoEnum
+                  Network.Yandex.Translate.Types.$fEnumTranslateOptions_$cfromEnum
+                  Network.Yandex.Translate.Types.$fEnumTranslateOptions_$cenumFrom
+                  Network.Yandex.Translate.Types.$fEnumTranslateOptions_$cenumFromThen
+                  Network.Yandex.Translate.Types.$fEnumTranslateOptions_$cenumFromTo
+                  Network.Yandex.Translate.Types.$fEnumTranslateOptions_$cenumFromThenTo -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions1 ::
+    [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Unfolding: (Network.Yandex.Translate.Types.$fEnumTranslateOptions_go_up
+                   0#) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions2 ::
+    [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Unfolding: (Network.Yandex.Translate.Types.$fEnumTranslateOptions_go
+                   0#) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions3 ::
+    [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Unfolding: (Network.Yandex.Translate.Types.$fEnumTranslateOptions_go1
+                   0#) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions4 ::
+    Network.Yandex.Translate.Types.TranslateOptions
+  {- Strictness: x -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions5 ::
+    Network.Yandex.Translate.Types.TranslateOptions
+  {- Strictness: x -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_$cenumFrom ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Arity: 1, Strictness: <S,1*H>, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case w of w1 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 Network.Yandex.Translate.Types.$fEnumTranslateOptions3 }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_$cenumFromThen ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>m2, Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (w1 :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case w of w2 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 case w1 of w3 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Types.:
+                   @ Network.Yandex.Translate.Types.TranslateOptions
+                   Network.Yandex.Translate.Types.DetectLanguage
+                   (letrec {
+                      go_up1 :: GHC.Prim.Int#
+                                -> [Network.Yandex.Translate.Types.TranslateOptions]
+                        {- Arity: 1, Strictness: <S,U> -}
+                      = \ (x :: GHC.Prim.Int#) ->
+                        case GHC.Prim.># x 0# of lwild1 {
+                          DEFAULT
+                          -> GHC.Types.:
+                               @ Network.Yandex.Translate.Types.TranslateOptions
+                               (GHC.Prim.tagToEnum#
+                                  @ Network.Yandex.Translate.Types.TranslateOptions
+                                  x)
+                               (go_up1 x)
+                          1#
+                          -> GHC.Types.:
+                               @ Network.Yandex.Translate.Types.TranslateOptions
+                               (GHC.Prim.tagToEnum#
+                                  @ Network.Yandex.Translate.Types.TranslateOptions
+                                  x)
+                               (GHC.Types.[] @ Network.Yandex.Translate.Types.TranslateOptions) }
+                    } in
+                    go_up1 0#) } }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_$cenumFromThenTo ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Arity: 3, Strictness: <S,1*H><S,1*H><S,1*H>m2, Inline: [0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (w1 :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (w2 :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case w of w3 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 case w1 of w4 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 case w2 of w5 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Types.:
+                   @ Network.Yandex.Translate.Types.TranslateOptions
+                   Network.Yandex.Translate.Types.DetectLanguage
+                   Network.Yandex.Translate.Types.$fEnumTranslateOptions1 } } }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_$cenumFromTo ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Arity: 2, Strictness: <S,1*H><S,1*H>, Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (w1 :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case w of w2 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 case w1 of w3 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 Network.Yandex.Translate.Types.$fEnumTranslateOptions2 } }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_$cfromEnum ::
+    Network.Yandex.Translate.Types.TranslateOptions -> GHC.Types.Int
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*H>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case a of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Types.I# 0# }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_$cpred ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case a of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 Network.Yandex.Translate.Types.$fEnumTranslateOptions4 }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_$csucc ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+  {- Arity: 1, Strictness: <B,1*H>x,
+     Unfolding: InlineRule (1, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case a of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 Network.Yandex.Translate.Types.$fEnumTranslateOptions5 }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_$ctoEnum ::
+    GHC.Types.Int -> Network.Yandex.Translate.Types.TranslateOptions
+  {- Arity: 1, Strictness: <S(S),1*U(U)>, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: GHC.Types.Int) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Network.Yandex.Translate.Types.$w$ctoEnum1 ww1 }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_go ::
+    GHC.Prim.Int# -> [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Arity: 1, Strictness: <L,U>m2 -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_go1 ::
+    GHC.Prim.Int# -> [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2 -}
+c010b9f4894951677e3d551580e4a96c
+  $fEnumTranslateOptions_go_up ::
+    GHC.Prim.Int# -> [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Arity: 1, Strictness: <S,U>m2 -}
+8073dd536f752d16eb250c15482e808a
+  $fEqDirection ::
+    GHC.Classes.Eq Network.Yandex.Translate.Types.Direction
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.Direction
+                  Network.Yandex.Translate.Types.$fEqDirection1
+                    `cast`
+                  (Sym (Network.Yandex.Translate.Types.N:Direction[0])
+                   ->_R Sym (Network.Yandex.Translate.Types.N:Direction[0])
+                   ->_R <GHC.Types.Bool>_R)
+                  Network.Yandex.Translate.Types.$fEqDirection_$s$fEq(,)_$c/=
+                    `cast`
+                  (Sym (Network.Yandex.Translate.Types.N:Direction[0])
+                   ->_R Sym (Network.Yandex.Translate.Types.N:Direction[0])
+                   ->_R <GHC.Types.Bool>_R) -}
+9ba99c9d333ae4fffaaef31c6a1fd063
+  $fEqDirection1 ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+    -> (Data.Text.Internal.Text, Data.Text.Internal.Text)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))><S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: (Data.Text.Internal.Text, Data.Text.Internal.Text))
+                   (w1 :: (Data.Text.Internal.Text, Data.Text.Internal.Text)) ->
+                 case w of ww { (,) ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case w1 of ww7 { (,) ww8 ww9 ->
+                 case ww8 of ww10 { Data.Text.Internal.Text ww11 ww12 ww13 ->
+                 Network.Yandex.Translate.Types.$w$c==
+                   ww4
+                   ww5
+                   ww6
+                   ww2
+                   ww11
+                   ww12
+                   ww13
+                   ww9 } } } }) -}
+dff0d26c3df6f58477ab7a75b115fd42
+  $fEqDirection_$s$fEq(,)_$c/= ::
+    (Data.Text.Internal.Text, Data.Text.Internal.Text)
+    -> (Data.Text.Internal.Text, Data.Text.Internal.Text)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(LLS)L),1*U(1*U(U,U,U),1*U(U,U,U))><S(S(LLS)L),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: (Data.Text.Internal.Text, Data.Text.Internal.Text))
+                   (y :: (Data.Text.Internal.Text, Data.Text.Internal.Text)) ->
+                 case x of wild { (,) a1 a2 ->
+                 case y of wild1 { (,) b1 b2 ->
+                 case a1 of wild2 { Data.Text.Internal.Text dt dt1 dt2 ->
+                 case b1 of wild3 { Data.Text.Internal.Text dt3 dt4 dt5 ->
+                 case GHC.Classes.eqInt
+                        (GHC.Types.I# dt2)
+                        (GHC.Types.I# dt5) of wild4 {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True
+                   -> case {__pkg_ccall text-1.2.3.1 GHC.Prim.ByteArray#
+                                                     -> GHC.Prim.Word#
+                                                     -> GHC.Prim.ByteArray#
+                                                     -> GHC.Prim.Word#
+                                                     -> GHC.Prim.Word#
+                                                     -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                           GHC.Prim.Int# #)}
+                             dt
+                             (GHC.Prim.int2Word# dt1)
+                             dt3
+                             (GHC.Prim.int2Word# dt4)
+                             (GHC.Prim.int2Word# dt2)
+                             GHC.Prim.realWorld# of wild5 { (#,#) ds2 ds3 ->
+                      case GHC.Int.eqInt32
+                             (GHC.Int.I32# (GHC.Prim.narrow32Int# ds3))
+                             (GHC.Int.I32# 0#) of wild6 {
+                        GHC.Types.False -> GHC.Types.True
+                        GHC.Types.True
+                        -> case a2 of wild7 { Data.Text.Internal.Text dt7 dt8 dt9 ->
+                           case b2 of wild8 { Data.Text.Internal.Text dt10 dt11 dt12 ->
+                           case GHC.Classes.eqInt
+                                  (GHC.Types.I# dt9)
+                                  (GHC.Types.I# dt12) of wild9 {
+                             GHC.Types.False -> GHC.Types.True
+                             GHC.Types.True
+                             -> case {__pkg_ccall text-1.2.3.1 GHC.Prim.ByteArray#
+                                                               -> GHC.Prim.Word#
+                                                               -> GHC.Prim.ByteArray#
+                                                               -> GHC.Prim.Word#
+                                                               -> GHC.Prim.Word#
+                                                               -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                               -> (# GHC.Prim.State#
+                                                                       GHC.Prim.RealWorld,
+                                                                     GHC.Prim.Int# #)}
+                                       dt7
+                                       (GHC.Prim.int2Word# dt8)
+                                       dt10
+                                       (GHC.Prim.int2Word# dt11)
+                                       (GHC.Prim.int2Word# dt9)
+                                       GHC.Prim.realWorld# of wild10 { (#,#) ds1 ds5 ->
+                                case GHC.Int.eqInt32
+                                       (GHC.Int.I32# (GHC.Prim.narrow32Int# ds5))
+                                       (GHC.Int.I32# 0#) of wild11 {
+                                  GHC.Types.False -> GHC.Types.True
+                                  GHC.Types.True -> GHC.Types.False } } } } } } } } } } } }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEqFormat :: GHC.Classes.Eq Network.Yandex.Translate.Types.Format
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.Format
+                  Network.Yandex.Translate.Types.$fEqFormat_$c==
+                  Network.Yandex.Translate.Types.$fEqFormat_$c/= -}
+74704bdd91d947152a58dc0390dd3765
+  $fEqFormat_$c/= ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: Network.Yandex.Translate.Types.Format)
+                   (y :: Network.Yandex.Translate.Types.Format) ->
+                 case x of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> case y of wild1 {
+                        Network.Yandex.Translate.Types.Plain -> GHC.Types.False
+                        Network.Yandex.Translate.Types.HTML -> GHC.Types.True }
+                   Network.Yandex.Translate.Types.HTML
+                   -> case y of wild1 {
+                        Network.Yandex.Translate.Types.Plain -> GHC.Types.True
+                        Network.Yandex.Translate.Types.HTML -> GHC.Types.False } }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fEqFormat_$c== ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: Network.Yandex.Translate.Types.Format)
+                   (ds1 :: Network.Yandex.Translate.Types.Format) ->
+                 case ds of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> case ds1 of wild1 {
+                        Network.Yandex.Translate.Types.Plain -> GHC.Types.True
+                        Network.Yandex.Translate.Types.HTML -> GHC.Types.False }
+                   Network.Yandex.Translate.Types.HTML
+                   -> case ds1 of wild1 {
+                        Network.Yandex.Translate.Types.Plain -> GHC.Types.False
+                        Network.Yandex.Translate.Types.HTML -> GHC.Types.True } }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEqTranslateOptions ::
+    GHC.Classes.Eq Network.Yandex.Translate.Types.TranslateOptions
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.TranslateOptions
+                  Network.Yandex.Translate.Types.$fEqTranslateOptions_$c==
+                  Network.Yandex.Translate.Types.$fEqTranslateOptions_$c/= -}
+c010b9f4894951677e3d551580e4a96c
+  $fEqTranslateOptions_$c/= ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (y :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case x of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 case y of wild1 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Types.False } }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fEqTranslateOptions_$c== ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (ds1 :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case ds of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 case ds1 of wild1 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Types.True } }) -}
+8073dd536f752d16eb250c15482e808a
+  $fFromJSONDirection ::
+    Data.Aeson.Types.FromJSON.FromJSON
+      Network.Yandex.Translate.Types.Direction
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.Direction
+                  Network.Yandex.Translate.Types.$fFromJSONDirection_$cparseJSON
+                  Network.Yandex.Translate.Types.$fFromJSONDirection_$cparseJSONList -}
+2d189ded1c4f913b785e7e1bae5bc8fb
+  $fFromJSONDirection1 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: (", encountered "#) -}
+78d8271f6a24cef94bbf4461a9658a4f
+  $fFromJSONDirection2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("[a]"#) -}
+8d1adc2392552e29107b8957db272473
+  $fFromJSONDirection3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("expected "#) -}
+8073dd536f752d16eb250c15482e808a
+  $fFromJSONDirection4 ::
+    Data.Text.Internal.Text
+    -> Data.Aeson.Types.Internal.Parser
+         Network.Yandex.Translate.Types.Direction
+  {- Arity: 1, Strictness: <S(SSS),1*U(U,U,U)>, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Data.Text.Internal.Text) ->
+                 case w of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                 Network.Yandex.Translate.Types.$w$cparseJSON ww1 ww2 ww3 }) -}
+33d465f501b025f89c792d5b8d502409
+  $fFromJSONDirection5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Translate.Types.$fFromJSONDirection6) -}
+4b88f960fc3d3b527df38f5f48c89f2c
+  $fFromJSONDirection6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Direction"#) -}
+8073dd536f752d16eb250c15482e808a
+  $fFromJSONDirection_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         Network.Yandex.Translate.Types.Direction
+  {- Arity: 1,
+     Unfolding: (Data.Aeson.Types.FromJSON.withText
+                   @ Network.Yandex.Translate.Types.Direction
+                   Network.Yandex.Translate.Types.$fFromJSONDirection5
+                   Network.Yandex.Translate.Types.$fFromJSONDirection4) -}
+8073dd536f752d16eb250c15482e808a
+  $fFromJSONDirection_$cparseJSONList ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         [Network.Yandex.Translate.Types.Direction]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (ds :: Data.Aeson.Types.Internal.Value) ->
+                 case ds of wild {
+                   DEFAULT
+                   -> let {
+                        msg19 :: GHC.Base.String
+                        = GHC.CString.unpackAppendCString#
+                            Network.Yandex.Translate.Types.$fFromJSONDirection3
+                            (GHC.CString.unpackAppendCString#
+                               Network.Yandex.Translate.Types.$fFromJSONDirection2
+                               (GHC.CString.unpackAppendCString#
+                                  Network.Yandex.Translate.Types.$fFromJSONDirection1
+                                  (case wild of wild1 {
+                                     Data.Aeson.Types.Internal.Object ds1
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList10
+                                     Data.Aeson.Types.Internal.String ds1
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList8
+                                     Data.Aeson.Types.Internal.Number ds1
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList6
+                                     Data.Aeson.Types.Internal.Bool ds1
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList4
+                                     Data.Aeson.Types.Internal.Null
+                                     -> Data.Aeson.Types.FromJSON.$dmliftParseJSONList1 })))
+                      } in
+                      (\ @ f4 :: * -> *
+                         @ r
+                         (path :: Data.Aeson.Types.Internal.JSONPath)
+                         (kf :: Data.Aeson.Types.Internal.Failure f4 r)
+                         (_ks :: Data.Aeson.Types.Internal.Success
+                                   [Network.Yandex.Translate.Types.Direction] f4 r) ->
+                       kf
+                         (GHC.List.reverse @ Data.Aeson.Types.Internal.JSONPathElement path)
+                         msg19)
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                <[Network.Yandex.Translate.Types.Direction]>_R))
+                   Data.Aeson.Types.Internal.Array a2
+                   -> case a2 of wild1 { Data.Vector.Vector dt dt1 dt2 ->
+                      letrec {
+                        $wgo :: GHC.Prim.Int# -> [Data.Aeson.Types.Internal.Value]
+                          {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                        = \ (ww :: GHC.Prim.Int#) ->
+                          case GHC.Prim.>=# ww dt1 of lwild {
+                            DEFAULT
+                            -> case GHC.Prim.indexArray#
+                                      @ Data.Aeson.Types.Internal.Value
+                                      dt2
+                                      (GHC.Prim.+# dt ww) of ds3 { Unit# ipv ->
+                               GHC.Types.:
+                                 @ Data.Aeson.Types.Internal.Value
+                                 ipv
+                                 ($wgo (GHC.Prim.+# ww 1#)) }
+                            1# -> GHC.Types.[] @ Data.Aeson.Types.Internal.Value }
+                      } in
+                      Network.Yandex.Translate.Types.$fFromJSONDirection_go
+                        0#
+                        ($wgo 0#) } }) -}
+8073dd536f752d16eb250c15482e808a
+  $fFromJSONDirection_go ::
+    GHC.Prim.Int#
+    -> [Data.Aeson.Types.Internal.Value]
+    -> Data.Aeson.Types.Internal.Parser
+         [Network.Yandex.Translate.Types.Direction]
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+74704bdd91d947152a58dc0390dd3765
+  $fOrdFormat ::
+    GHC.Classes.Ord Network.Yandex.Translate.Types.Format
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.Format
+                  Network.Yandex.Translate.Types.$fEqFormat
+                  Network.Yandex.Translate.Types.$fOrdFormat_$ccompare
+                  Network.Yandex.Translate.Types.$fOrdFormat_$c<
+                  Network.Yandex.Translate.Types.$fOrdFormat_$c<=
+                  Network.Yandex.Translate.Types.$fOrdFormat_$c>
+                  Network.Yandex.Translate.Types.$fOrdFormat_$c>=
+                  Network.Yandex.Translate.Types.$fOrdFormat_$cmax
+                  Network.Yandex.Translate.Types.$fOrdFormat_$cmin -}
+74704bdd91d947152a58dc0390dd3765
+  $fOrdFormat_$c< ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.Format)
+                   (b :: Network.Yandex.Translate.Types.Format) ->
+                 case a of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> case b of wild1 {
+                        Network.Yandex.Translate.Types.Plain -> GHC.Types.False
+                        Network.Yandex.Translate.Types.HTML -> GHC.Types.True }
+                   Network.Yandex.Translate.Types.HTML
+                   -> case b of wild1 { DEFAULT -> GHC.Types.False } }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fOrdFormat_$c<= ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.Format)
+                   (b :: Network.Yandex.Translate.Types.Format) ->
+                 case b of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> case a of wild1 {
+                        Network.Yandex.Translate.Types.Plain -> GHC.Types.True
+                        Network.Yandex.Translate.Types.HTML -> GHC.Types.False }
+                   Network.Yandex.Translate.Types.HTML
+                   -> case a of wild1 { DEFAULT -> GHC.Types.True } }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fOrdFormat_$c> ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, True)
+                (\ (a :: Network.Yandex.Translate.Types.Format)
+                   (b :: Network.Yandex.Translate.Types.Format) ->
+                 Network.Yandex.Translate.Types.$fOrdFormat_$c< b a) -}
+74704bdd91d947152a58dc0390dd3765
+  $fOrdFormat_$c>= ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.Format)
+                   (b :: Network.Yandex.Translate.Types.Format) ->
+                 case a of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> case b of wild1 {
+                        Network.Yandex.Translate.Types.Plain -> GHC.Types.True
+                        Network.Yandex.Translate.Types.HTML -> GHC.Types.False }
+                   Network.Yandex.Translate.Types.HTML
+                   -> case b of wild1 { DEFAULT -> GHC.Types.True } }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fOrdFormat_$ccompare ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.Format)
+                   (b :: Network.Yandex.Translate.Types.Format) ->
+                 case a of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> case b of wild1 {
+                        Network.Yandex.Translate.Types.Plain -> GHC.Types.EQ
+                        Network.Yandex.Translate.Types.HTML -> GHC.Types.LT }
+                   Network.Yandex.Translate.Types.HTML
+                   -> case b of wild1 {
+                        Network.Yandex.Translate.Types.Plain -> GHC.Types.GT
+                        Network.Yandex.Translate.Types.HTML -> GHC.Types.EQ } }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fOrdFormat_$cmax ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Network.Yandex.Translate.Types.Format)
+                   (y :: Network.Yandex.Translate.Types.Format) ->
+                 case y of wild {
+                   Network.Yandex.Translate.Types.Plain -> x
+                   Network.Yandex.Translate.Types.HTML
+                   -> case x of wild1 { DEFAULT ->
+                      Network.Yandex.Translate.Types.HTML } }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fOrdFormat_$cmin ::
+    Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format
+    -> Network.Yandex.Translate.Types.Format
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Network.Yandex.Translate.Types.Format)
+                   (y :: Network.Yandex.Translate.Types.Format) ->
+                 case y of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> case x of wild1 { DEFAULT ->
+                      Network.Yandex.Translate.Types.Plain }
+                   Network.Yandex.Translate.Types.HTML -> x }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fOrdTranslateOptions ::
+    GHC.Classes.Ord Network.Yandex.Translate.Types.TranslateOptions
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.TranslateOptions
+                  Network.Yandex.Translate.Types.$fEqTranslateOptions
+                  Network.Yandex.Translate.Types.$fOrdTranslateOptions_$ccompare
+                  Network.Yandex.Translate.Types.$fOrdTranslateOptions_$c<
+                  Network.Yandex.Translate.Types.$fOrdTranslateOptions_$c<=
+                  Network.Yandex.Translate.Types.$fOrdTranslateOptions_$c>
+                  Network.Yandex.Translate.Types.$fEqTranslateOptions_$c==
+                  Network.Yandex.Translate.Types.$fOrdTranslateOptions_$cmax
+                  Network.Yandex.Translate.Types.$fOrdTranslateOptions_$cmax -}
+c010b9f4894951677e3d551580e4a96c
+  $fOrdTranslateOptions_$c< ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (b :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case a of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 case b of wild1 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Types.False } }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fOrdTranslateOptions_$c<= ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (b :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case b of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 case a of wild1 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Types.True } }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fOrdTranslateOptions_$c> ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (b :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case b of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 case a of wild1 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Types.False } }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fOrdTranslateOptions_$ccompare ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*H><S,1*H>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (b :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case a of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 case b of wild1 { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Types.EQ } }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fOrdTranslateOptions_$cmax ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> Network.Yandex.Translate.Types.TranslateOptions
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U()><S,1*H>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (y :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case y of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 x }) -}
+8073dd536f752d16eb250c15482e808a
+  $fShowDirection ::
+    GHC.Show.Show Network.Yandex.Translate.Types.Direction
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.Direction
+                  Network.Yandex.Translate.Types.$fShowDirection_$cshowsPrec
+                  Network.Yandex.Translate.Types.$fShowDirection_$cshow
+                  Network.Yandex.Translate.Types.$fShowDirection_$cshowList -}
+8073dd536f752d16eb250c15482e808a
+  $fShowDirection1 ::
+    Network.Yandex.Translate.Types.Direction
+    -> GHC.Base.String -> [GHC.Types.Char]
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))><L,1*U>,
+     Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Network.Yandex.Translate.Types.Direction)
+                   (w1 :: GHC.Base.String) ->
+                 case w `cast`
+                      (Network.Yandex.Translate.Types.N:Direction[0]) of ww { (,) ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 Network.Yandex.Translate.Types.$w$cshowsPrec
+                   ww4
+                   ww5
+                   ww6
+                   ww2
+                   w1 } }) -}
+6704f3be2fc88fb5869a4d0b34ba85c7
+  $fShowDirection2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("-"#) -}
+8073dd536f752d16eb250c15482e808a
+  $fShowDirection_$cshow ::
+    Network.Yandex.Translate.Types.Direction -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))>, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Network.Yandex.Translate.Types.Direction) ->
+                 case w `cast`
+                      (Network.Yandex.Translate.Types.N:Direction[0]) of ww { (,) ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 Network.Yandex.Translate.Types.$w$cshow ww4 ww5 ww6 ww2 } }) -}
+8073dd536f752d16eb250c15482e808a
+  $fShowDirection_$cshowList ::
+    [Network.Yandex.Translate.Types.Direction] -> GHC.Show.ShowS
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Network.Yandex.Translate.Types.Direction])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ Network.Yandex.Translate.Types.Direction
+                   Network.Yandex.Translate.Types.$fShowDirection1
+                   ls
+                   s) -}
+8073dd536f752d16eb250c15482e808a
+  $fShowDirection_$cshowsPrec ::
+    GHC.Types.Int
+    -> Network.Yandex.Translate.Types.Direction -> GHC.Show.ShowS
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <L,A><S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))><L,1*U>,
+     Inline: [0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Network.Yandex.Translate.Types.Direction)
+                   (w2 :: GHC.Base.String) ->
+                 case w1
+                        `cast`
+                      (Network.Yandex.Translate.Types.N:Direction[0]) of ww { (,) ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 Network.Yandex.Translate.Types.$w$cshowsPrec
+                   ww4
+                   ww5
+                   ww6
+                   ww2
+                   w2 } }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fShowFormat :: GHC.Show.Show Network.Yandex.Translate.Types.Format
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.Format
+                  Network.Yandex.Translate.Types.$fShowFormat_$cshowsPrec
+                  Network.Yandex.Translate.Types.$fShowFormat_$cshow
+                  Network.Yandex.Translate.Types.$fShowFormat_$cshowList -}
+74704bdd91d947152a58dc0390dd3765
+  $fShowFormat1 ::
+    Network.Yandex.Translate.Types.Format -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Network.Yandex.Translate.Types.Format)
+                   (s :: GHC.Base.String) ->
+                 case x of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b
+                           (c :: GHC.Types.Char -> b -> b)[OneShot]
+                           (n :: b)[OneShot] ->
+                         GHC.Base.foldr
+                           @ GHC.Types.Char
+                           @ b
+                           c
+                           n
+                           Network.Yandex.Translate.Types.$fShowFormat4)
+                        s
+                   Network.Yandex.Translate.Types.HTML
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b
+                           (c :: GHC.Types.Char -> b -> b)[OneShot]
+                           (n :: b)[OneShot] ->
+                         GHC.Base.foldr
+                           @ GHC.Types.Char
+                           @ b
+                           c
+                           n
+                           Network.Yandex.Translate.Types.$fShowFormat2)
+                        s }) -}
+71ee8f766dfc29a369641a03700901d9
+  $fShowFormat2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Translate.Types.$fShowFormat3) -}
+e1b5b445689467a1727f561a3db7dcef
+  $fShowFormat3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("html"#) -}
+c2a3a53d99bbd1179c8ad6dff4780af9
+  $fShowFormat4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Translate.Types.$fShowFormat5) -}
+95ff9edd57eecb138a4e4c1704c2d6a2
+  $fShowFormat5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("plain"#) -}
+74704bdd91d947152a58dc0390dd3765
+  $fShowFormat_$cshow ::
+    Network.Yandex.Translate.Types.Format -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Network.Yandex.Translate.Types.Format) ->
+                 case ds of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> Network.Yandex.Translate.Types.$fShowFormat4
+                   Network.Yandex.Translate.Types.HTML
+                   -> Network.Yandex.Translate.Types.$fShowFormat2 }) -}
+74704bdd91d947152a58dc0390dd3765
+  $fShowFormat_$cshowList ::
+    [Network.Yandex.Translate.Types.Format] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Network.Yandex.Translate.Types.Format])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ Network.Yandex.Translate.Types.Format
+                   Network.Yandex.Translate.Types.$fShowFormat1
+                   ls
+                   s) -}
+74704bdd91d947152a58dc0390dd3765
+  $fShowFormat_$cshowsPrec ::
+    GHC.Types.Int
+    -> Network.Yandex.Translate.Types.Format -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (x :: Network.Yandex.Translate.Types.Format)
+                   (s :: GHC.Base.String) ->
+                 case x of wild {
+                   Network.Yandex.Translate.Types.Plain
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b
+                           (c :: GHC.Types.Char -> b -> b)[OneShot]
+                           (n :: b)[OneShot] ->
+                         GHC.Base.foldr
+                           @ GHC.Types.Char
+                           @ b
+                           c
+                           n
+                           Network.Yandex.Translate.Types.$fShowFormat4)
+                        s
+                   Network.Yandex.Translate.Types.HTML
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b
+                           (c :: GHC.Types.Char -> b -> b)[OneShot]
+                           (n :: b)[OneShot] ->
+                         GHC.Base.foldr
+                           @ GHC.Types.Char
+                           @ b
+                           c
+                           n
+                           Network.Yandex.Translate.Types.$fShowFormat2)
+                        s }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fShowTranslateOptions ::
+    GHC.Show.Show Network.Yandex.Translate.Types.TranslateOptions
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.TranslateOptions
+                  Network.Yandex.Translate.Types.$fShowTranslateOptions_$cshowsPrec
+                  Network.Yandex.Translate.Types.$fShowTranslateOptions_$cshow
+                  Network.Yandex.Translate.Types.$fShowTranslateOptions_$cshowList -}
+c010b9f4894951677e3d551580e4a96c
+  $fShowTranslateOptions1 ::
+    Network.Yandex.Translate.Types.TranslateOptions
+    -> GHC.Base.String -> [GHC.Types.Char]
+  {- Arity: 2, Strictness: <S,1*H><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (s :: GHC.Base.String)[OneShot] ->
+                 case x of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      Network.Yandex.Translate.Types.$fShowTranslateOptions2)
+                   s }) -}
+b6a1e2cde731ee17b3c14cf0171993d0
+  $fShowTranslateOptions2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Translate.Types.$fShowTranslateOptions3) -}
+99f110086b06219d225255ab17225a18
+  $fShowTranslateOptions3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("1"#) -}
+c010b9f4894951677e3d551580e4a96c
+  $fShowTranslateOptions_$cshow ::
+    Network.Yandex.Translate.Types.TranslateOptions -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*H>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Network.Yandex.Translate.Types.TranslateOptions) ->
+                 case ds of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 Network.Yandex.Translate.Types.$fShowTranslateOptions2 }) -}
+c010b9f4894951677e3d551580e4a96c
+  $fShowTranslateOptions_$cshowList ::
+    [Network.Yandex.Translate.Types.TranslateOptions] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Network.Yandex.Translate.Types.TranslateOptions])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ Network.Yandex.Translate.Types.TranslateOptions
+                   Network.Yandex.Translate.Types.$fShowTranslateOptions1
+                   ls
+                   s) -}
+c010b9f4894951677e3d551580e4a96c
+  $fShowTranslateOptions_$cshowsPrec ::
+    GHC.Types.Int
+    -> Network.Yandex.Translate.Types.TranslateOptions
+    -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*H><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (x :: Network.Yandex.Translate.Types.TranslateOptions)
+                   (s :: GHC.Base.String) ->
+                 case x of wild { Network.Yandex.Translate.Types.DetectLanguage ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr
+                      @ GHC.Types.Char
+                      @ b
+                      c
+                      n
+                      Network.Yandex.Translate.Types.$fShowTranslateOptions2)
+                   s }) -}
+29adcd990a8d3bf8f2a0933f638fc51c
+  $fShowTranslateParams ::
+    GHC.Show.Show Network.Yandex.Translate.Types.TranslateParams
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.TranslateParams
+                  Network.Yandex.Translate.Types.$fShowTranslateParams_$cshowsPrec
+                  Network.Yandex.Translate.Types.$fShowTranslateParams_$cshow
+                  Network.Yandex.Translate.Types.$fShowTranslateParams_$cshowList -}
+29adcd990a8d3bf8f2a0933f638fc51c
+  $fShowTranslateParams1 ::
+    Network.Yandex.Translate.Types.TranslateParams -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U(1*U,1*U)><L,U>,
+     Unfolding: (\ (w :: Network.Yandex.Translate.Types.TranslateParams)
+                   (w1 :: GHC.Base.String) ->
+                 case w of ww { Network.Yandex.Translate.Types.TranslateParams ww1 ww2 ->
+                 Network.Yandex.Translate.Types.$w$cshowsPrec1 0# ww1 ww2 w1 }) -}
+276771d21de658f92823d67ef20d076e
+  $fShowTranslateParams2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Translate.Types.$fShowTranslateParams3) -}
+28ad0fb8757229c9ebcbaf802603546e
+  $fShowTranslateParams3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("TranslateParams {"#) -}
+5f4ca046692d255e4f54b47358e7638a
+  $fShowTranslateParams4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("}"#) -}
+94daba888270b638bdcc1ee5401aaf6e
+  $fShowTranslateParams5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("_options = "#) -}
+e842846da2b036ad9358c497e213c0dd
+  $fShowTranslateParams6 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("_format = "#) -}
+df725859171221898f785f4ea7a5ea7a
+  $fShowTranslateParams7 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+29adcd990a8d3bf8f2a0933f638fc51c
+  $fShowTranslateParams_$cshow ::
+    Network.Yandex.Translate.Types.TranslateParams -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Network.Yandex.Translate.Types.TranslateParams) ->
+                 Network.Yandex.Translate.Types.$fShowTranslateParams_$cshowsPrec
+                   Network.Yandex.Translate.Types.$fShowTranslateParams7
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+29adcd990a8d3bf8f2a0933f638fc51c
+  $fShowTranslateParams_$cshowList ::
+    [Network.Yandex.Translate.Types.TranslateParams] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Network.Yandex.Translate.Types.TranslateParams])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ Network.Yandex.Translate.Types.TranslateParams
+                   Network.Yandex.Translate.Types.$fShowTranslateParams1
+                   ls
+                   s) -}
+29adcd990a8d3bf8f2a0933f638fc51c
+  $fShowTranslateParams_$cshowsPrec ::
+    GHC.Types.Int
+    -> Network.Yandex.Translate.Types.TranslateParams -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U)><L,U>,
+     Inline: [0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Network.Yandex.Translate.Types.TranslateParams)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Network.Yandex.Translate.Types.TranslateParams ww3 ww4 ->
+                 Network.Yandex.Translate.Types.$w$cshowsPrec1
+                   ww1
+                   ww3
+                   ww4
+                   w2 } }) -}
+fdab5b00a2d955763328c8b2f2db485b
+  $fShowYandexApiConfig ::
+    GHC.Show.Show Network.Yandex.Translate.Types.YandexApiConfig
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.YandexApiConfig
+                  Network.Yandex.Translate.Types.$fShowYandexApiConfig_$cshowsPrec
+                  Network.Yandex.Translate.Types.$fShowYandexApiConfig_$cshow
+                  Network.Yandex.Translate.Types.$fShowYandexApiConfig_$cshowList -}
+fdab5b00a2d955763328c8b2f2db485b
+  $fShowYandexApiConfig1 ::
+    Network.Yandex.Translate.Types.YandexApiConfig -> GHC.Show.ShowS
+  {- Arity: 2,
+     Strictness: <S,1*U(1*U(U,U,U),1*U(1*U,1*U,1*U,1*U,1*U,1*U(U),1*U,A))><L,U>,
+     Unfolding: (\ (w :: Network.Yandex.Translate.Types.YandexApiConfig)
+                   (w1 :: GHC.Base.String) ->
+                 case w of ww { Network.Yandex.Translate.Types.YandexApiConfig ww1 ww2 ->
+                 Network.Yandex.Translate.Types.$w$cshowsPrec2 0# ww1 ww2 w1 }) -}
+70bc57c1a05b63b569b3cd60d42ef72d
+  $fShowYandexApiConfig2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("_httpOptions = "#) -}
+57b42e2d4767b72509980b223379d83d
+  $fShowYandexApiConfig3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("_apikey = "#) -}
+9b28e46835e09ec4f968512fd4810a14
+  $fShowYandexApiConfig4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("YandexApiConfig {"#) -}
+8e2acdc10ac756a95f5ea72250f12663
+  $fShowYandexApiConfig5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Network.Yandex.Translate.Types.$fShowTranslateParams4) -}
+fdab5b00a2d955763328c8b2f2db485b
+  $fShowYandexApiConfig_$cshow ::
+    Network.Yandex.Translate.Types.YandexApiConfig -> GHC.Base.String
+  {- Arity: 1,
+     Strictness: <S,1*U(1*U(U,U,U),1*U(1*U,1*U,1*U,1*U,1*U,1*U(U),1*U,A))>,
+     Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Network.Yandex.Translate.Types.YandexApiConfig) ->
+                 case w of ww { Network.Yandex.Translate.Types.YandexApiConfig ww1 ww2 ->
+                 Network.Yandex.Translate.Types.$w$cshow1 ww1 ww2 }) -}
+fdab5b00a2d955763328c8b2f2db485b
+  $fShowYandexApiConfig_$cshowList ::
+    [Network.Yandex.Translate.Types.YandexApiConfig] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Network.Yandex.Translate.Types.YandexApiConfig])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ Network.Yandex.Translate.Types.YandexApiConfig
+                   Network.Yandex.Translate.Types.$fShowYandexApiConfig1
+                   ls
+                   s) -}
+fdab5b00a2d955763328c8b2f2db485b
+  $fShowYandexApiConfig_$cshowsPrec ::
+    GHC.Types.Int
+    -> Network.Yandex.Translate.Types.YandexApiConfig -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <S(S),1*U(U)><S,1*U(1*U(U,U,U),1*U(1*U,1*U,1*U,1*U,1*U,1*U(U),1*U,A))><L,U>,
+     Inline: [0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Network.Yandex.Translate.Types.YandexApiConfig)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Network.Yandex.Translate.Types.YandexApiConfig ww3 ww4 ->
+                 Network.Yandex.Translate.Types.$w$cshowsPrec2
+                   ww1
+                   ww3
+                   ww4
+                   w2 } }) -}
+8073dd536f752d16eb250c15482e808a
+  $fToJSONDirection ::
+    Data.Aeson.Types.ToJSON.ToJSON
+      Network.Yandex.Translate.Types.Direction
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Network.Yandex.Translate.Types.Direction
+                  Network.Yandex.Translate.Types.$fToJSONDirection_$ctoJSON
+                  Network.Yandex.Translate.Types.$fToJSONDirection_$ctoEncoding
+                  Network.Yandex.Translate.Types.$fToJSONDirection_$ctoJSONList
+                  Network.Yandex.Translate.Types.$fToJSONDirection_$ctoEncodingList -}
+8073dd536f752d16eb250c15482e808a
+  $fToJSONDirection_$ctoEncoding ::
+    Network.Yandex.Translate.Types.Direction
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (x :: Network.Yandex.Translate.Types.Direction) ->
+                 Data.Aeson.Encoding.Builder.encodeToBuilder
+                   (Network.Yandex.Translate.Types.$fToJSONDirection_$ctoJSON x))
+                  `cast`
+                (<Network.Yandex.Translate.Types.Direction>_R
+                 ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                               <Data.Aeson.Types.Internal.Value>_P)) -}
+8073dd536f752d16eb250c15482e808a
+  $fToJSONDirection_$ctoEncodingList ::
+    [Network.Yandex.Translate.Types.Direction]
+    -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (Data.Aeson.Encoding.Internal.list
+                   @ Network.Yandex.Translate.Types.Direction
+                   Network.Yandex.Translate.Types.$fToJSONDirection_$ctoEncoding) -}
+8073dd536f752d16eb250c15482e808a
+  $fToJSONDirection_$ctoJSON ::
+    Network.Yandex.Translate.Types.Direction
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S(S(SSS)L),1*U(1*U(U,U,U),1*U(U,U,U))>m3,
+     Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Network.Yandex.Translate.Types.Direction) ->
+                 case w `cast`
+                      (Network.Yandex.Translate.Types.N:Direction[0]) of ww { (,) ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case Network.Yandex.Translate.Types.$w$ctoJSON
+                        ww4
+                        ww5
+                        ww6
+                        ww2 of ww7 { Unit# ww8 ->
+                 Data.Aeson.Types.Internal.String ww8 } } }) -}
+8073dd536f752d16eb250c15482e808a
+  $fToJSONDirection_$ctoJSONList ::
+    [Network.Yandex.Translate.Types.Direction]
+    -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (x :: [Network.Yandex.Translate.Types.Direction]) ->
+                 Data.Aeson.Types.Internal.$WArray
+                   (Data.Vector.Generic.new
+                      @ Data.Vector.Vector
+                      @ Data.Aeson.Types.Internal.Value
+                      (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                      (Data.Vector.Generic.New.unstream
+                         @ Data.Vector.Vector
+                         @ Data.Aeson.Types.Internal.Value
+                         (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                         (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                            @ Data.Vector.Fusion.Util.Id
+                            @ Data.Aeson.Types.Internal.Value
+                            @ Data.Vector.Vector
+                            Data.Vector.Fusion.Util.$fMonadId
+                            Data.Vector.Fusion.Bundle.Size.Unknown
+                            (GHC.Base.build
+                               @ Data.Aeson.Types.Internal.Value
+                               (\ @ b1
+                                  (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                  (n1 :: b1)[OneShot] ->
+                                GHC.Base.foldr
+                                  @ Network.Yandex.Translate.Types.Direction
+                                  @ b1
+                                  (GHC.Base.mapFB
+                                     @ Data.Aeson.Types.Internal.Value
+                                     @ b1
+                                     @ Network.Yandex.Translate.Types.Direction
+                                     c
+                                     Network.Yandex.Translate.Types.$fToJSONDirection_$ctoJSON)
+                                  n1
+                                  x)))))) -}
+abfd1714c90f6e0d57bd7adae7891b9f
+  $tc'DetectLanguage :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   18100917946236114796##
+                   1968223929789810071##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tc'DetectLanguage2
+                   0#
+                   Network.Yandex.Translate.Types.$tc'DetectLanguage1) -}
+28647b9b0d944d198ecb279d2608d113
+  $tc'DetectLanguage1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+206e2755df8932de39a6c3eb42268a52
+  $tc'DetectLanguage2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$tc'DetectLanguage3) -}
+d4b668045671896201ea130047493da2
+  $tc'DetectLanguage3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'DetectLanguage"#) -}
+2790f9d482f5a8a527bf640e2058e82e
+  $tc'Direction :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12458011539673224545##
+                   4131691365597411172##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tc'Direction2
+                   0#
+                   Network.Yandex.Translate.Types.$tc'Direction1) -}
+49dc39f13b30adde01478ed1f581fc9c
+  $tc'Direction1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+0f2a88d4bc1e641fd565ce703772299a
+  $tc'Direction2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$tc'Direction3) -}
+0a11f48a6d717e8810bf5efa0a139c1e
+  $tc'Direction3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Direction"#) -}
+535739ef56409d02a068eb5502b19b71
+  $tc'HTML :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   17759462809526270868##
+                   11742106795594056435##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tc'HTML2
+                   0#
+                   Network.Yandex.Translate.Types.$tc'HTML1) -}
+771aee24646a84ee904d391451f65cf3
+  $tc'HTML1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+3fee56793e7ff716852d46ade3b5a504
+  $tc'HTML2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$tc'HTML3) -}
+72f9cab983595144878ac3dda21b2762
+  $tc'HTML3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'HTML"#) -}
+0ee7b64ba3e0df98d044d71d91a44653
+  $tc'Plain :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   10856410418697854668##
+                   1376964460715941179##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tc'Plain1
+                   0#
+                   Network.Yandex.Translate.Types.$tc'HTML1) -}
+8d24500120d64faf0ba68eba6394d590
+  $tc'Plain1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$tc'Plain2) -}
+36951512eae8c36438a476cb8e7c7c0b
+  $tc'Plain2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Plain"#) -}
+cd1512e7117aaa2a567004e7ec3b19a8
+  $tc'TranslateParams :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   6820754023026027354##
+                   15205373178098219075##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tc'TranslateParams2
+                   0#
+                   Network.Yandex.Translate.Types.$tc'TranslateParams1) -}
+77cae15e022e7ab0680fbf662b67d30f
+  $tc'TranslateParams1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+a26ba18678a825b5e809688dbe49e727
+  $tc'TranslateParams2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$tc'TranslateParams3) -}
+49f9ce6185787ce0837b36999f2e1e66
+  $tc'TranslateParams3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'TranslateParams"#) -}
+faaa14ddb2415a73b0b6b0f3bd431061
+  $tc'YandexApiConfig :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   17606537497856064358##
+                   11379374296183706622##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tc'YandexApiConfig2
+                   0#
+                   Network.Yandex.Translate.Types.$tc'YandexApiConfig1) -}
+f62b8fb070cfd74907c59052a6700381
+  $tc'YandexApiConfig1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+a9f4232e883ed03d76a7bc869a61d453
+  $tc'YandexApiConfig2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$tc'YandexApiConfig3) -}
+281bb530e080b6a774a5091f3a486ad2
+  $tc'YandexApiConfig3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'YandexApiConfig"#) -}
+6c16df818550c5ce9c35eb5bd82950ba
+  $tcDirection :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   2870735751798300109##
+                   17110043425998796317##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tcDirection1
+                   0#
+                   GHC.Types.krep$*) -}
+23f48c4c5b92de9934e6f310319b7dfb
+  $tcDirection1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$fFromJSONDirection6) -}
+b167ff7ae5d1371530387d9f071e1d06
+  $tcFormat :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12028908330097463582##
+                   3846887897916078531##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tcFormat1
+                   0#
+                   GHC.Types.krep$*) -}
+2c0ebecef4cdae7cbe71b10595ea3851
+  $tcFormat1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$tcFormat2) -}
+81b40e4784d6a31de80371b8853368f6
+  $tcFormat2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Format"#) -}
+883e6f7ba832c3489cf78d72659826c1
+  $tcTranslateOptions :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   11568564711485933128##
+                   9384667503916376228##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tcTranslateOptions1
+                   0#
+                   GHC.Types.krep$*) -}
+59046516ee12165097631fd468805a52
+  $tcTranslateOptions1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$tcTranslateOptions2) -}
+5e50d023a56ace4903cd5211ef0fcc72
+  $tcTranslateOptions2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("TranslateOptions"#) -}
+56a05ef7f13c1ae73a23e190f6acc9fc
+  $tcTranslateParams :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15063091279111874266##
+                   8781079739459144296##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tcTranslateParams1
+                   0#
+                   GHC.Types.krep$*) -}
+3370a499a7f14a92996a5be9748f17f9
+  $tcTranslateParams1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$tcTranslateParams2) -}
+fb3866488ef5cada4605468a2fa0cf6d
+  $tcTranslateParams2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("TranslateParams"#) -}
+14d5224d5a31c4bb9382fc9ce947e6d8
+  $tcYandexApiConfig :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15622929121855149579##
+                   9840206315079543716##
+                   Network.Yandex.Translate.Types.$trModule
+                   Network.Yandex.Translate.Types.$tcYandexApiConfig1
+                   0#
+                   GHC.Types.krep$*) -}
+e27889f1afe647b257d39f9057895184
+  $tcYandexApiConfig1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$tcYandexApiConfig2) -}
+cc9681593fd2c60cf4562193fa7005fc
+  $tcYandexApiConfig2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("YandexApiConfig"#) -}
+cf06ea80c7ce624b5f8d0e0dd0040549
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Network.Yandex.Translate.Types.$trModule3
+                   Network.Yandex.Translate.Types.$trModule1) -}
+8fbafba0eda7ff98cdf8e422c081c9cb
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$trModule2) -}
+cec6f262a163ff1b059f85f99b11fb72
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Network.Yandex.Translate.Types"#) -}
+9f67a6947112bde205f87f3ed085fd15
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.Types.$trModule4) -}
+b781996c9607573e74cf48e7f998cbd5
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("yandex-translate-0.1.0.0-6lrCVQUm6CgAV2dy2OQtON"#) -}
+5bc4abe929ff36985bc341a3d45e9f4d
+  $w$c== ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+    -> GHC.Types.Bool
+  {- Arity: 8, HasNoCafRefs,
+     Strictness: <L,U><L,U><S,U><L,1*U(U,U,U)><L,U><L,U><S,U><L,1*U(U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Data.Text.Internal.Text)
+                   (ww4 :: GHC.Prim.ByteArray#)
+                   (ww5 :: GHC.Prim.Int#)
+                   (ww6 :: GHC.Prim.Int#)
+                   (ww7 :: Data.Text.Internal.Text) ->
+                 case GHC.Prim.==# ww2 ww6 of lwild {
+                   DEFAULT -> GHC.Types.False
+                   1#
+                   -> case {__pkg_ccall text-1.2.3.1 GHC.Prim.ByteArray#
+                                                     -> GHC.Prim.Word#
+                                                     -> GHC.Prim.ByteArray#
+                                                     -> GHC.Prim.Word#
+                                                     -> GHC.Prim.Word#
+                                                     -> GHC.Prim.State# GHC.Prim.RealWorld
+                                                     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                           GHC.Prim.Int# #)}
+                             ww
+                             (GHC.Prim.int2Word# ww1)
+                             ww4
+                             (GHC.Prim.int2Word# ww5)
+                             (GHC.Prim.int2Word# ww2)
+                             GHC.Prim.realWorld# of wild5 { (#,#) ds2 ds3 ->
+                      case GHC.Prim.narrow32Int# ds3 of wild {
+                        DEFAULT -> GHC.Types.False
+                        0# -> Data.Text.$fEqText_$c== ww3 ww7 } } }) -}
+8073dd536f752d16eb250c15482e808a
+  $w$cparseJSON ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Aeson.Types.Internal.Parser
+         Network.Yandex.Translate.Types.Direction
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>, Inline: [0] -}
+ddecefefc58924c5a021479bfd0bff78
+  $w$cshow ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Network.Yandex.Translate.Types.Language
+    -> GHC.Base.String
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,U><S,U><S,U><L,1*U(U,U,U)>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Network.Yandex.Translate.Types.Language) ->
+                 let {
+                   end :: GHC.Prim.Int# = GHC.Prim.+# ww1 ww2
+                 } in
+                 letrec {
+                   $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                     {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                   = \ (ww4 :: GHC.Prim.Int#) ->
+                     case GHC.Prim.>=# ww4 end of lwild {
+                       DEFAULT
+                       -> case GHC.Prim.indexWord16Array# ww ww4 of r# { DEFAULT ->
+                          case GHC.Prim.geWord# r# 55296## of lwild1 {
+                            DEFAULT
+                            -> GHC.Types.:
+                                 @ GHC.Types.Char
+                                 (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                 ($wunfold (GHC.Prim.+# ww4 1#))
+                            1#
+                            -> case GHC.Prim.leWord# r# 56319## of lwild2 {
+                                 DEFAULT
+                                 -> GHC.Types.:
+                                      @ GHC.Types.Char
+                                      (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                      ($wunfold (GHC.Prim.+# ww4 1#))
+                                 1#
+                                 -> case GHC.Prim.indexWord16Array#
+                                           ww
+                                           (GHC.Prim.+# ww4 1#) of r#1 { DEFAULT ->
+                                    GHC.Types.:
+                                      @ GHC.Types.Char
+                                      (GHC.Types.C#
+                                         (GHC.Prim.chr#
+                                            (GHC.Prim.+#
+                                               (GHC.Prim.+#
+                                                  (GHC.Prim.uncheckedIShiftL#
+                                                     (GHC.Prim.-# (GHC.Prim.word2Int# r#) 55296#)
+                                                     10#)
+                                                  (GHC.Prim.-# (GHC.Prim.word2Int# r#1) 56320#))
+                                               65536#)))
+                                      ($wunfold (GHC.Prim.+# ww4 2#)) } } } }
+                       1# -> GHC.Types.[] @ GHC.Types.Char }
+                 } in
+                 GHC.Base.++
+                   @ GHC.Types.Char
+                   ($wunfold ww1)
+                   (GHC.CString.unpackAppendCString#
+                      Network.Yandex.Translate.Types.$fShowDirection2
+                      (case ww3 of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                       let {
+                         end1 :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                       } in
+                       letrec {
+                         $wunfold1 :: GHC.Prim.Int# -> [GHC.Types.Char]
+                           {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                         = \ (ww4 :: GHC.Prim.Int#) ->
+                           case GHC.Prim.>=# ww4 end1 of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.indexWord16Array# dt ww4 of r# { DEFAULT ->
+                                case GHC.Prim.geWord# r# 55296## of lwild1 {
+                                  DEFAULT
+                                  -> GHC.Types.:
+                                       @ GHC.Types.Char
+                                       (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                       ($wunfold1 (GHC.Prim.+# ww4 1#))
+                                  1#
+                                  -> case GHC.Prim.leWord# r# 56319## of lwild2 {
+                                       DEFAULT
+                                       -> GHC.Types.:
+                                            @ GHC.Types.Char
+                                            (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                            ($wunfold1 (GHC.Prim.+# ww4 1#))
+                                       1#
+                                       -> case GHC.Prim.indexWord16Array#
+                                                 dt
+                                                 (GHC.Prim.+# ww4 1#) of r#1 { DEFAULT ->
+                                          GHC.Types.:
+                                            @ GHC.Types.Char
+                                            (GHC.Types.C#
+                                               (GHC.Prim.chr#
+                                                  (GHC.Prim.+#
+                                                     (GHC.Prim.+#
+                                                        (GHC.Prim.uncheckedIShiftL#
+                                                           (GHC.Prim.-#
+                                                              (GHC.Prim.word2Int# r#)
+                                                              55296#)
+                                                           10#)
+                                                        (GHC.Prim.-#
+                                                           (GHC.Prim.word2Int# r#1)
+                                                           56320#))
+                                                     65536#)))
+                                            ($wunfold1 (GHC.Prim.+# ww4 2#)) } } } }
+                             1# -> GHC.Types.[] @ GHC.Types.Char }
+                       } in
+                       $wunfold1 dt1 }))) -}
+597a80ae1d596e58d4e0a44d3fb76a68
+  $w$cshow1 ::
+    Network.Yandex.Translate.Types.APIKey
+    -> Network.Wreq.Internal.Types.Options -> GHC.Base.String
+  {- Arity: 2,
+     Strictness: <L,1*U(U,U,U)><L,1*U(1*U,1*U,1*U,1*U,1*U,1*U(U),1*U,A)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: Network.Yandex.Translate.Types.APIKey)
+                   (ww1 :: Network.Wreq.Internal.Types.Options) ->
+                 GHC.CString.unpackAppendCString#
+                   Network.Yandex.Translate.Types.$fShowYandexApiConfig4
+                   (GHC.CString.unpackAppendCString#
+                      Network.Yandex.Translate.Types.$fShowYandexApiConfig3
+                      (case Data.Text.Show.$w$cshowsPrec
+                              ww
+                              (GHC.Base.++
+                                 @ GHC.Types.Char
+                                 GHC.Show.showCommaSpace1
+                                 (GHC.CString.unpackAppendCString#
+                                    Network.Yandex.Translate.Types.$fShowYandexApiConfig2
+                                    (case ww1 of ww2 { Network.Wreq.Internal.Types.Options ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ->
+                                     GHC.Base.++
+                                       @ GHC.Types.Char
+                                       (Network.Wreq.Internal.Types.$w$cshow2
+                                          ww3
+                                          ww4
+                                          ww5
+                                          ww6
+                                          ww7
+                                          ww8
+                                          ww9)
+                                       Network.Yandex.Translate.Types.$fShowYandexApiConfig5 }))) of ww2 { (#,#) ww3 ww4 ->
+                       GHC.Types.: @ GHC.Types.Char ww3 ww4 }))) -}
+840e7b296f89d525ccda22682f123924
+  $w$cshowsPrec ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Network.Yandex.Translate.Types.Language
+    -> GHC.Base.String
+    -> [GHC.Types.Char]
+  {- Arity: 5, HasNoCafRefs,
+     Strictness: <L,U><S,U><S,U><L,1*U(U,U,U)><L,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Network.Yandex.Translate.Types.Language)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   end :: GHC.Prim.Int# = GHC.Prim.+# ww1 ww2
+                 } in
+                 letrec {
+                   $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                     {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                   = \ (ww4 :: GHC.Prim.Int#) ->
+                     case GHC.Prim.>=# ww4 end of lwild {
+                       DEFAULT
+                       -> case GHC.Prim.indexWord16Array# ww ww4 of r# { DEFAULT ->
+                          case GHC.Prim.geWord# r# 55296## of lwild1 {
+                            DEFAULT
+                            -> GHC.Types.:
+                                 @ GHC.Types.Char
+                                 (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                 ($wunfold (GHC.Prim.+# ww4 1#))
+                            1#
+                            -> case GHC.Prim.leWord# r# 56319## of lwild2 {
+                                 DEFAULT
+                                 -> GHC.Types.:
+                                      @ GHC.Types.Char
+                                      (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                      ($wunfold (GHC.Prim.+# ww4 1#))
+                                 1#
+                                 -> case GHC.Prim.indexWord16Array#
+                                           ww
+                                           (GHC.Prim.+# ww4 1#) of r#1 { DEFAULT ->
+                                    GHC.Types.:
+                                      @ GHC.Types.Char
+                                      (GHC.Types.C#
+                                         (GHC.Prim.chr#
+                                            (GHC.Prim.+#
+                                               (GHC.Prim.+#
+                                                  (GHC.Prim.uncheckedIShiftL#
+                                                     (GHC.Prim.-# (GHC.Prim.word2Int# r#) 55296#)
+                                                     10#)
+                                                  (GHC.Prim.-# (GHC.Prim.word2Int# r#1) 56320#))
+                                               65536#)))
+                                      ($wunfold (GHC.Prim.+# ww4 2#)) } } } }
+                       1# -> GHC.Types.[] @ GHC.Types.Char }
+                 } in
+                 GHC.Base.++
+                   @ GHC.Types.Char
+                   ($wunfold ww1)
+                   (GHC.CString.unpackAppendCString#
+                      Network.Yandex.Translate.Types.$fShowDirection2
+                      (case ww3 of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                       let {
+                         end1 :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                       } in
+                       letrec {
+                         $wunfold1 :: GHC.Prim.Int# -> [GHC.Types.Char]
+                           {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                         = \ (ww4 :: GHC.Prim.Int#) ->
+                           case GHC.Prim.>=# ww4 end1 of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.indexWord16Array# dt ww4 of r# { DEFAULT ->
+                                case GHC.Prim.geWord# r# 55296## of lwild1 {
+                                  DEFAULT
+                                  -> GHC.Types.:
+                                       @ GHC.Types.Char
+                                       (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                       ($wunfold1 (GHC.Prim.+# ww4 1#))
+                                  1#
+                                  -> case GHC.Prim.leWord# r# 56319## of lwild2 {
+                                       DEFAULT
+                                       -> GHC.Types.:
+                                            @ GHC.Types.Char
+                                            (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                            ($wunfold1 (GHC.Prim.+# ww4 1#))
+                                       1#
+                                       -> case GHC.Prim.indexWord16Array#
+                                                 dt
+                                                 (GHC.Prim.+# ww4 1#) of r#1 { DEFAULT ->
+                                          GHC.Types.:
+                                            @ GHC.Types.Char
+                                            (GHC.Types.C#
+                                               (GHC.Prim.chr#
+                                                  (GHC.Prim.+#
+                                                     (GHC.Prim.+#
+                                                        (GHC.Prim.uncheckedIShiftL#
+                                                           (GHC.Prim.-#
+                                                              (GHC.Prim.word2Int# r#)
+                                                              55296#)
+                                                           10#)
+                                                        (GHC.Prim.-#
+                                                           (GHC.Prim.word2Int# r#1)
+                                                           56320#))
+                                                     65536#)))
+                                            ($wunfold1 (GHC.Prim.+# ww4 2#)) } } } }
+                             1# -> GHC.Types.[] @ GHC.Types.Char }
+                       } in
+                       GHC.Base.++ @ GHC.Types.Char ($wunfold1 dt1) w }))) -}
+d50b7ad07bfd5fffaa463bf963a4f880
+  $w$cshowsPrec1 ::
+    GHC.Prim.Int#
+    -> Network.Yandex.Translate.Types.Format
+    -> [Network.Yandex.Translate.Types.TranslateOptions]
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4, Strictness: <S,U><L,1*U><L,1*U><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: Network.Yandex.Translate.Types.Format)
+                   (ww2 :: [Network.Yandex.Translate.Types.TranslateOptions])
+                   (w :: GHC.Base.String) ->
+                 let {
+                   g :: GHC.Base.String -> GHC.Base.String
+                     {- Arity: 1, Strictness: <L,U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.CString.unpackAppendCString#
+                       Network.Yandex.Translate.Types.$fShowTranslateParams6
+                       (let {
+                          n :: [GHC.Types.Char]
+                          = GHC.Base.++
+                              @ GHC.Types.Char
+                              GHC.Show.showCommaSpace1
+                              (GHC.CString.unpackAppendCString#
+                                 Network.Yandex.Translate.Types.$fShowTranslateParams5
+                                 (let {
+                                    s :: GHC.Base.String
+                                    = GHC.CString.unpackAppendCString#
+                                        Network.Yandex.Translate.Types.$fShowTranslateParams4
+                                        x
+                                  } in
+                                  case ww2 of wild {
+                                    [] -> GHC.CString.unpackAppendCString# GHC.Show.showList__4 s
+                                    : x1 xs
+                                    -> GHC.Types.:
+                                         @ GHC.Types.Char
+                                         GHC.Show.showList__3
+                                         (case x1 of wild1 { Network.Yandex.Translate.Types.DetectLanguage ->
+                                          GHC.Base.++
+                                            @ GHC.Types.Char
+                                            Network.Yandex.Translate.Types.$fShowTranslateOptions2
+                                            (let {
+                                               lvl43 :: [GHC.Types.Char]
+                                               = GHC.Types.: @ GHC.Types.Char GHC.Show.showList__2 s
+                                             } in
+                                             letrec {
+                                               showl :: [Network.Yandex.Translate.Types.TranslateOptions]
+                                                        -> GHC.Base.String
+                                                 {- Arity: 1, Strictness: <S,1*U> -}
+                                               = \ (ds2 :: [Network.Yandex.Translate.Types.TranslateOptions]) ->
+                                                 case ds2 of wild2 {
+                                                   [] -> lvl43
+                                                   : y ys
+                                                   -> GHC.Types.:
+                                                        @ GHC.Types.Char
+                                                        GHC.Show.showList__1
+                                                        (case y of wild3 { Network.Yandex.Translate.Types.DetectLanguage ->
+                                                         GHC.Base.++
+                                                           @ GHC.Types.Char
+                                                           Network.Yandex.Translate.Types.$fShowTranslateOptions2
+                                                           (showl ys) }) }
+                                             } in
+                                             showl xs) }) }))
+                        } in
+                        case ww1 of wild {
+                          Network.Yandex.Translate.Types.Plain
+                          -> GHC.Base.++
+                               @ GHC.Types.Char
+                               Network.Yandex.Translate.Types.$fShowFormat4
+                               n
+                          Network.Yandex.Translate.Types.HTML
+                          -> GHC.Base.++
+                               @ GHC.Types.Char
+                               Network.Yandex.Translate.Types.$fShowFormat2
+                               n })
+                 } in
+                 case GHC.Prim.>=# ww 11# of lwild {
+                   DEFAULT
+                   -> GHC.Base.++
+                        @ GHC.Types.Char
+                        Network.Yandex.Translate.Types.$fShowTranslateParams2
+                        (g w)
+                   1#
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.$fShow(,)4
+                        (GHC.Base.++
+                           @ GHC.Types.Char
+                           Network.Yandex.Translate.Types.$fShowTranslateParams2
+                           (g (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 w))) }) -}
+7bd7266e98559c5a41fdf44c01ba513d
+  $w$cshowsPrec2 ::
+    GHC.Prim.Int#
+    -> Network.Yandex.Translate.Types.APIKey
+    -> Network.Wreq.Internal.Types.Options
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4,
+     Strictness: <S,U><L,1*U(U,U,U)><L,1*U(1*U,1*U,1*U,1*U,1*U,1*U(U),1*U,A)><L,U>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: Network.Yandex.Translate.Types.APIKey)
+                   (ww2 :: Network.Wreq.Internal.Types.Options)
+                   (w :: GHC.Base.String) ->
+                 case GHC.Prim.>=# ww 11# of lwild {
+                   DEFAULT
+                   -> GHC.CString.unpackAppendCString#
+                        Network.Yandex.Translate.Types.$fShowYandexApiConfig4
+                        (GHC.CString.unpackAppendCString#
+                           Network.Yandex.Translate.Types.$fShowYandexApiConfig3
+                           (case Data.Text.Show.$w$cshowsPrec
+                                   ww1
+                                   (GHC.Base.++
+                                      @ GHC.Types.Char
+                                      GHC.Show.showCommaSpace1
+                                      (GHC.CString.unpackAppendCString#
+                                         Network.Yandex.Translate.Types.$fShowYandexApiConfig2
+                                         (case ww2 of ww3 { Network.Wreq.Internal.Types.Options ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ->
+                                          GHC.Base.++
+                                            @ GHC.Types.Char
+                                            (Network.Wreq.Internal.Types.$w$cshow2
+                                               ww4
+                                               ww5
+                                               ww6
+                                               ww7
+                                               ww8
+                                               ww9
+                                               ww10)
+                                            (GHC.CString.unpackAppendCString#
+                                               Network.Yandex.Translate.Types.$fShowTranslateParams4
+                                               w) }))) of ww3 { (#,#) ww4 ww5 ->
+                            GHC.Types.: @ GHC.Types.Char ww4 ww5 }))
+                   1#
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.$fShow(,)4
+                        (GHC.CString.unpackAppendCString#
+                           Network.Yandex.Translate.Types.$fShowYandexApiConfig4
+                           (GHC.CString.unpackAppendCString#
+                              Network.Yandex.Translate.Types.$fShowYandexApiConfig3
+                              (case Data.Text.Show.$w$cshowsPrec
+                                      ww1
+                                      (GHC.Base.++
+                                         @ GHC.Types.Char
+                                         GHC.Show.showCommaSpace1
+                                         (GHC.CString.unpackAppendCString#
+                                            Network.Yandex.Translate.Types.$fShowYandexApiConfig2
+                                            (case ww2 of ww3 { Network.Wreq.Internal.Types.Options ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ->
+                                             GHC.Base.++
+                                               @ GHC.Types.Char
+                                               (Network.Wreq.Internal.Types.$w$cshow2
+                                                  ww4
+                                                  ww5
+                                                  ww6
+                                                  ww7
+                                                  ww8
+                                                  ww9
+                                                  ww10)
+                                               (GHC.CString.unpackAppendCString#
+                                                  Network.Yandex.Translate.Types.$fShowTranslateParams4
+                                                  (GHC.Types.:
+                                                     @ GHC.Types.Char
+                                                     GHC.Show.$fShow(,)2
+                                                     w)) }))) of ww3 { (#,#) ww4 ww5 ->
+                               GHC.Types.: @ GHC.Types.Char ww4 ww5 }))) }) -}
+74704bdd91d947152a58dc0390dd3765
+  $w$ctoEnum ::
+    GHC.Prim.Int# -> Network.Yandex.Translate.Types.Format
+  {- Arity: 1, Strictness: <S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> Network.Yandex.Translate.Types.$wlvl ww
+                   1#
+                   -> case GHC.Prim.<=# ww 1# of lwild1 {
+                        DEFAULT -> Network.Yandex.Translate.Types.$wlvl ww
+                        1#
+                        -> GHC.Prim.tagToEnum#
+                             @ Network.Yandex.Translate.Types.Format
+                             ww } }) -}
+c010b9f4894951677e3d551580e4a96c
+  $w$ctoEnum1 ::
+    GHC.Prim.Int# -> Network.Yandex.Translate.Types.TranslateOptions
+  {- Arity: 1, Strictness: <S,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) ->
+                 case GHC.Prim.>=# ww 0# of lwild {
+                   DEFAULT -> Network.Yandex.Translate.Types.$wlvl1 ww
+                   1#
+                   -> case GHC.Prim.<=# ww 0# of lwild1 {
+                        DEFAULT -> Network.Yandex.Translate.Types.$wlvl1 ww
+                        1#
+                        -> GHC.Prim.tagToEnum#
+                             @ Network.Yandex.Translate.Types.TranslateOptions
+                             ww } }) -}
+bd8a079af183ce260ab3c34f84f5685c
+  $w$ctoJSON ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Network.Yandex.Translate.Types.Language
+    -> (# Data.Text.Internal.Text #)
+  {- Arity: 4, Strictness: <L,U><S,U><S,U><L,1*U(U,U,U)>,
+     Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.ByteArray#)
+                   (ww1 :: GHC.Prim.Int#)
+                   (ww2 :: GHC.Prim.Int#)
+                   (ww3 :: Network.Yandex.Translate.Types.Language) ->
+                 let {
+                   end :: GHC.Prim.Int# = GHC.Prim.+# ww1 ww2
+                 } in
+                 letrec {
+                   $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                     {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                   = \ (ww4 :: GHC.Prim.Int#) ->
+                     case GHC.Prim.>=# ww4 end of lwild {
+                       DEFAULT
+                       -> case GHC.Prim.indexWord16Array# ww ww4 of r# { DEFAULT ->
+                          case GHC.Prim.geWord# r# 55296## of lwild1 {
+                            DEFAULT
+                            -> GHC.Types.:
+                                 @ GHC.Types.Char
+                                 (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                 ($wunfold (GHC.Prim.+# ww4 1#))
+                            1#
+                            -> case GHC.Prim.leWord# r# 56319## of lwild2 {
+                                 DEFAULT
+                                 -> GHC.Types.:
+                                      @ GHC.Types.Char
+                                      (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                      ($wunfold (GHC.Prim.+# ww4 1#))
+                                 1#
+                                 -> case GHC.Prim.indexWord16Array#
+                                           ww
+                                           (GHC.Prim.+# ww4 1#) of r#1 { DEFAULT ->
+                                    GHC.Types.:
+                                      @ GHC.Types.Char
+                                      (GHC.Types.C#
+                                         (GHC.Prim.chr#
+                                            (GHC.Prim.+#
+                                               (GHC.Prim.+#
+                                                  (GHC.Prim.uncheckedIShiftL#
+                                                     (GHC.Prim.-# (GHC.Prim.word2Int# r#) 55296#)
+                                                     10#)
+                                                  (GHC.Prim.-# (GHC.Prim.word2Int# r#1) 56320#))
+                                               65536#)))
+                                      ($wunfold (GHC.Prim.+# ww4 2#)) } } } }
+                       1# -> GHC.Types.[] @ GHC.Types.Char }
+                 } in
+                 case GHC.Base.++
+                        @ GHC.Types.Char
+                        ($wunfold ww1)
+                        (GHC.CString.unpackAppendCString#
+                           Network.Yandex.Translate.Types.$fShowDirection2
+                           (case ww3 of wild { Data.Text.Internal.Text dt dt1 dt2 ->
+                            let {
+                              end1 :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                            } in
+                            letrec {
+                              $wunfold1 :: GHC.Prim.Int# -> [GHC.Types.Char]
+                                {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                              = \ (ww4 :: GHC.Prim.Int#) ->
+                                case GHC.Prim.>=# ww4 end1 of lwild {
+                                  DEFAULT
+                                  -> case GHC.Prim.indexWord16Array# dt ww4 of r# { DEFAULT ->
+                                     case GHC.Prim.geWord# r# 55296## of lwild1 {
+                                       DEFAULT
+                                       -> GHC.Types.:
+                                            @ GHC.Types.Char
+                                            (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                            ($wunfold1 (GHC.Prim.+# ww4 1#))
+                                       1#
+                                       -> case GHC.Prim.leWord# r# 56319## of lwild2 {
+                                            DEFAULT
+                                            -> GHC.Types.:
+                                                 @ GHC.Types.Char
+                                                 (GHC.Types.C#
+                                                    (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                                 ($wunfold1 (GHC.Prim.+# ww4 1#))
+                                            1#
+                                            -> case GHC.Prim.indexWord16Array#
+                                                      dt
+                                                      (GHC.Prim.+# ww4 1#) of r#1 { DEFAULT ->
+                                               GHC.Types.:
+                                                 @ GHC.Types.Char
+                                                 (GHC.Types.C#
+                                                    (GHC.Prim.chr#
+                                                       (GHC.Prim.+#
+                                                          (GHC.Prim.+#
+                                                             (GHC.Prim.uncheckedIShiftL#
+                                                                (GHC.Prim.-#
+                                                                   (GHC.Prim.word2Int# r#)
+                                                                   55296#)
+                                                                10#)
+                                                             (GHC.Prim.-#
+                                                                (GHC.Prim.word2Int# r#1)
+                                                                56320#))
+                                                          65536#)))
+                                                 ($wunfold1 (GHC.Prim.+# ww4 2#)) } } } }
+                                  1# -> GHC.Types.[] @ GHC.Types.Char }
+                            } in
+                            $wunfold1 dt1 })) of dt { DEFAULT ->
+                 case GHC.Magic.runRW#
+                        @ ('GHC.Types.TupleRep
+                             '['GHC.Types.TupleRep '[], 'GHC.Types.LiftedRep])
+                        @ (# GHC.Prim.State# GHC.Prim.RealWorld, Data.Text.Internal.Text #)
+                        (\ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                         case GHC.Prim.newByteArray#
+                                @ GHC.Prim.RealWorld
+                                10#
+                                s1 of ds1 { (#,#) ipv ipv1 ->
+                         Network.Yandex.Translate.Types.$wouter
+                           ipv1
+                           4#
+                           dt
+                           0#
+                           ipv }) of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of dt1 { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
+                 (# dt1 #) } } }) -}
+cc7d909e1d2f5c4b63817c5e449dbd0f
+  $wdirectionAsText ::
+    GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+  {- Arity: 6, Strictness: <L,U><S,U><S,U><L,U><S,U><S,U>,
+     Inline: [0] -}
+fc602cb4b86037f421444f7014d22702
+  $wformatDirection ::
+    GHC.Base.Maybe Network.Yandex.Translate.Types.Language
+    -> GHC.Prim.ByteArray#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Data.Text.Internal.Text
+  {- Arity: 4, Strictness: <S,1*U><L,U><S,U><S,U>, Inline: [0] -}
+74704bdd91d947152a58dc0390dd3765
+  $wlvl :: GHC.Prim.Int# -> Network.Yandex.Translate.Types.Format
+  {- Arity: 1, Strictness: <B,U>x, Inline: [0] -}
+c010b9f4894951677e3d551580e4a96c
+  $wlvl1 ::
+    GHC.Prim.Int# -> Network.Yandex.Translate.Types.TranslateOptions
+  {- Arity: 1, Strictness: <B,U>x, Inline: [0] -}
+edc6438665d1201a4143a027f64b4659
+  $wouter ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><S,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+cecb2c9de6503a9277ddbc6821675809
+  type APIKey = Data.Text.Internal.Text
+c95c9bb6a89225be830d97243dafa91d
+  type ApiInfo =
+    (Network.Yandex.Translate.Types.YandexApiConfig,
+     Network.Wreq.Internal.Types.Session)
+8073dd536f752d16eb250c15482e808a
+  newtype Direction
+    = Direction (Network.Yandex.Translate.Types.Language,
+                 Network.Yandex.Translate.Types.Language)
+74704bdd91d947152a58dc0390dd3765
+  data Format = Plain | HTML
+6f5b62beed1b67ac142718128bb624ad
+  type Language = Data.Text.Internal.Text
+6a12d19ffa2438f4cd24912283fbcbde
+  type LanguagesDescr =
+    Data.HashMap.Base.HashMap
+      Data.Text.Internal.Text Data.Text.Internal.Text
+c010b9f4894951677e3d551580e4a96c
+  data TranslateOptions = DetectLanguage
+29adcd990a8d3bf8f2a0933f638fc51c
+  data TranslateParams
+    = TranslateParams {_format :: Network.Yandex.Translate.Types.Format,
+                       _options :: [Network.Yandex.Translate.Types.TranslateOptions]}
+fdab5b00a2d955763328c8b2f2db485b
+  data YandexApiConfig
+    = YandexApiConfig {_apikey :: Network.Yandex.Translate.Types.APIKey,
+                       _httpOptions :: Network.Wreq.Internal.Types.Options}
+b502f33daa2116397fe4104173412d69
+  type YandexApiT (m :: * -> *) a =
+    Control.Monad.Trans.Reader.ReaderT
+      Network.Yandex.Translate.Types.ApiInfo m a
+fdab5b00a2d955763328c8b2f2db485b
+  _apikey ::
+    Network.Yandex.Translate.Types.YandexApiConfig
+    -> Network.Yandex.Translate.Types.APIKey
+  RecSel Left Network.Yandex.Translate.Types.YandexApiConfig
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U,U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Network.Yandex.Translate.Types.YandexApiConfig) ->
+                 case ds of wild { Network.Yandex.Translate.Types.YandexApiConfig ds1 ds2 ->
+                 ds1 }) -}
+b62453d0e77813943ade4724dfa3af9c
+  _config ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Translate.Types.ApiInfo
+      Network.Yandex.Translate.Types.YandexApiConfig
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><L,U(1*U,1*U)>,
+     Unfolding: InlineRule (0, True, True)
+                (Control.Lens.Tuple.$fField1(,)(,)aa'_$c_1
+                   @ Network.Yandex.Translate.Types.YandexApiConfig
+                   @ Network.Wreq.Internal.Types.Session
+                   @ Network.Yandex.Translate.Types.YandexApiConfig) -}
+29adcd990a8d3bf8f2a0933f638fc51c
+  _format ::
+    Network.Yandex.Translate.Types.TranslateParams
+    -> Network.Yandex.Translate.Types.Format
+  RecSel Left Network.Yandex.Translate.Types.TranslateParams
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Network.Yandex.Translate.Types.TranslateParams) ->
+                 case ds of wild { Network.Yandex.Translate.Types.TranslateParams ds1 ds2 ->
+                 ds1 }) -}
+fdab5b00a2d955763328c8b2f2db485b
+  _httpOptions ::
+    Network.Yandex.Translate.Types.YandexApiConfig
+    -> Network.Wreq.Internal.Types.Options
+  RecSel Left Network.Yandex.Translate.Types.YandexApiConfig
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LS),1*U(A,1*U(U,U,U,U,U,U,U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Network.Yandex.Translate.Types.YandexApiConfig) ->
+                 case ds of wild { Network.Yandex.Translate.Types.YandexApiConfig ds1 ds2 ->
+                 ds2 }) -}
+29adcd990a8d3bf8f2a0933f638fc51c
+  _options ::
+    Network.Yandex.Translate.Types.TranslateParams
+    -> [Network.Yandex.Translate.Types.TranslateOptions]
+  RecSel Left Network.Yandex.Translate.Types.TranslateParams
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Network.Yandex.Translate.Types.TranslateParams) ->
+                 case ds of wild { Network.Yandex.Translate.Types.TranslateParams ds1 ds2 ->
+                 ds2 }) -}
+848a322da05985e986ba3d92526ee953
+  _session ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Translate.Types.ApiInfo
+      Network.Wreq.Internal.Types.Session
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><L,U(1*U,1*U)>,
+     Unfolding: InlineRule (0, True, True)
+                (Control.Lens.Tuple.$fField2(,)(,)bb'_$c_2
+                   @ Network.Yandex.Translate.Types.YandexApiConfig
+                   @ Network.Wreq.Internal.Types.Session
+                   @ Network.Wreq.Internal.Types.Session) -}
+9851de4d4f206220f65a2ea7eeff742c
+  apikey ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Translate.Types.YandexApiConfig
+      Network.Yandex.Translate.Types.APIKey
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f)
+                   (f1 :: Network.Yandex.Translate.Types.APIKey
+                          -> f Network.Yandex.Translate.Types.APIKey)
+                   (ds :: Network.Yandex.Translate.Types.YandexApiConfig) ->
+                 case ds of wild { Network.Yandex.Translate.Types.YandexApiConfig x1 x2 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ Network.Yandex.Translate.Types.APIKey
+                   @ Network.Yandex.Translate.Types.YandexApiConfig
+                   (\ (y1 :: Network.Yandex.Translate.Types.APIKey) ->
+                    Network.Yandex.Translate.Types.YandexApiConfig y1 x2)
+                   (f1 x1) }) -}
+f4cbe307eca06a3c9a6d732dac444b90
+  configureApi ::
+    Network.Yandex.Translate.Types.APIKey
+    -> Network.Yandex.Translate.Types.YandexApiConfig
+  {- Arity: 1, Strictness: <L,U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (key :: Network.Yandex.Translate.Types.APIKey) ->
+                 Network.Yandex.Translate.Types.YandexApiConfig
+                   key
+                   Network.Yandex.Translate.Types.configureApi1) -}
+e16188af9fb1c985fb515dc4cca139ae
+  configureApi1 :: Network.Wreq.Internal.Types.Options
+  {- Strictness: m,
+     Unfolding: (Network.Wreq.Internal.Types.Options
+                   Network.Wreq.Internal.defaults7
+                   (GHC.Base.Nothing @ Network.HTTP.Client.Types.Proxy)
+                   (GHC.Base.Nothing @ Network.Wreq.Internal.Types.Auth)
+                   Network.Wreq.Internal.defaults3
+                   (GHC.Types.[] @ (Data.Text.Internal.Text, Data.Text.Internal.Text))
+                   Network.Yandex.Translate.Types.$fShowTranslateParams7
+                   Network.Wreq.Internal.defaults1
+                   (GHC.Base.Nothing
+                      @ Network.Wreq.Internal.Types.ResponseChecker)) -}
+c57ee3704e243ec817992f4a1d0b8420
+  directionAsText ::
+    Network.Yandex.Translate.Types.Direction -> Data.Text.Internal.Text
+  {- Arity: 1,
+     Strictness: <S(S(SSS)S(SSS)),1*U(1*U(U,U,U),1*U(U,U,U))>,
+     Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Network.Yandex.Translate.Types.Direction) ->
+                 case w `cast`
+                      (Network.Yandex.Translate.Types.N:Direction[0]) of ww { (,) ww1 ww2 ->
+                 case ww1 of ww3 { Data.Text.Internal.Text ww4 ww5 ww6 ->
+                 case ww2 of ww7 { Data.Text.Internal.Text ww8 ww9 ww10 ->
+                 Network.Yandex.Translate.Types.$wdirectionAsText
+                   ww4
+                   ww5
+                   ww6
+                   ww8
+                   ww9
+                   ww10 } } }) -}
+63bf98eeaefb1bd9406e131b7c38da47
+  format ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Translate.Types.TranslateParams
+      Network.Yandex.Translate.Types.Format
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f)
+                   (f1 :: Network.Yandex.Translate.Types.Format
+                          -> f Network.Yandex.Translate.Types.Format)
+                   (ds :: Network.Yandex.Translate.Types.TranslateParams) ->
+                 case ds of wild { Network.Yandex.Translate.Types.TranslateParams x1 x2 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ Network.Yandex.Translate.Types.Format
+                   @ Network.Yandex.Translate.Types.TranslateParams
+                   (\ (y1 :: Network.Yandex.Translate.Types.Format) ->
+                    Network.Yandex.Translate.Types.TranslateParams y1 x2)
+                   (f1 x1) }) -}
+035a499df01ded38b09ebff41620a546
+  formatDirection ::
+    GHC.Base.Maybe Network.Yandex.Translate.Types.Language
+    -> Network.Yandex.Translate.Types.Language
+    -> Data.Text.Internal.Text
+  {- Arity: 2, Strictness: <S,1*U><S(SSS),1*U(U,U,U)>, Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Base.Maybe Network.Yandex.Translate.Types.Language)
+                   (w1 :: Network.Yandex.Translate.Types.Language) ->
+                 case w1 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                 Network.Yandex.Translate.Types.$wformatDirection
+                   w
+                   ww1
+                   ww2
+                   ww3 }) -}
+cf0f47f389e45dd3e87bbb9a7890731f
+  httpOptions ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Translate.Types.YandexApiConfig
+      Network.Wreq.Internal.Types.Options
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f)
+                   (f1 :: Network.Wreq.Internal.Types.Options
+                          -> f Network.Wreq.Internal.Types.Options)
+                   (ds :: Network.Yandex.Translate.Types.YandexApiConfig) ->
+                 case ds of wild { Network.Yandex.Translate.Types.YandexApiConfig x1 x2 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ Network.Wreq.Internal.Types.Options
+                   @ Network.Yandex.Translate.Types.YandexApiConfig
+                   (\ (y1 :: Network.Wreq.Internal.Types.Options) ->
+                    Network.Yandex.Translate.Types.YandexApiConfig x1 y1)
+                   (f1 x2) }) -}
+3d787754d7ce940076e256fa513bfb2e
+  options ::
+    Control.Lens.Type.Lens'
+      Network.Yandex.Translate.Types.TranslateParams
+      [Network.Yandex.Translate.Types.TranslateOptions]
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (3, False, False)
+                (\ @ f :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f)
+                   (f1 :: [Network.Yandex.Translate.Types.TranslateOptions]
+                          -> f [Network.Yandex.Translate.Types.TranslateOptions])
+                   (ds :: Network.Yandex.Translate.Types.TranslateParams) ->
+                 case ds of wild { Network.Yandex.Translate.Types.TranslateParams x1 x2 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ [Network.Yandex.Translate.Types.TranslateOptions]
+                   @ Network.Yandex.Translate.Types.TranslateParams
+                   (\ (y1 :: [Network.Yandex.Translate.Types.TranslateOptions]) ->
+                    Network.Yandex.Translate.Types.TranslateParams x1 y1)
+                   (f1 x2) }) -}
+3a41162c1ff8b629982235030f82149d
+  runYandexApi ::
+    Control.Monad.IO.Class.MonadIO m =>
+    Network.Wreq.Internal.Types.Session
+    -> Network.Yandex.Translate.Types.YandexApiConfig
+    -> Network.Yandex.Translate.Types.YandexApiT GHC.Types.IO a
+    -> m a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S(LC(S)),1*U(A,1*C1(U))><L,U><L,U><L,1*C1(U)>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   @ a
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   (sess :: Network.Wreq.Internal.Types.Session)
+                   (conf :: Network.Yandex.Translate.Types.YandexApiConfig)
+                   (act :: Network.Yandex.Translate.Types.YandexApiT
+                             GHC.Types.IO a) ->
+                 Control.Monad.IO.Class.liftIO
+                   @ m
+                   $dMonadIO
+                   @ a
+                   (act
+                      `cast`
+                    (Control.Monad.Trans.Reader.N:ReaderT[0]
+                         <*>_N
+                         <Network.Yandex.Translate.Types.ApiInfo>_R
+                         <GHC.Types.IO>_R
+                         <a>_N)
+                      (conf, sess))) -}
+2e613ab863dcdd144c89708ac6d93110
+  runYandexApiSession ::
+    Network.Yandex.Translate.Types.YandexApiConfig
+    -> Network.Yandex.Translate.Types.YandexApiT GHC.Types.IO a
+    -> GHC.Types.IO a
+  {- Arity: 3, Strictness: <L,U><L,1*C1(C1(U(U,U)))><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Network.Yandex.Translate.Types.runYandexApiSession1
+                  `cast`
+                (forall (a :: <*>_N).
+                 <Network.Yandex.Translate.Types.YandexApiConfig>_R
+                 ->_R <Network.Yandex.Translate.Types.YandexApiT GHC.Types.IO a>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <a>_R)) -}
+44c803d2ac325043342147fba2e8d5d4
+  runYandexApiSession1 ::
+    Network.Yandex.Translate.Types.YandexApiConfig
+    -> Network.Yandex.Translate.Types.YandexApiT GHC.Types.IO a
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, a #)
+  {- Arity: 3, Strictness: <L,U><L,1*C1(C1(U(U,U)))><S,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a
+                   (conf :: Network.Yandex.Translate.Types.YandexApiConfig)
+                   (act :: Network.Yandex.Translate.Types.YandexApiT GHC.Types.IO a)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case Network.HTTP.Client.Manager.newManager1
+                        Network.HTTP.Client.TLS.tlsManagerSettings
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (act
+                    `cast`
+                  (Control.Monad.Trans.Reader.N:ReaderT[0]
+                       <*>_N
+                       <Network.Yandex.Translate.Types.ApiInfo>_R
+                       <GHC.Types.IO>_R
+                       <a>_N)
+                    (conf,
+                     Network.Wreq.Internal.Types.Session
+                       (GHC.Base.Nothing
+                          @ (GHC.IORef.IORef Network.HTTP.Client.Types.CookieJar))
+                       ipv1
+                       Network.Wreq.Session.newAPISession3
+                         `cast`
+                       (<Network.Wreq.Internal.Types.Session>_R
+                        ->_R <Network.Wreq.Internal.Types.Req
+                              -> GHC.Types.IO
+                                   (Network.HTTP.Client.Types.Response
+                                      Network.Wreq.Internal.Types.Body)>_R
+                        ->_R <Network.Wreq.Internal.Types.Req>_R
+                        ->_R Sym (GHC.Types.N:IO[0]
+                                      <Network.HTTP.Client.Types.Response
+                                         Network.Wreq.Internal.Types.Body>_R))
+                       Network.Wreq.Session.newAPISession2
+                         `cast`
+                       (<Network.Wreq.Internal.Types.Session>_R
+                        ->_R <Network.Wreq.Internal.Types.Req
+                              -> GHC.Types.IO
+                                   (Network.HTTP.Client.HistoriedResponse
+                                      Network.Wreq.Internal.Types.Body)>_R
+                        ->_R <Network.Wreq.Internal.Types.Req>_R
+                        ->_R Sym (GHC.Types.N:IO[0]
+                                      <Network.HTTP.Client.HistoriedResponse
+                                         Network.Wreq.Internal.Types.Body>_R))))
+                   `cast`
+                 (GHC.Types.N:IO[0] <a>_R)
+                   ipv }) -}
+af3ff8a3de19801d144b432ede50427c
+  runYandexApiT ::
+    Control.Monad.IO.Class.MonadIO m =>
+    Network.Wreq.Internal.Types.Session
+    -> Network.Yandex.Translate.Types.YandexApiConfig
+    -> Network.Yandex.Translate.Types.YandexApiT m a
+    -> m a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,A><L,U><L,U><C(S),1*C1(U)>,
+     Unfolding: InlineRule (4, True, False)
+                (\ @ m :: * -> *
+                   @ a
+                   ($dMonadIO :: Control.Monad.IO.Class.MonadIO m)
+                   (sess :: Network.Wreq.Internal.Types.Session)
+                   (conf :: Network.Yandex.Translate.Types.YandexApiConfig)
+                   (act :: Network.Yandex.Translate.Types.YandexApiT m a) ->
+                 act
+                   `cast`
+                 (Control.Monad.Trans.Reader.N:ReaderT[0]
+                      <*>_N <Network.Yandex.Translate.Types.ApiInfo>_R <m>_R <a>_N)
+                   (conf, sess)) -}
+instance GHC.Enum.Bounded [Network.Yandex.Translate.Types.Format]
+  = Network.Yandex.Translate.Types.$fBoundedFormat
+instance GHC.Enum.Bounded [Network.Yandex.Translate.Types.TranslateOptions]
+  = Network.Yandex.Translate.Types.$fBoundedTranslateOptions
+instance Data.Default.Class.Default [Network.Yandex.Translate.Types.TranslateParams]
+  = Network.Yandex.Translate.Types.$fDefaultTranslateParams
+instance GHC.Enum.Enum [Network.Yandex.Translate.Types.Format]
+  = Network.Yandex.Translate.Types.$fEnumFormat
+instance GHC.Enum.Enum [Network.Yandex.Translate.Types.TranslateOptions]
+  = Network.Yandex.Translate.Types.$fEnumTranslateOptions
+instance GHC.Classes.Eq [Network.Yandex.Translate.Types.Direction]
+  = Network.Yandex.Translate.Types.$fEqDirection
+instance GHC.Classes.Eq [Network.Yandex.Translate.Types.Format]
+  = Network.Yandex.Translate.Types.$fEqFormat
+instance GHC.Classes.Eq [Network.Yandex.Translate.Types.TranslateOptions]
+  = Network.Yandex.Translate.Types.$fEqTranslateOptions
+instance Data.Aeson.Types.FromJSON.FromJSON [Network.Yandex.Translate.Types.Direction]
+  = Network.Yandex.Translate.Types.$fFromJSONDirection
+instance GHC.Classes.Ord [Network.Yandex.Translate.Types.Format]
+  = Network.Yandex.Translate.Types.$fOrdFormat
+instance GHC.Classes.Ord [Network.Yandex.Translate.Types.TranslateOptions]
+  = Network.Yandex.Translate.Types.$fOrdTranslateOptions
+instance GHC.Show.Show [Network.Yandex.Translate.Types.Direction]
+  = Network.Yandex.Translate.Types.$fShowDirection
+instance GHC.Show.Show [Network.Yandex.Translate.Types.Format]
+  = Network.Yandex.Translate.Types.$fShowFormat
+instance GHC.Show.Show [Network.Yandex.Translate.Types.TranslateOptions]
+  = Network.Yandex.Translate.Types.$fShowTranslateOptions
+instance GHC.Show.Show [Network.Yandex.Translate.Types.TranslateParams]
+  = Network.Yandex.Translate.Types.$fShowTranslateParams
+instance GHC.Show.Show [Network.Yandex.Translate.Types.YandexApiConfig]
+  = Network.Yandex.Translate.Types.$fShowYandexApiConfig
+instance Data.Aeson.Types.ToJSON.ToJSON [Network.Yandex.Translate.Types.Direction]
+  = Network.Yandex.Translate.Types.$fToJSONDirection
+"SPEC/Network.Yandex.Translate.Types $fEq(,)_$c/= @ Text @ Text" [orphan] forall ($dEq1 :: GHC.Classes.Eq
+                                                                                             Data.Text.Internal.Text)
+                                                                                 ($dEq :: GHC.Classes.Eq
+                                                                                            Data.Text.Internal.Text)
+  GHC.Classes.$fEq(,)_$c/= @ Data.Text.Internal.Text
+                           @ Data.Text.Internal.Text
+                           $dEq
+                           $dEq1
+  = Network.Yandex.Translate.Types.$fEqDirection_$s$fEq(,)_$c/=
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

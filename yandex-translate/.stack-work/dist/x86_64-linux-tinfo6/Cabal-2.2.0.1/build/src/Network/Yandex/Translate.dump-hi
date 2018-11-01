@@ -1,0 +1,348 @@
+
+==================== FINAL INTERFACE ====================
+2018-11-01 07:18:18.195909005 UTC
+
+interface yandex-translate-0.1.0.0-6lrCVQUm6CgAV2dy2OQtON:Network.Yandex.Translate 8043
+  interface hash: 7d722808770c4ab3bbeec322920c7246
+  ABI hash: 71a74a07ea7cc4d93c06018f61e3eb5e
+  export-list hash: 45268be9ed01166494162dd13f41efae
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f98547942e89177a88405e483e817949
+  opt_hash: c95767539a8e5da6eb2bdc265ec6497a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Network.Yandex.Translate.detect
+  Network.Yandex.Translate.directions
+  Network.Yandex.Translate.translate
+  Network.Yandex.Translate.Types._config
+  Network.Yandex.Translate.Types._session
+  Network.Yandex.Translate.Types.apikey
+  Network.Yandex.Translate.Types.configureApi
+  Network.Yandex.Translate.Types.format
+  Network.Yandex.Translate.Types.httpOptions
+  Network.Yandex.Translate.Types.options
+  Network.Yandex.Translate.Types.runYandexApi
+  Network.Yandex.Translate.Types.runYandexApiSession
+  Network.Yandex.Translate.Types.runYandexApiT
+  Network.Yandex.Translate.Types.APIKey
+  Network.Yandex.Translate.Types.Direction{Network.Yandex.Translate.Types.Direction}
+  Network.Yandex.Translate.Types.Language
+  Network.Yandex.Translate.Types.LanguagesDescr
+  Network.Yandex.Translate.Types.TranslateParams{Network.Yandex.Translate.Types.TranslateParams _format _options}
+  Network.Yandex.Translate.Types.YandexApiConfig{Network.Yandex.Translate.Types.YandexApiConfig _apikey _httpOptions}
+  Network.Yandex.Translate.Types.YandexApiT
+module dependencies: Network.Yandex.Translate.Internal
+                     Network.Yandex.Translate.Types
+package dependencies: RSA-2.3.0 SHA-1.6.4.4 StateVar-1.1.1.1
+                      adjunctions-4.4 aeson-1.3.1.1 array-0.5.2.0 asn1-encoding-0.9.5
+                      asn1-parse-0.9.4 asn1-types-0.3.2 async-2.2.1 attoparsec-0.13.2.2
+                      authenticate-oauth-1.6 base-4.11.1.0 base-compat-0.10.5
+                      base-orphans-0.7 base16-bytestring-0.1.1.6
+                      base64-bytestring-1.0.0.1 basement-0.0.8 bifunctors-5.5.3
+                      binary-0.8.5.1 blaze-builder-0.4.1.0 bytestring-0.10.8.2
+                      call-stack-0.1.0 case-insensitive-1.2.0.11 cereal-0.5.7.0
+                      comonad-5.0.4 connection-0.2.8 containers-0.5.11.0
+                      contravariant-1.4.1 cookie-0.4.4 crypto-api-0.13.3
+                      crypto-pubkey-types-0.4.3 cryptonite-0.25 data-default-0.7.1.1
+                      data-default-class-0.1.2.0 data-default-instances-containers-0.0.1
+                      data-default-instances-dlist-0.0.1
+                      data-default-instances-old-locale-0.0.1 deepseq-1.4.3.0
+                      directory-1.3.1.5 distributive-0.5.3 dlist-0.8.0.5 entropy-0.4.1.3
+                      exceptions-0.10.0 filepath-1.4.2 free-5.0.2 ghc-boot-th-8.4.3
+                      ghc-prim-0.5.2.0 hashable-1.2.7.0 hourglass-0.2.12
+                      http-client-0.5.13.1 http-client-tls-0.3.5.3 http-types-0.12.2
+                      integer-gmp-1.0.2.0 integer-logarithms-1.0.2.2 kan-extensions-5.2
+                      lens-4.16.1 lens-aeson-1.0.2 memory-0.14.18 mime-types-0.1.0.8
+                      mtl-2.2.2 network-2.6.3.6 network-uri-2.6.1.0 old-locale-1.0.0.7
+                      parsec-3.1.13.0 pem-0.2.4 pretty-1.1.3.6 primitive-0.6.3.0
+                      profunctors-5.2.2 random-1.1 reflection-2.1.4 scientific-0.3.6.2
+                      semigroupoids-5.2.2 socks-0.5.6 stm-2.4.5.1
+                      streaming-commons-0.2.1.0 tagged-0.8.5 template-haskell-2.13.0.0
+                      text-1.2.3.1 th-abstraction-0.2.8.0 time-1.8.0.2
+                      time-locale-compat-0.1.1.5 tls-1.4.1 transformers-0.5.5.0
+                      transformers-base-0.4.5.2 transformers-compat-0.6.2 unix-2.7.2.2
+                      unordered-containers-0.2.9.0 uuid-types-1.0.3 vector-0.12.0.1
+                      wreq-0.5.2.1 x509-1.7.4 x509-store-1.6.6 x509-system-1.6.6
+                      x509-validation-1.6.10 zlib-0.6.2
+orphans: lens-aeson-1.0.2:Data.Aeson.Lens
+         data-default-instances-containers-0.0.1:Data.Default.Instances.Containers
+         data-default-instances-dlist-0.0.1:Data.Default.Instances.DList
+         data-default-instances-old-locale-0.0.1:Data.Default.Instances.OldLocale
+         RSA-2.3.0:Codec.Crypto.RSA.Pure wreq-0.5.2.1:Network.Wreq.Types
+         attoparsec-0.13.2.2:Data.Attoparsec.Text.Internal
+         attoparsec-0.13.2.2:Data.Attoparsec.ByteString.Char8
+         vector-0.12.0.1:Data.Vector.Unboxed
+         vector-0.12.0.1:Data.Vector.Fusion.Bundle
+         reflection-2.1.4:Data.Reflection
+         http-client-0.5.13.1:Network.HTTP.Client.Request
+         basement-0.0.8:Basement.UArray.Base basement-0.0.8:Basement.Block
+         transformers-0.5.5.0:Control.Monad.Trans.Error
+         network-2.6.3.6:Network.Socket stm-2.4.5.1:Control.Monad.STM
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         text-1.2.3.1:Data.Text binary-0.8.5.1:Data.Binary.Generic
+         text-1.2.3.1:Data.Text.Show
+         bytestring-0.10.8.2:Data.ByteString.Builder base-4.11.1.0:GHC.Float
+         base-4.11.1.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         aeson-1.3.1.1:Data.Aeson.Types.Internal
+                         attoparsec-0.13.2.2:Data.Attoparsec.Internal.Types
+                         base-4.11.1.0:Control.Applicative base-4.11.1.0:Data.Complex
+                         base-4.11.1.0:Data.Functor.Compose base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity
+                         base-4.11.1.0:Data.Functor.Product base-4.11.1.0:Data.Functor.Sum
+                         base-4.11.1.0:Data.Monoid base-4.11.1.0:Data.Semigroup
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:Data.Version
+                         base-4.11.1.0:Data.Void base-4.11.1.0:GHC.Exts
+                         base-4.11.1.0:GHC.Generics base-4.11.1.0:GHC.IO.Exception
+                         basement-0.0.8:Basement.Block.Base basement-0.0.8:Basement.Monad
+                         basement-0.0.8:Basement.MutableBuilder basement-0.0.8:Basement.Nat
+                         basement-0.0.8:Basement.NonEmpty
+                         basement-0.0.8:Basement.Numerical.Subtractive
+                         basement-0.0.8:Basement.PrimType basement-0.0.8:Basement.String
+                         basement-0.0.8:Basement.String.Encoding.ASCII7
+                         basement-0.0.8:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.8:Basement.String.Encoding.UTF16
+                         basement-0.0.8:Basement.String.Encoding.UTF32
+                         basement-0.0.8:Basement.Types.OffsetSize
+                         basement-0.0.8:Basement.UArray.Base
+                         basement-0.0.8:Basement.UTF8.Base
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped
+                         containers-0.5.11.0:Data.IntMap.Internal
+                         containers-0.5.11.0:Data.IntSet.Internal
+                         containers-0.5.11.0:Data.Map.Internal
+                         containers-0.5.11.0:Data.Sequence.Internal
+                         containers-0.5.11.0:Data.Set.Internal containers-0.5.11.0:Data.Tree
+                         cryptonite-0.25:Crypto.ECC cryptonite-0.25:Crypto.Error.Types
+                         cryptonite-0.25:Crypto.Hash.Blake2
+                         cryptonite-0.25:Crypto.Hash.Blake2b
+                         cryptonite-0.25:Crypto.Hash.Blake2bp
+                         cryptonite-0.25:Crypto.Hash.Blake2s
+                         cryptonite-0.25:Crypto.Hash.Blake2sp
+                         cryptonite-0.25:Crypto.Hash.Keccak cryptonite-0.25:Crypto.Hash.MD2
+                         cryptonite-0.25:Crypto.Hash.MD4 cryptonite-0.25:Crypto.Hash.MD5
+                         cryptonite-0.25:Crypto.Hash.RIPEMD160
+                         cryptonite-0.25:Crypto.Hash.SHA1 cryptonite-0.25:Crypto.Hash.SHA224
+                         cryptonite-0.25:Crypto.Hash.SHA256 cryptonite-0.25:Crypto.Hash.SHA3
+                         cryptonite-0.25:Crypto.Hash.SHA384
+                         cryptonite-0.25:Crypto.Hash.SHA512
+                         cryptonite-0.25:Crypto.Hash.SHA512t
+                         cryptonite-0.25:Crypto.Hash.SHAKE
+                         cryptonite-0.25:Crypto.Hash.Skein256
+                         cryptonite-0.25:Crypto.Hash.Skein512
+                         cryptonite-0.25:Crypto.Hash.Tiger
+                         cryptonite-0.25:Crypto.Hash.Whirlpool dlist-0.8.0.5:Data.DList
+                         free-5.0.2:Control.Comonad.Cofree
+                         free-5.0.2:Control.Comonad.Trans.Cofree
+                         free-5.0.2:Control.Monad.Free free-5.0.2:Control.Monad.Trans.Free
+                         ghc-boot-th-8.4.3:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.4.3:GHC.LanguageExtensions.Type
+                         http-client-0.5.13.1:Network.HTTP.Client
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.16.1:Control.Lens.At
+                         lens-4.16.1:Control.Lens.Internal.Indexed
+                         lens-4.16.1:Control.Lens.Reified lens-4.16.1:Control.Lens.Tuple
+                         lens-4.16.1:Control.Lens.Wrapped lens-4.16.1:Control.Lens.Zoom
+                         lens-aeson-1.0.2:Data.Aeson.Lens network-uri-2.6.1.0:Network.URI
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.3.0:Control.Monad.Primitive
+                         primitive-0.6.3.0:Data.Primitive.Array
+                         primitive-0.6.3.0:Data.Primitive.ByteArray
+                         profunctors-5.2.2:Data.Profunctor.Composition
+                         profunctors-5.2.2:Data.Profunctor.Rep tagged-0.8.5:Data.Tagged
+                         template-haskell-2.13.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.8.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         uuid-types-1.0.3:Data.UUID.Types.Internal
+                         uuid-types-1.0.3:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1:Data.Vector vector-0.12.0.1:Data.Vector.Primitive
+                         vector-0.12.0.1:Data.Vector.Storable
+                         vector-0.12.0.1:Data.Vector.Unboxed
+                         vector-0.12.0.1:Data.Vector.Unboxed.Base
+                         zlib-0.6.2:Codec.Compression.Zlib.Stream
+import  -/  base-4.11.1.0:Control.Applicative 55d9b3a7491623b0362290e162d67308
+import  -/  base-4.11.1.0:Control.Arrow ce43199b5356a11ee2a8317f0ec30aee
+import  -/  base-4.11.1.0:Control.Monad.IO.Class 96109c36cb3c919872278540487fa39e
+import  -/  base-4.11.1.0:Data.Function 6e6aae9442025aeeb92a909c1bbc3fca
+import  -/  base-4.11.1.0:Data.Functor f522c3501272159820fd6f242510732f
+import  -/  base-4.11.1.0:Data.Maybe 409c3da2b142470b68be39ce1d97a9f7
+import  -/  base-4.11.1.0:GHC.Base 604111500e81281298777e721c75643b
+import  -/  base-4.11.1.0:GHC.Show 73be67392447c974f19c3befd83c46c0
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  exceptions-0.10.0:Control.Monad.Catch efd622df84b760949d5b174a1f587ac0
+import  -/  lens-4.16.1:Control.Lens f74d142afa4d2d05854b75014034b97b
+import  -/  lens-4.16.1:Control.Lens.Empty 7ed2eac7268c7ae5c553548b2315a6d5
+import  -/  lens-4.16.1:Control.Lens.Fold 9d4816e8e1eae55366d3be0d65e26ae3
+import  -/  lens-4.16.1:Control.Lens.Getter 7c191dace1895621dd718f1720af8561
+import  -/  lens-4.16.1:Control.Lens.Prism 1a092ce1a9cd7cdfc2fdf0f153d83409
+import  -/  lens-4.16.1:Control.Lens.Setter 716a91be808c9db5c8ab883051994b83
+import  -/  lens-aeson-1.0.2:Data.Aeson.Lens f3098a4eccc645fb41a8425ffe5c2403
+import  -/  text-1.2.3.1:Data.Text ff889e8cc5c9f0eb305aaf77f25047e5
+import  -/  text-1.2.3.1:Data.Text.Internal 65b2a62b0918b56ea0591106f5d77acc
+import  -/  wreq-0.5.2.1:Network.Wreq 485b667a298703f1b68159bc5377bbfd
+import  -/  wreq-0.5.2.1:Network.Wreq.Internal.Types fa5359d16ba8ea8702d165cd52a99924
+import  -/  wreq-0.5.2.1:Network.Wreq.Lens 3815c954e832a8a003e9f874f44c39a5
+import  -/  wreq-0.5.2.1:Network.Wreq.Session 7f3dedb0e5aab60d35721e26e379ca65
+import  -/  Network.Yandex.Translate.Internal f020d1f855dd2eaa07655c65cbc63ca1
+  exports: 128533f71ef7499443b3cfe0124d5639
+  baseOptions d0a578b1575206555a8342179faebfc3
+import  -/  Network.Yandex.Translate.Types ffd5257547f6bb183d55a7270031af9b
+  exports: 57b3ef58577ef4920d1ea6171765320b
+  APIKey cecb2c9de6503a9277ddbc6821675809
+  Direction e0704f8c56c45ea86e617c304f56076d
+  Direction 8073dd536f752d16eb250c15482e808a
+  Language 6f5b62beed1b67ac142718128bb624ad
+  LanguagesDescr 6a12d19ffa2438f4cd24912283fbcbde
+  TranslateParams c6c46c407c550f95985b61374d745811
+  TranslateParams 29adcd990a8d3bf8f2a0933f638fc51c
+  YandexApiConfig 8355bd3865eb8a83c96b49cf0bdea8bc
+  YandexApiConfig fdab5b00a2d955763328c8b2f2db485b
+  YandexApiT b502f33daa2116397fe4104173412d69
+  _apikey fdab5b00a2d955763328c8b2f2db485b
+  _config b62453d0e77813943ade4724dfa3af9c
+  _format 29adcd990a8d3bf8f2a0933f638fc51c
+  _httpOptions fdab5b00a2d955763328c8b2f2db485b
+  _options 29adcd990a8d3bf8f2a0933f638fc51c
+  _session 848a322da05985e986ba3d92526ee953
+  apikey 9851de4d4f206220f65a2ea7eeff742c
+  configureApi f4cbe307eca06a3c9a6d732dac444b90
+  format 63bf98eeaefb1bd9406e131b7c38da47
+  formatDirection 035a499df01ded38b09ebff41620a546
+  httpOptions cf0f47f389e45dd3e87bbb9a7890731f
+  options 3d787754d7ce940076e256fa513bfb2e
+  runYandexApi 3a41162c1ff8b629982235030f82149d
+  runYandexApiSession 2e613ab863dcdd144c89708ac6d93110
+  runYandexApiT af3ff8a3de19801d144b432ede50427c
+a544df8aca287e15dd71ac68852019f7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Network.Yandex.Translate.$trModule3
+                   Network.Yandex.Translate.$trModule1) -}
+ed83c6bc096d21b8d3c54aada284fa58
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.$trModule2) -}
+7a7890b06fdbac1b9071f9e5095ca310
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Network.Yandex.Translate"#) -}
+2a33c1e7191b1fed461e68ab2965e7ce
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   Network.Yandex.Translate.$trModule4) -}
+47d17dbd436a594df9356f32fe44030a
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("yandex-translate-0.1.0.0-6lrCVQUm6CgAV2dy2OQtON"#) -}
+f6e078f70adc2752d485b75fa56d61df
+  detect ::
+    (Control.Monad.IO.Class.MonadIO m,
+     Control.Monad.Catch.MonadThrow m) =>
+    Data.Text.Internal.Text
+    -> Network.Yandex.Translate.Types.YandexApiT
+         m Network.Yandex.Translate.Types.Language
+  {- Arity: 4,
+     Strictness: <S(S(LC(C(S))LLL)L),U(U(U(A,C(U),A,A,A,A),C(C1(U)),A,C(U),A),C(U))><L,1*U(A,1*C1(C1(U)))><L,U(U,U,U)><L,U(U(U,U),1*U)>,
+     Unfolding: InlineRule (0, True, True)
+                Network.Yandex.Translate.detect1
+                  `cast`
+                (forall (m :: <* -> *>_N).
+                 <Control.Monad.IO.Class.MonadIO m>_R
+                 ->_R <Control.Monad.Catch.MonadThrow m>_R
+                 ->_R <Data.Text.Internal.Text>_R
+                 ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                               <*>_N
+                               <(Network.Yandex.Translate.Types.YandexApiConfig,
+                                 Network.Wreq.Internal.Types.Session)>_R
+                               <m>_R
+                               <Network.Yandex.Translate.Types.Language>_N)) -}
+7e673af2432d8a19467003088fffdbb0
+  detect1 ::
+    (Control.Monad.IO.Class.MonadIO m,
+     Control.Monad.Catch.MonadThrow m) =>
+    Data.Text.Internal.Text
+    -> (Network.Yandex.Translate.Types.YandexApiConfig,
+        Network.Wreq.Internal.Types.Session)
+    -> m Network.Yandex.Translate.Types.Language
+  {- Arity: 4,
+     Strictness: <S(S(LC(C(S))LLL)L),U(U(U(A,C(U),A,A,A,A),C(C1(U)),A,C(U),A),C(U))><L,1*U(A,1*C1(C1(U)))><L,U(U,U,U)><L,U(U(U,U),1*U)> -}
+041765c1afa6c0153015a02cb38d97d0
+  directions ::
+    (Control.Monad.IO.Class.MonadIO m,
+     Control.Monad.Catch.MonadThrow m) =>
+    GHC.Base.Maybe Network.Yandex.Translate.Types.Language
+    -> Network.Yandex.Translate.Types.YandexApiT
+         m
+         ([Network.Yandex.Translate.Types.Direction],
+          GHC.Base.Maybe Network.Yandex.Translate.Types.LanguagesDescr)
+  {- Arity: 4,
+     Strictness: <S(S(LC(C(S))LLL)L),U(U(U(A,C(U),A,A,A,A),C(C1(U)),A,C(U),A),C(U))><L,1*U(A,1*C1(C1(U)))><L,U><L,U(U(U,U),1*U)>,
+     Unfolding: InlineRule (0, True, True)
+                Network.Yandex.Translate.directions1
+                  `cast`
+                (forall (m :: <* -> *>_N).
+                 <Control.Monad.IO.Class.MonadIO m>_R
+                 ->_R <Control.Monad.Catch.MonadThrow m>_R
+                 ->_R <GHC.Base.Maybe Network.Yandex.Translate.Types.Language>_R
+                 ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                               <*>_N
+                               <(Network.Yandex.Translate.Types.YandexApiConfig,
+                                 Network.Wreq.Internal.Types.Session)>_R
+                               <m>_R
+                               <([Network.Yandex.Translate.Types.Direction],
+                                 GHC.Base.Maybe
+                                   Network.Yandex.Translate.Types.LanguagesDescr)>_N)) -}
+95be6432741bb37186a8350eb043dd94
+  directions1 ::
+    (Control.Monad.IO.Class.MonadIO m,
+     Control.Monad.Catch.MonadThrow m) =>
+    GHC.Base.Maybe Network.Yandex.Translate.Types.Language
+    -> (Network.Yandex.Translate.Types.YandexApiConfig,
+        Network.Wreq.Internal.Types.Session)
+    -> m ([Network.Yandex.Translate.Types.Direction],
+          GHC.Base.Maybe Network.Yandex.Translate.Types.LanguagesDescr)
+  {- Arity: 4,
+     Strictness: <S(S(LC(C(S))LLL)L),U(U(U(A,C(U),A,A,A,A),C(C1(U)),A,C(U),A),C(U))><L,1*U(A,1*C1(C1(U)))><L,U><L,U(U(U,U),1*U)> -}
+9c04ce99a2783fa5698dd1f78bed7b37
+  translate ::
+    (Control.Monad.IO.Class.MonadIO m,
+     Control.Monad.Catch.MonadThrow m) =>
+    GHC.Base.Maybe Network.Yandex.Translate.Types.Language
+    -> Network.Yandex.Translate.Types.Language
+    -> Network.Yandex.Translate.Types.TranslateParams
+    -> [Data.Text.Internal.Text]
+    -> Network.Yandex.Translate.Types.YandexApiT
+         m
+         ([Data.Text.Internal.Text],
+          Network.Yandex.Translate.Types.Direction,
+          GHC.Base.Maybe Data.Text.Internal.Text)
+  {- Arity: 6,
+     Strictness: <L,U(U(U(A,C(U),A,A,A,A),C(C1(U)),A,C(U),A),C(U))><L,U(A,C(C1(U)))><L,1*U><L,1*U(U,U,U)><L,U(1*U,U)><L,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

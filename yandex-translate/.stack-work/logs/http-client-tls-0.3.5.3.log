@@ -1,0 +1,7 @@
+Configuring http-client-tls-0.3.5.3...
+Preprocessing library for http-client-tls-0.3.5.3..
+Building library for http-client-tls-0.3.5.3..
+[1 of 1] Compiling Network.HTTP.Client.TLS ( Network/HTTP/Client/TLS.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Network/HTTP/Client/TLS.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/kaptch/.stack/snapshots/x86_64-linux-tinfo6/lts-12.14/8.4.3/lib/x86_64-linux-ghc-8.4.3/http-client-tls-0.3.5.3-48uwQx94oGa4XbRpgNSmMV
+Registering library for http-client-tls-0.3.5.3..

@@ -1,0 +1,10 @@
+[1 of 2] Compiling Main             ( /tmp/stack-7909c944a0e8e0bf/lens-aeson-1.0.2/Setup.lhs, /tmp/stack-7909c944a0e8e0bf/lens-aeson-1.0.2/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /home/kaptch/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack-7909c944a0e8e0bf/lens-aeson-1.0.2/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/setup/StackSetupShim.o )
+Linking /tmp/stack-7909c944a0e8e0bf/lens-aeson-1.0.2/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/setup/setup ...
+Configuring lens-aeson-1.0.2...
+Preprocessing library for lens-aeson-1.0.2..
+Building library for lens-aeson-1.0.2..
+[1 of 1] Compiling Data.Aeson.Lens  ( src/Data/Aeson/Lens.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Data/Aeson/Lens.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/kaptch/.stack/snapshots/x86_64-linux-tinfo6/lts-12.14/8.4.3/lib/x86_64-linux-ghc-8.4.3/lens-aeson-1.0.2-Gw6KwF95pMMKSiJyp9INcX
+Registering library for lens-aeson-1.0.2..

@@ -1,0 +1,9 @@
+*.sw[op]
+*.hi
+*.o
+dist/
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+.hpc/
+apikey.sh

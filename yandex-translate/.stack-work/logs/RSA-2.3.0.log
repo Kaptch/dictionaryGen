@@ -1,0 +1,9 @@
+Configuring RSA-2.3.0...
+Preprocessing library for RSA-2.3.0..
+Building library for RSA-2.3.0..
+[1 of 3] Compiling Codec.Crypto.RSA.Pure ( src/Codec/Crypto/RSA/Pure.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Codec/Crypto/RSA/Pure.o )
+[2 of 3] Compiling Codec.Crypto.RSA.Exceptions ( src/Codec/Crypto/RSA/Exceptions.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Codec/Crypto/RSA/Exceptions.o )
+[3 of 3] Compiling Codec.Crypto.RSA ( src/Codec/Crypto/RSA.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/Codec/Crypto/RSA.o )
+ignoring (possibly broken) abi-depends field for packages
+Installing library in /home/kaptch/.stack/snapshots/x86_64-linux-tinfo6/lts-12.14/8.4.3/lib/x86_64-linux-ghc-8.4.3/RSA-2.3.0-2nUNZGnfW7NLTlx6CUkDPd
+Registering library for RSA-2.3.0..
