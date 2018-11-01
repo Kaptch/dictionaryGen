@@ -45,8 +45,7 @@ tables l = thePreamble >> document (theBody l)
 
 thePreamble :: Monad m => LaTeXT_ m
 thePreamble = do
-    documentclass ["12pt","landscape"] article
-    usepackage ["a3paper"] "geometry" -- TODO table overlaps A4
+    documentclass [] article
     usepackage ["utf8"] "inputenc"
     usepackage ["T1", "T2A"] "fontenc"
     usepackage [] "fontspec"
