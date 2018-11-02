@@ -6,6 +6,7 @@ module Lib where
 import           Control.Lens
 import           Control.Monad.Catch
 import           Control.Monad.IO.Class
+import           Data.List                 (filter, null)
 import           Data.Matrix               (Matrix, fromLists)
 import           Data.Text                 (Text, pack)
 import           Network.Yandex.Dictionary
@@ -13,7 +14,6 @@ import           Network.Yandex.Translate
 import           System.Environment        (getEnv)
 import           Text.LaTeX
 import           Text.LaTeX.Base.Class     (comm1)
-import Data.List (filter, null)
 
 apiPreReq :: (MonadIO m, Control.Monad.Catch.MonadThrow m) => Text -> YandexApiT m DictResult
 apiPreReq = dictLookup (Direction ("en", "ru")) (DictionaryParams Nothing [])
