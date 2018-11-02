@@ -13,6 +13,7 @@ import           Network.Yandex.Translate
 import           System.Environment        (getEnv)
 import           Text.LaTeX
 import           Text.LaTeX.Base.Class     (comm1)
+import Data.List (filter, null)
 
 apiPreReq :: (MonadIO m, Control.Monad.Catch.MonadThrow m) => Text -> YandexApiT m DictResult
 apiPreReq = dictLookup (Direction ("en", "ru")) (DictionaryParams Nothing [])
@@ -25,7 +26,9 @@ extractDictEntry d = ( d ^. text
                      , d ^. translates ^? each . text
                      , d ^. translates ^? each . examples . traverse . text)
 
-enumerateList x = zip [1..length x] x
+enumerateList x = zip [1..length y] y
+  where
+    y = filter (not . null) x
 
 listFromTuple :: (Text, Maybe Text, Maybe Text, Maybe Text, Maybe Text) -> [Maybe Text]
 listFromTuple (t1, t2, t3, t4, t5) = [Just t1, t2, t3, t4, t5]
@@ -35,10 +38,12 @@ appendEnumeration (i, l) = Just (pack (show i)) : l
 
 processResponse :: String -> IO [Maybe Text]
 processResponse x = do
-    key <- pack `fmap` getEnv "YANDEX_APIKEY_DICT"
+    key <- pack <$> getEnv "YANDEX_APIKEY_DICT"
     let apiConf = configureApi key
     resp <- runYandexApiSession apiConf $ apiPreReq $ pack x
-    return $ (listFromTuple  . extractDictEntry . head) resp
+    case resp of
+      [] -> return ([] :: [Maybe Text])
+      _  -> return $ (listFromTuple . extractDictEntry . head) resp
 
 tables :: Monad m => [[Maybe Text]] -> LaTeXT_ m
 tables l = thePreamble >> document (theBody l)
