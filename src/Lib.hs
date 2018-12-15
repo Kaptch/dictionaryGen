@@ -13,7 +13,8 @@ import           Network.Yandex.Dictionary
 import           Network.Yandex.Translate
 import           System.Environment        (getEnv)
 import           Text.LaTeX
-import           Text.LaTeX.Base.Class     (comm1)
+import           Text.LaTeX.Base.Class     (comm1, liftL)
+import Text.LaTeX.Base.Syntax (LaTeX(..), TeXArg(..))
 
 apiPreReq :: (MonadIO m, Control.Monad.Catch.MonadThrow m) => Text -> YandexApiT m DictResult
 apiPreReq = dictLookup (Direction ("en", "ru")) (DictionaryParams Nothing [])
@@ -57,10 +58,13 @@ thePreamble = do
     usepackage ["T1"] "tipa"
     usepackage ["T3","OT2","T1"] "fontenc"
     usepackage ["english","russian"] "babel"
+    usepackage [] "changepage"
     comm1 "setmainfont" "Doulos SIL"
 
+adjustwidth left right = liftL $ TeXEnv "adjustwidth" [ FixArg $ TeXRaw left, FixArg $ TeXRaw right ]
+
 theBody :: Monad m => [[Maybe Text]] -> LaTeXT m ()
-theBody l = flushleft $ matrixTabular (fmap textbf ["№","word","part of speach","transcription","translation","example"]) $
+theBody l = figure Nothing $ adjustwidth "-2cm" "" $ matrixTabular (fmap textbf ["№","word","part of speach","transcription","translation","example"]) $
     fromLists l
 
 instance Texy (Maybe Text) where
